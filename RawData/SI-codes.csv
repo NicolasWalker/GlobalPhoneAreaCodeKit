@@ -1,13 +1,8 @@
-3861,SI,1,Central Slovenia,Ljubljana,,,,Capital city landline code
-3862,SI,2,Podravska,Maribor,,,,Fixed line code
-3863,SI,3,Savinjska,Celje,,,,Fixed line code
-3864,SI,4,Gorenjska,Kranj,,,,Fixed line code
-3865,SI,5,Primorska,Koper,,,,Fixed line code
-3867,SI,7,Dolenjska,Novo Mesto,,,,Fixed line code
-38630,SI,30,Slovenia,Mobile,,,,Simobil (A1)
-38631,SI,31,Slovenia,Mobile,,,,Mobitel (Telekom Slovenije)
-38640,SI,40,Slovenia,Mobile,,,,Simobil (A1)
-38641,SI,41,Slovenia,Mobile,,,,Mobitel (Telekom Slovenije)
-38651,SI,51,Slovenia,Mobile,,,,Mobitel (Telekom Slovenije)
+3861,SI,1,Central Slovenia,Ljubljana,,,,"The Capital. Green Capital of Europe. Jože Plečnik architecture. Dragon Bridge."
+3862,SI,2,Podravska,Maribor,,,,"Oldest Vine in the World. Drava river. Pohorje ski resort."
+3864,SI,4,Gorenjska,Kranj / Bled,,,,"Gateway to the Alps. Lake Bled island and castle."
+3865,SI,5,Primorska,Koper / Piran,,,,"Adriatic coast. Venetian architecture in Piran. Postojna Cave."
+3867,SI,7,Dolenjska,Novo Mesto,,,,"Pharmaceutical hub (Krka). Cviček wine region."
+38630,SI,30,Slovenia,Mobile,,,,A1 Slovenia
+38631,SI,31,Slovenia,Mobile,,,,Telekom Slovenije
 38670,SI,70,Slovenia,Mobile,,,,Telemach
-

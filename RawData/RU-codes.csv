@@ -1,27 +1,9 @@
-7495,RU,495,Moscow,Moscow,,,,Capital city landline code
-7499,RU,499,Moscow,Moscow,,,,Capital city landline code
-7812,RU,812,St. Petersburg,St. Petersburg,,,,Fixed line code
-7343,RU,343,Sverdlovsk,Yekaterinburg,,,,Fixed line code
-7383,RU,383,Novosibirsk,Novosibirsk,,,,Fixed line code
-7831,RU,831,Nizhny Novgorod,Nizhny Novgorod,,,,Fixed line code
-7843,RU,843,Tatarstan,Kazan,,,,Fixed line code
-7351,RU,351,Chelyabinsk,Chelyabinsk,,,,Fixed line code
-7846,RU,846,Samara,Samara,,,,Fixed line code
-7381,RU,381,Omsk,Omsk,,,,Fixed line code
-7863,RU,863,Rostov,Rostov-on-Don,,,,Fixed line code
-7347,RU,347,Bashkortostan,Ufa,,,,Fixed line code
-7391,RU,391,Krasnoyarsk,Krasnoyarsk,,,,Fixed line code
-7342,RU,342,Perm,Perm,,,,Fixed line code
-7844,RU,844,Volgograd,Volgograd,,,,Fixed line code
-7473,RU,473,Voronezh,Voronezh,,,,Fixed line code
-7900,RU,900,Russia,Mobile,,,,General Mobile Prefix Range (900-999)
-7910,RU,910,Russia,Mobile,,,,MTS
-7916,RU,916,Russia,Mobile,,,,MTS
-7926,RU,926,Russia,Mobile,,,,MegaFon
-7921,RU,921,Russia,Mobile,,,,MegaFon
-7903,RU,903,Russia,Mobile,,,,Beeline
-7905,RU,905,Russia,Mobile,,,,Beeline
-7960,RU,960,Russia,Mobile,,,,Beeline
-7920,RU,920,Russia,Mobile,,,,MegaFon
-7980,RU,980,Russia,Mobile,,,,MTS
-
+7495,RU,495,Moscow,Moscow,,,,"The Capital. The Kremlin. Red Square. Bolshoi Theatre."
+7812,RU,812,St. Petersburg,St. Petersburg,,,,"Cultural Capital. The Hermitage. White Nights. Venetial canals."
+7343,RU,343,Sverdlovsk,Yekaterinburg,,,,"Capital of the Urals. Romanov final site. Border of Europe/Asia."
+7383,RU,383,Novosibirsk,Novosibirsk,,,,"Capital of Siberia. Trans-Siberian railway hub. Academic Town (Akademgorodok)."
+7843,RU,843,Tatarstan,Kazan,,,,"'Third Capital'. Kazan Kremlin (UNESCO). Mix of Tatar and Russian cultures."
+7863,RU,863,Rostov,Rostov-on-Don,,,,"Port of Five Seas. Gateway to the Caucasus. Cossack heritage."
+7423,RU,423,Primorsky,Vladivostok,,,,"Pacific terminus of Trans-Siberian. Golden Horn Bay bridge."
+7862,RU,862,Krasnodar,Sochi,,,,"2014 Winter Olympics. Black Sea summer resort."
+7900,RU,900,Russia,Mobile,,,,General Mobile Prefix Range

@@ -1,16 +1,12 @@
-4021,RO,21,Bucharest,Bucharest,,,,Capital city landline (Telekom)
-4031,RO,31,Bucharest,Bucharest,,,,Capital city landline (RDS/RCS)
-40232,RO,232,Iași,Iași,,,,Fixed line code
-40241,RO,241,Constanța,Constanța,,,,Fixed line code
-40251,RO,251,Dolj,Craiova,,,,Fixed line code
-40256,RO,256,Timiș,Timișoara,,,,Fixed line code
-40264,RO,264,Cluj,Cluj-Napoca,,,,Fixed line code
-40268,RO,268,Brașov,Brașov,,,,Fixed line code
-40269,RO,269,Sibiu,Sibiu,,,,Fixed line code
+4021,RO,21,Bucharest,Bucharest,,,,"The Capital. 'Little Paris'. Palace of the Parliament (heaviest building)."
+40232,RO,232,Iași,Iași,,,,"Cultural Capital. Palace of Culture. Oldest University."
+40241,RO,241,Constanța,Constanța,,,,"Black Sea port. Mamaia beach resort. Ancient Tomis."
+40251,RO,251,Dolj,Craiova,,,,"Oltenia capital. Art Museum (Brancusi works)."
+40256,RO,256,Timiș,Timișoara,,,,"'Little Vienna'. 1989 Revolution birthplace. European Capital of Culture 2023."
+40264,RO,264,Cluj,Cluj-Napoca,,,,"Transylvania's heart. Untold Festival. IT hub."
+40268,RO,268,Brașov,Brașov,,,,"Medieval Saxon city. Gateway to Bran (Dracula) Castle."
+40269,RO,269,Sibiu,Sibiu,,,,"European Capital of Culture 2007. Brukenthal Museum. Saxon heritage."
 4072,RO,72,Romania,Mobile,,,,Vodafone
-4073,RO,73,Romania,Mobile,,,,Vodafone
 4074,RO,74,Romania,Mobile,,,,Orange
-4075,RO,75,Romania,Mobile,,,,Orange
-4076,RO,76,Romania,Mobile,,,,Telekom (Cosmote)
+4076,RO,76,Romania,Mobile,,,,Telekom
 4077,RO,77,Romania,Mobile,,,,Digi.Mobil
-
