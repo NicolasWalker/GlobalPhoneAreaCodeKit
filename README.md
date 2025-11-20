@@ -1,8 +1,6 @@
 # Area-Code-Geolocation-Database
 
-Area Codes for North America with city, state, latitude and longitude in easy to read CSV format.
-
-This data pairs up NPA (area) codes with one or more cities, as well as a latitude / longitude pair. 
+Area Codes for as many countries as we could identify in the following order: E.164,Country,AreaCode,State,Reg,City,Region2,Region3,Commentary in easy to read CSV format.
 
 There have been a number of times where I wanted to be able to map (roughly) where a phone number was, or to find "nearby" numbers. This seems to be a fairly rare thing to do, as it's much harder to find area code data than it is to find (eg) zip code data. There are commercial versions out there that cost anywhere from a hundred dollars to well over a thousand, on an ongoing/subscription basis. It seemed silly to pay that much money for for public data, so I finally sat down and used that public data to compile a list that could be shared. No commercial products were used when compiling these documents, all sources are listed below if you wish to verify that. A fair amount of data cleansing was done to match everything up and (hopefully) end up with useful / authoritative city and state/province names.
 
@@ -12,24 +10,7 @@ I am, of course, trusting that the sources I used were "accurate". It's possible
 
 ## File Formats
 
-Files begin with the country code (currently the United States and Canada) and are all UTF-8 encoded CSVs. Pretty much anything should be able to open them, including random text editors and your favorite programming language.
-
-### Field Lists
-
-#### xx-area-code-cities.csv
-
-1. Area Code
-2. City Name
-3. Province/State Name
-4. Country Code
-5. Latitude (of the city)
-6. Longitude (of the city)
-
-#### xx-area-code-geo.csv
-
-1. Area Code
-2. Latitude (average of the cities using this code)
-3. Longitude (average of the cities using this code)
+Files begin with the country code (in ISO 3166 format) and are all UTF-8 encoded CSVs. Pretty much anything should be able to open them, including random text editors and your favorite programming language.
 
 ## Sources
 
