@@ -1,0 +1,547 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+    "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/AD-codes.json" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/Sources/GlobalPhoneAreaCodeKit/Resources/AD-codes.json"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/AD-codes.json"
+        }
+      ]
+    },
+    "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/AL-codes.json" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/Sources/GlobalPhoneAreaCodeKit/Resources/AL-codes.json"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/AL-codes.json"
+        }
+      ]
+    },
+    "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/AT-codes.json" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/Sources/GlobalPhoneAreaCodeKit/Resources/AT-codes.json"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/AT-codes.json"
+        }
+      ]
+    },
+    "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/BA-codes.json" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/Sources/GlobalPhoneAreaCodeKit/Resources/BA-codes.json"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/BA-codes.json"
+        }
+      ]
+    },
+    "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/BE-codes.json" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/Sources/GlobalPhoneAreaCodeKit/Resources/BE-codes.json"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/BE-codes.json"
+        }
+      ]
+    },
+    "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/BG-codes.json" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/Sources/GlobalPhoneAreaCodeKit/Resources/BG-codes.json"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/BG-codes.json"
+        }
+      ]
+    },
+    "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/BR-codes.json" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/Sources/GlobalPhoneAreaCodeKit/Resources/BR-codes.json"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/BR-codes.json"
+        }
+      ]
+    },
+    "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/BY-codes.json" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/Sources/GlobalPhoneAreaCodeKit/Resources/BY-codes.json"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/BY-codes.json"
+        }
+      ]
+    },
+    "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/CA-codes.json" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/Sources/GlobalPhoneAreaCodeKit/Resources/CA-codes.json"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/CA-codes.json"
+        }
+      ]
+    },
+    "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/CH-codes.json" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/Sources/GlobalPhoneAreaCodeKit/Resources/CH-codes.json"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/CH-codes.json"
+        }
+      ]
+    },
+    "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/CZ-codes.json" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/Sources/GlobalPhoneAreaCodeKit/Resources/CZ-codes.json"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/CZ-codes.json"
+        }
+      ]
+    },
+    "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/DE-codes.json" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/Sources/GlobalPhoneAreaCodeKit/Resources/DE-codes.json"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/DE-codes.json"
+        }
+      ]
+    },
+    "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/FR-codes.json" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/Sources/GlobalPhoneAreaCodeKit/Resources/FR-codes.json"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/FR-codes.json"
+        }
+      ]
+    },
+    "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/GB-codes.json" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/Sources/GlobalPhoneAreaCodeKit/Resources/GB-codes.json"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/GB-codes.json"
+        }
+      ]
+    },
+    "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/GG-codes.json" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/Sources/GlobalPhoneAreaCodeKit/Resources/GG-codes.json"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/GG-codes.json"
+        }
+      ]
+    },
+    "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/GI-codes.json" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/Sources/GlobalPhoneAreaCodeKit/Resources/GI-codes.json"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/GI-codes.json"
+        }
+      ]
+    },
+    "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/GR-codes.json" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/Sources/GlobalPhoneAreaCodeKit/Resources/GR-codes.json"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/GR-codes.json"
+        }
+      ]
+    },
+    "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/HR-codes.json" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/Sources/GlobalPhoneAreaCodeKit/Resources/HR-codes.json"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/HR-codes.json"
+        }
+      ]
+    },
+    "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/HU-codes.json" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/Sources/GlobalPhoneAreaCodeKit/Resources/HU-codes.json"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/HU-codes.json"
+        }
+      ]
+    },
+    "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/MX-codes.json" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/Sources/GlobalPhoneAreaCodeKit/Resources/MX-codes.json"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/MX-codes.json"
+        }
+      ]
+    },
+    "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/US-codes.json" : {
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/Sources/GlobalPhoneAreaCodeKit/Resources/US-codes.json"
+        }
+      ],
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/US-codes.json"
+        }
+      ]
+    }
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.GlobalPhoneAreaCodeKit-arm64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit.build/sources",
+      "importPath" : "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/Sources/GlobalPhoneAreaCodeKit/GlobalPhoneAreaCodeKit.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit.build/DerivedSources/resource_bundle_accessor.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "virtual",
+          "name" : "<GlobalPhoneAreaCodeKit-arm64-apple-macosx15.0-debug.module-resources>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit.build/sources"
+        }
+      ],
+      "isLibrary" : true,
+      "moduleName" : "GlobalPhoneAreaCodeKit",
+      "moduleOutputPath" : "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/Modules/GlobalPhoneAreaCodeKit.swiftmodule",
+      "objects" : [
+        "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit.build/GlobalPhoneAreaCodeKit.swift.o",
+        "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit.build/resource_bundle_accessor.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "arm64-apple-macosx10.15",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-index-store-path",
+        "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/index/store",
+        "-Onone",
+        "-enable-testing",
+        "-j12",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_AVAILABLE",
+        "-module-cache-path",
+        "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-parse-as-library",
+        "-emit-objc-header",
+        "-emit-objc-header-path",
+        "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit.build/include/GlobalPhoneAreaCodeKit-Swift.h",
+        "-swift-version",
+        "5",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "globalphoneareacodes"
+      ],
+      "outputFileMapPath" : "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit.build/GlobalPhoneAreaCodeKit.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit.build/resource_bundle_accessor.swift.o"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/Modules/GlobalPhoneAreaCodeKit.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : false,
+      "sources" : [
+        "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/Sources/GlobalPhoneAreaCodeKit/GlobalPhoneAreaCodeKit.swift",
+        "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit.build/DerivedSources/resource_bundle_accessor.swift"
+      ],
+      "tempsPath" : "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "GlobalPhoneAreaCodeKit" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "GlobalPhoneAreaCodeKit",
+      "-package-name",
+      "globalphoneareacodes",
+      "-c",
+      "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/Sources/GlobalPhoneAreaCodeKit/GlobalPhoneAreaCodeKit.swift",
+      "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit.build/DerivedSources/resource_bundle_accessor.swift",
+      "-I",
+      "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/Modules",
+      "-target",
+      "arm64-apple-macosx10.15",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-index-store-path",
+      "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/index/store",
+      "-Onone",
+      "-enable-testing",
+      "-j12",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_AVAILABLE",
+      "-module-cache-path",
+      "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-parse-as-library",
+      "-emit-objc-header",
+      "-emit-objc-header-path",
+      "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit.build/include/GlobalPhoneAreaCodeKit-Swift.h",
+      "-swift-version",
+      "5",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "globalphoneareacodes",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "GlobalPhoneAreaCodeKit" : [
+
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/Sources/GlobalPhoneAreaCodeKit/GlobalPhoneAreaCodeKit.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit.build/DerivedSources/resource_bundle_accessor.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit.build/sources"
+    },
+    "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}

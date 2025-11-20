@@ -1,0 +1,326 @@
+[
+  {
+    "id": "44113",
+    "code": "113",
+    "country": "UK",
+    "region": "Leeds",
+    "city": "",
+    "e164": "44113",
+    "notes": "Primary Leeds code"
+  },
+  {
+    "id": "44114",
+    "code": "114",
+    "country": "UK",
+    "region": "Sheffield",
+    "city": "",
+    "e164": "44114",
+    "notes": "Primary Sheffield code"
+  },
+  {
+    "id": "44115",
+    "code": "115",
+    "country": "UK",
+    "region": "Nottingham",
+    "city": "",
+    "e164": "44115",
+    "notes": "Primary Nottingham code"
+  },
+  {
+    "id": "44116",
+    "code": "116",
+    "country": "UK",
+    "region": "Leicester",
+    "city": "",
+    "e164": "44116",
+    "notes": "Primary Leicester code"
+  },
+  {
+    "id": "44117",
+    "code": "117",
+    "country": "UK",
+    "region": "Bristol",
+    "city": "",
+    "e164": "44117",
+    "notes": "Primary Bristol code"
+  },
+  {
+    "id": "44118",
+    "code": "118",
+    "country": "UK",
+    "region": "Reading",
+    "city": "",
+    "e164": "44118",
+    "notes": "Primary Reading code"
+  },
+  {
+    "id": "44121",
+    "code": "121",
+    "country": "UK",
+    "region": "Birmingham",
+    "city": "",
+    "e164": "44121",
+    "notes": "Core Birmingham code"
+  },
+  {
+    "id": "44131",
+    "code": "131",
+    "country": "UK",
+    "region": "Edinburgh",
+    "city": "",
+    "e164": "44131",
+    "notes": "Primary Edinburgh code"
+  },
+  {
+    "id": "44141",
+    "code": "141",
+    "country": "UK",
+    "region": "Glasgow",
+    "city": "",
+    "e164": "44141",
+    "notes": "Primary Glasgow code"
+  },
+  {
+    "id": "44151",
+    "code": "151",
+    "country": "UK",
+    "region": "Liverpool",
+    "city": "",
+    "e164": "44151",
+    "notes": "Primary Liverpool code"
+  },
+  {
+    "id": "44161",
+    "code": "161",
+    "country": "UK",
+    "region": "Manchester",
+    "city": "",
+    "e164": "44161",
+    "notes": "Primary Manchester code"
+  },
+  {
+    "id": "44191",
+    "code": "191",
+    "country": "UK",
+    "region": "Tyneside",
+    "city": "Sunderland",
+    "e164": "44191",
+    "notes": "Merged Tyneside–Wearside area"
+  },
+  {
+    "id": "441202",
+    "code": "1202",
+    "country": "UK",
+    "region": "Bournemouth",
+    "city": "",
+    "e164": "441202",
+    "notes": "Local Bournemouth code"
+  },
+  {
+    "id": "441223",
+    "code": "1223",
+    "country": "UK",
+    "region": "Cambridge",
+    "city": "",
+    "e164": "441223",
+    "notes": "Local Cambridge code"
+  },
+  {
+    "id": "441242",
+    "code": "1242",
+    "country": "UK",
+    "region": "Cheltenham",
+    "city": "",
+    "e164": "441242",
+    "notes": "Local Cheltenham code"
+  },
+  {
+    "id": "441273",
+    "code": "1273",
+    "country": "UK",
+    "region": "Brighton",
+    "city": "",
+    "e164": "441273",
+    "notes": "Local Brighton code"
+  },
+  {
+    "id": "441382",
+    "code": "1382",
+    "country": "UK",
+    "region": "Dundee",
+    "city": "",
+    "e164": "441382",
+    "notes": "Local Dundee code"
+  },
+  {
+    "id": "441422",
+    "code": "1422",
+    "country": "UK",
+    "region": "Halifax",
+    "city": "",
+    "e164": "441422",
+    "notes": "Local Halifax code"
+  },
+  {
+    "id": "441463",
+    "code": "1463",
+    "country": "UK",
+    "region": "Inverness",
+    "city": "",
+    "e164": "441463",
+    "notes": "Local Inverness code"
+  },
+  {
+    "id": "441483",
+    "code": "1483",
+    "country": "UK",
+    "region": "Guildford",
+    "city": "",
+    "e164": "441483",
+    "notes": "Local Guildford code"
+  },
+  {
+    "id": "441494",
+    "code": "1494",
+    "country": "UK",
+    "region": "High Wycombe",
+    "city": "",
+    "e164": "441494",
+    "notes": "Local High Wycombe code"
+  },
+  {
+    "id": "441524",
+    "code": "1524",
+    "country": "UK",
+    "region": "Lancaster",
+    "city": "",
+    "e164": "441524",
+    "notes": "Local Lancaster code"
+  },
+  {
+    "id": "441603",
+    "code": "1603",
+    "country": "UK",
+    "region": "Norwich",
+    "city": "",
+    "e164": "441603",
+    "notes": "Local Norwich code"
+  },
+  {
+    "id": "441708",
+    "code": "1708",
+    "country": "UK",
+    "region": "Romford",
+    "city": "",
+    "e164": "441708",
+    "notes": "Outer London code"
+  },
+  {
+    "id": "441732",
+    "code": "1732",
+    "country": "UK",
+    "region": "Sevenoaks",
+    "city": "",
+    "e164": "441732",
+    "notes": "Local Sevenoaks code"
+  },
+  {
+    "id": "441733",
+    "code": "1733",
+    "country": "UK",
+    "region": "Peterborough",
+    "city": "",
+    "e164": "441733",
+    "notes": "Local Peterborough code"
+  },
+  {
+    "id": "441762",
+    "code": "1762",
+    "country": "UK",
+    "region": "Ripon",
+    "city": "",
+    "e164": "441762",
+    "notes": "Small cathedral city code"
+  },
+  {
+    "id": "441792",
+    "code": "1792",
+    "country": "UK",
+    "region": "Swansea",
+    "city": "",
+    "e164": "441792",
+    "notes": "Local Swansea code"
+  },
+  {
+    "id": "441803",
+    "code": "1803",
+    "country": "UK",
+    "region": "Torquay",
+    "city": "",
+    "e164": "441803",
+    "notes": "Local Torquay code"
+  },
+  {
+    "id": "441865",
+    "code": "1865",
+    "country": "UK",
+    "region": "Oxford",
+    "city": "",
+    "e164": "441865",
+    "notes": "Local Oxford code"
+  },
+  {
+    "id": "441904",
+    "code": "1904",
+    "country": "UK",
+    "region": "York",
+    "city": "",
+    "e164": "441904",
+    "notes": "Local York code"
+  },
+  {
+    "id": "441908",
+    "code": "1908",
+    "country": "UK",
+    "region": "Milton Keynes",
+    "city": "",
+    "e164": "441908",
+    "notes": "New city code"
+  },
+  {
+    "id": "441924",
+    "code": "1924",
+    "country": "UK",
+    "region": "Wakefield",
+    "city": "",
+    "e164": "441924",
+    "notes": "Local Wakefield code"
+  },
+  {
+    "id": "441962",
+    "code": "1962",
+    "country": "UK",
+    "region": "Winchester",
+    "city": "",
+    "e164": "441962",
+    "notes": "Local Winchester code"
+  },
+  {
+    "id": "4420",
+    "code": "20",
+    "country": "UK",
+    "region": "London",
+    "city": "",
+    "e164": "4420",
+    "notes": "The \"020\" code. Massive coverage."
+  },
+  {
+    "id": "447",
+    "code": "7",
+    "country": "UK",
+    "region": "Mobile Phones",
+    "city": "",
+    "e164": "447",
+    "notes": "Non-geographic mobile prefix"
+  }
+]

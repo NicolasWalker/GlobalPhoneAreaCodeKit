@@ -1,0 +1,119 @@
+[
+  {
+    "id": "361",
+    "code": "1",
+    "country": "HU",
+    "region": "Budapest",
+    "city": "",
+    "e164": "361",
+    "notes": "Capital city - The Pearl of the Danube"
+  },
+  {
+    "id": "3652",
+    "code": "52",
+    "country": "HU",
+    "region": "Debrecen",
+    "city": "",
+    "e164": "3652",
+    "notes": "Second largest city - Calvinist Rome"
+  },
+  {
+    "id": "3662",
+    "code": "62",
+    "country": "HU",
+    "region": "Szeged",
+    "city": "",
+    "e164": "3662",
+    "notes": "City of Sunshine - Paprika and Salami"
+  },
+  {
+    "id": "3646",
+    "code": "46",
+    "country": "HU",
+    "region": "Miskolc",
+    "city": "",
+    "e164": "3646",
+    "notes": "Heavy industry history - Cave Bath"
+  },
+  {
+    "id": "3672",
+    "code": "72",
+    "country": "HU",
+    "region": "Pécs",
+    "city": "",
+    "e164": "3672",
+    "notes": "Cultural center - Early Christian Necropolis"
+  },
+  {
+    "id": "3696",
+    "code": "96",
+    "country": "HU",
+    "region": "Győr",
+    "city": "",
+    "e164": "3696",
+    "notes": "Industrial hub - Audi factory"
+  },
+  {
+    "id": "3622",
+    "code": "22",
+    "country": "HU",
+    "region": "Székesfehérvár",
+    "city": "",
+    "e164": "3622",
+    "notes": "City of Kings - Medieval coronation site"
+  },
+  {
+    "id": "3642",
+    "code": "42",
+    "country": "HU",
+    "region": "Nyíregyháza",
+    "city": "",
+    "e164": "3642",
+    "notes": "Gateway to the east - Zoo park"
+  },
+  {
+    "id": "3676",
+    "code": "76",
+    "country": "HU",
+    "region": "Kecskemét",
+    "city": "",
+    "e164": "3676",
+    "notes": "Fruit brandy (Pálinka) and Mercedes factory"
+  },
+  {
+    "id": "3688",
+    "code": "88",
+    "country": "HU",
+    "region": "Veszprém",
+    "city": "Balaton",
+    "e164": "3688",
+    "notes": "City of Queens - Near Lake Balaton"
+  },
+  {
+    "id": "3699",
+    "code": "99",
+    "country": "HU",
+    "region": "Sopron",
+    "city": "",
+    "e164": "3699",
+    "notes": "Border city - Dental tourism hub"
+  },
+  {
+    "id": "3682",
+    "code": "82",
+    "country": "HU",
+    "region": "Kaposvár",
+    "city": "",
+    "e164": "3682",
+    "notes": "University city in the south west"
+  },
+  {
+    "id": "3656",
+    "code": "56",
+    "country": "HU",
+    "region": "Szolnok",
+    "city": "",
+    "e164": "3656",
+    "notes": "Located on the Tisza river"
+  }
+]

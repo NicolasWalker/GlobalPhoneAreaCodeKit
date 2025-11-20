@@ -1,0 +1,533 @@
+[
+  {
+    "id": "5511",
+    "code": "11",
+    "country": "BR",
+    "region": "São Paulo Metro",
+    "city": "São Paulo City, Guarulhos",
+    "e164": "5511",
+    "notes": "The \"212\" of Brazil. The economic engine. \"011\" implies hustle business and traffic. Lots of traffic."
+  },
+  {
+    "id": "5512",
+    "code": "12",
+    "country": "BR",
+    "region": "Paraíba Valley",
+    "city": "São José dos Campos, Aparecida, Ubatuba",
+    "e164": "5512",
+    "notes": "The Aviation hub (Embraer HQ) and the pilgrimage center (Aparecida)."
+  },
+  {
+    "id": "5513",
+    "code": "13",
+    "country": "BR",
+    "region": "São Paulo Coast",
+    "city": "Santos, Guarujá, Praia Grande",
+    "e164": "5513",
+    "notes": "The port city and the weekend beach getaway for Paulistanos."
+  },
+  {
+    "id": "5514",
+    "code": "14",
+    "country": "BR",
+    "region": "Central West SP",
+    "city": "Bauru, Marília",
+    "e164": "5514",
+    "notes": "Known for the \"Bauru\" sandwich and vast university towns."
+  },
+  {
+    "id": "5515",
+    "code": "15",
+    "country": "BR",
+    "region": "Southwest SP",
+    "city": "Sorocaba, Itapetininga",
+    "e164": "5515",
+    "notes": "Major industrial hub close to the capital."
+  },
+  {
+    "id": "5516",
+    "code": "16",
+    "country": "BR",
+    "region": "Northeast SP",
+    "city": "Ribeirão Preto, Franca",
+    "e164": "5516",
+    "notes": "The \"California of Brazil.\" Wealthy agribusiness region (coffee/sugar cane)."
+  },
+  {
+    "id": "5517",
+    "code": "17",
+    "country": "BR",
+    "region": "Northwest SP",
+    "city": "São José do Rio Preto, Barretos",
+    "e164": "5517",
+    "notes": "Home of the biggest Rodeo in Latin America (Barretos)."
+  },
+  {
+    "id": "5519",
+    "code": "19",
+    "country": "BR",
+    "region": "Campinas Region",
+    "city": "Campinas, Piracicaba, Limeira",
+    "e164": "5519",
+    "notes": "The \"Silicon Valley of Brazil\" (Unicamp University). Wealthy tech corridor."
+  },
+  {
+    "id": "5521",
+    "code": "21",
+    "country": "BR",
+    "region": "Rio de Janeiro",
+    "city": "Rio City, Niterói, Duque de Caxias",
+    "e164": "5521",
+    "notes": "The \"Hollywood\" code. Copacabana, Beach, Sugar loaf and Christ the Redeemer."
+  },
+  {
+    "id": "5522",
+    "code": "22",
+    "country": "BR",
+    "region": "Rio Coast (North)",
+    "city": "Cabo Frio, Búzios, Campos",
+    "e164": "5522",
+    "notes": "The \"Hamptons\" of Rio. Where the wealthy go for holidays (Búzios)."
+  },
+  {
+    "id": "5524",
+    "code": "24",
+    "country": "BR",
+    "region": "Rio Mountains/South",
+    "city": "Petrópolis, Angra dos Reis, Volta Redonda",
+    "e164": "5524",
+    "notes": "Imperial City (Petrópolis) and luxury islands (Angra)."
+  },
+  {
+    "id": "5527",
+    "code": "27",
+    "country": "BR",
+    "region": "Espírito Santo (North)",
+    "city": "Vitória, Vila Velha, Linhares",
+    "e164": "5527",
+    "notes": "The coastal capital. A bridge between the Southeast and Northeast cultures."
+  },
+  {
+    "id": "5528",
+    "code": "28",
+    "country": "BR",
+    "region": "Espírito Santo (South)",
+    "city": "Cachoeiro de Itapemirim",
+    "e164": "5528",
+    "notes": "Birthplace of Roberto Carlos (the \"King\" of Brazilian music)."
+  },
+  {
+    "id": "5531",
+    "code": "31",
+    "country": "BR",
+    "region": "Belo Horizonte",
+    "city": "Belo Horizonte (BH), Ouro Preto",
+    "e164": "5531",
+    "notes": "The land of Pão de Queijo. Famous for hospitality and mining wealth."
+  },
+  {
+    "id": "5532",
+    "code": "32",
+    "country": "BR",
+    "region": "Zona da Mata",
+    "city": "Juiz de Fora, Barbacena",
+    "e164": "5532",
+    "notes": "Culturally very close to Rio de Janeiro."
+  },
+  {
+    "id": "5533",
+    "code": "33",
+    "country": "BR",
+    "region": "East Minas",
+    "city": "Governador Valadares",
+    "e164": "5533",
+    "notes": "Historically known for high emigration to the USA (Boston area)."
+  },
+  {
+    "id": "5534",
+    "code": "34",
+    "country": "BR",
+    "region": "Triângulo Mineiro",
+    "city": "Uberlândia, Uberaba",
+    "e164": "5534",
+    "notes": "Rich agribusiness region; culturally closer to Goiás/Sertanejo style."
+  },
+  {
+    "id": "5535",
+    "code": "35",
+    "country": "BR",
+    "region": "South Minas",
+    "city": "Poços de Caldas, Pouso Alegre",
+    "e164": "5535",
+    "notes": "Coffee country and hot springs."
+  },
+  {
+    "id": "5537",
+    "code": "37",
+    "country": "BR",
+    "region": "Central West MG",
+    "city": "Divinópolis, Itaúna",
+    "e164": "5537",
+    "notes": "Clothing manufacturing hub."
+  },
+  {
+    "id": "5538",
+    "code": "38",
+    "country": "BR",
+    "region": "North Minas",
+    "city": "Montes Claros",
+    "e164": "5538",
+    "notes": "Transition zone to the arid Northeast (Sertão)."
+  },
+  {
+    "id": "5541",
+    "code": "41",
+    "country": "BR",
+    "region": "Curitiba Metro",
+    "city": "Curitiba, Paranaguá",
+    "e164": "5541",
+    "notes": "Famous for urban planning and cold weather. The \"Europe\" of Brazil."
+  },
+  {
+    "id": "5542",
+    "code": "42",
+    "country": "BR",
+    "region": "Central Paraná",
+    "city": "Ponta Grossa, Guarapuava",
+    "e164": "5542",
+    "notes": "Soybean farming and Slavic immigration history."
+  },
+  {
+    "id": "5543",
+    "code": "43",
+    "country": "BR",
+    "region": "North Paraná",
+    "city": "Londrina, Apucarana",
+    "e164": "5543",
+    "notes": "Originally settled by the British; coffee history."
+  },
+  {
+    "id": "5544",
+    "code": "44",
+    "country": "BR",
+    "region": "Northwest Paraná",
+    "city": "Maringá, Umuarama",
+    "e164": "5544",
+    "notes": "Planned cities and agribusiness."
+  },
+  {
+    "id": "5545",
+    "code": "45",
+    "country": "BR",
+    "region": "West Paraná",
+    "city": "Foz do Iguaçu, Cascavel",
+    "e164": "5545",
+    "notes": "Home to the Iguazu Falls and the border with Paraguay/Argentina."
+  },
+  {
+    "id": "5547",
+    "code": "47",
+    "country": "BR",
+    "region": "North Santa Catarina",
+    "city": "Joinville, Blumenau, Balneário Camboriú",
+    "e164": "5547",
+    "notes": "German heritage (Oktoberfest) and the \"Brazilian Dubai\" (Camboriú skyscrapers)."
+  },
+  {
+    "id": "5548",
+    "code": "48",
+    "country": "BR",
+    "region": "Florianópolis",
+    "city": "Florianópolis (Floripa), Criciúma",
+    "e164": "5548",
+    "notes": "Magic Island. A major tech hub and surf capital."
+  },
+  {
+    "id": "5549",
+    "code": "49",
+    "country": "BR",
+    "region": "West Santa Catarina",
+    "city": "Chapecó",
+    "e164": "5549",
+    "notes": "Agribusiness powerhouse."
+  },
+  {
+    "id": "5551",
+    "code": "51",
+    "country": "BR",
+    "region": "Porto Alegre Metro",
+    "city": "Porto Alegre, Gramado, Capão da Canoa",
+    "e164": "5551",
+    "notes": "The heart of Gaúcho (cowboy) culture and \"Churrasco\" (BBQ). Includes the Gramado tourist alps."
+  },
+  {
+    "id": "5553",
+    "code": "53",
+    "country": "BR",
+    "region": "South Rio Grande",
+    "city": "Pelotas, Rio Grande",
+    "e164": "5553",
+    "notes": "Historic charque (dried meat) region; very cold in winter."
+  },
+  {
+    "id": "5554",
+    "code": "54",
+    "country": "BR",
+    "region": "Serra Gaúcha",
+    "city": "Caxias do Sul, Bento Gonçalves",
+    "e164": "5554",
+    "notes": "Italian wine country. The \"Napa Valley\" of Brazil."
+  },
+  {
+    "id": "5555",
+    "code": "55",
+    "country": "BR",
+    "region": "West/Northwest RS",
+    "city": "Santa Maria, Passo Fundo",
+    "e164": "5555",
+    "notes": "University towns and vast soy fields."
+  },
+  {
+    "id": "5561",
+    "code": "61",
+    "country": "BR",
+    "region": "Brasília (Federal District)",
+    "city": "Brasília, Taguatinga",
+    "e164": "5561",
+    "notes": "The Political Capital. Designed by Niemeyer. Distinct \"rock band\" scene (Legião Urbana)."
+  },
+  {
+    "id": "5562",
+    "code": "62",
+    "country": "BR",
+    "region": "Goiás (Metro)",
+    "city": "Goiânia, Anápolis",
+    "e164": "5562",
+    "notes": "The Capital of Sertanejo Music (Brazil's Country Music)."
+  },
+  {
+    "id": "5563",
+    "code": "63",
+    "country": "BR",
+    "region": "Tocantins",
+    "city": "Palmas, Araguaína",
+    "e164": "5563",
+    "notes": "The newest state in Brazil (created in 1988). The agricultural frontier."
+  },
+  {
+    "id": "5565",
+    "code": "65",
+    "country": "BR",
+    "region": "Mato Grosso (South)",
+    "city": "Cuiabá, Pantanal Region",
+    "e164": "5565",
+    "notes": "Gateway to the Pantanal wetlands and massive soy production."
+  },
+  {
+    "id": "5566",
+    "code": "66",
+    "country": "BR",
+    "region": "Mato Grosso (North)",
+    "city": "Sinop, Sorriso",
+    "e164": "5566",
+    "notes": "The absolute heart of global soy farming."
+  },
+  {
+    "id": "5567",
+    "code": "67",
+    "country": "BR",
+    "region": "Mato Grosso do Sul",
+    "city": "Campo Grande, Bonito, Dourados",
+    "e164": "5567",
+    "notes": "Home to Bonito (eco-tourism capital)."
+  },
+  {
+    "id": "5568",
+    "code": "68",
+    "country": "BR",
+    "region": "Acre",
+    "city": "Rio Branco",
+    "e164": "5568",
+    "notes": "Remote Amazonian state; borders Peru/Bolivia."
+  },
+  {
+    "id": "5569",
+    "code": "69",
+    "country": "BR",
+    "region": "Rondônia",
+    "city": "Porto Velho",
+    "e164": "5569",
+    "notes": "Major agricultural frontier in the Amazon basin."
+  },
+  {
+    "id": "5571",
+    "code": "71",
+    "country": "BR",
+    "region": "Salvador Metro",
+    "city": "Salvador, Camaçari",
+    "e164": "5571",
+    "notes": "The heart of Afro-Brazilian culture.  Axé music and Carnival"
+  },
+  {
+    "id": "5573",
+    "code": "73",
+    "country": "BR",
+    "region": "South Bahia",
+    "city": "Ilhéus, Porto Seguro",
+    "e164": "5573",
+    "notes": "Cocoa coast and the site where Portuguese first arrived in 1500."
+  },
+  {
+    "id": "5575",
+    "code": "75",
+    "country": "BR",
+    "region": "East/North Bahia",
+    "city": "Feira de Santana, Paulo Afonso",
+    "e164": "5575",
+    "notes": "Major commercial crossroads of the Northeast."
+  },
+  {
+    "id": "5577",
+    "code": "77",
+    "country": "BR",
+    "region": "West Bahia",
+    "city": "Barreiras, Luís Eduardo Magalhães",
+    "e164": "5577",
+    "notes": "New agricultural frontier (cotton/soy) in the Cerrado."
+  },
+  {
+    "id": "5579",
+    "code": "79",
+    "country": "BR",
+    "region": "Sergipe",
+    "city": "Aracaju",
+    "e164": "5579",
+    "notes": "The smallest state in Brazil."
+  },
+  {
+    "id": "5581",
+    "code": "81",
+    "country": "BR",
+    "region": "Recife Metro",
+    "city": "Recife, Olinda, Porto de Galinhas",
+    "e164": "5581",
+    "notes": "\"Porto Digital\" (tech hub) and Frevo culture."
+  },
+  {
+    "id": "5582",
+    "code": "82",
+    "country": "BR",
+    "region": "Alagoas",
+    "city": "Maceió, Maragogi",
+    "e164": "5582",
+    "notes": "Known as the \"Brazilian Caribbean\" due to the water color."
+  },
+  {
+    "id": "5583",
+    "code": "83",
+    "country": "BR",
+    "region": "Paraíba",
+    "city": "João Pessoa, Campina Grande",
+    "e164": "5583",
+    "notes": "Home to the \"Largest São João Festival in the World.\""
+  },
+  {
+    "id": "5584",
+    "code": "84",
+    "country": "BR",
+    "region": "Rio Grande do Norte",
+    "city": "Natal, Pipa",
+    "e164": "5584",
+    "notes": "Famous for sand dunes and buggy rides."
+  },
+  {
+    "id": "5585",
+    "code": "85",
+    "country": "BR",
+    "region": "Fortaleza Metro",
+    "city": "Fortaleza, Jericoacoara (Jeri)",
+    "e164": "5585",
+    "notes": "Humor capital of Brazil (famous comedians) and windsurfing mecca."
+  },
+  {
+    "id": "5586",
+    "code": "86",
+    "country": "BR",
+    "region": "North Piauí",
+    "city": "Teresina, Parnaíba",
+    "e164": "5586",
+    "notes": "Teresina is the only Northeast capital not on the ocean."
+  },
+  {
+    "id": "5588",
+    "code": "88",
+    "country": "BR",
+    "region": "Interior Ceará",
+    "city": "Juazeiro do Norte, Sobral",
+    "e164": "5588",
+    "notes": "Religious pilgrimage site (Padre Cícero)."
+  },
+  {
+    "id": "5591",
+    "code": "91",
+    "country": "BR",
+    "region": "East Pará",
+    "city": "Belém, Marajó Island",
+    "e164": "5591",
+    "notes": "Gateway to the Amazon River. Famous for Açaí and Tacacá food."
+  },
+  {
+    "id": "5592",
+    "code": "92",
+    "country": "BR",
+    "region": "Amazonas (Manaus)",
+    "city": "Manaus, Parintins",
+    "e164": "5592",
+    "notes": "Operates on a different time zone (-1hr). Industrial Free Zone in the jungle."
+  },
+  {
+    "id": "5595",
+    "code": "95",
+    "country": "BR",
+    "region": "Roraima",
+    "city": "Boa Vista",
+    "e164": "5595",
+    "notes": "The northernmost state; borders Venezuela."
+  },
+  {
+    "id": "5596",
+    "code": "96",
+    "country": "BR",
+    "region": "Amapá",
+    "city": "Macapá",
+    "e164": "5596",
+    "notes": "The only state capital that the Equator line runs directly through."
+  },
+  {
+    "id": "5597",
+    "code": "97",
+    "country": "BR",
+    "region": "West Amazonas",
+    "city": "Tefé, Tabatinga",
+    "e164": "5597",
+    "notes": "Deep Amazon; distinct code for the remote river regions."
+  },
+  {
+    "id": "5598",
+    "code": "98",
+    "country": "BR",
+    "region": "North Maranhão",
+    "city": "São Luís, Lençóis Maranhenses",
+    "e164": "5598",
+    "notes": "Unique reggae culture (\"Brazilian Jamaica\") and sand dunes."
+  },
+  {
+    "id": "5599",
+    "code": "99",
+    "country": "BR",
+    "region": "South Maranhão",
+    "city": "Imperatriz, Agribusiness hub.",
+    "e164": "5599",
+    "notes": ""
+  }
+]

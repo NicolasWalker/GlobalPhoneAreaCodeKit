@@ -17,7 +17,7 @@ let package = Package(
             name: "GlobalPhoneAreaCodeKit",
             dependencies: [],
             resources: [
-                .process("Resources/area_codes.json")
+                .process("Resources")
             ]
         )
     ]

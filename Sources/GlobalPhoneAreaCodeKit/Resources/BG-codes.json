@@ -1,0 +1,128 @@
+[
+  {
+    "id": "3592",
+    "code": "2",
+    "country": "BG",
+    "region": "Sofia",
+    "city": "",
+    "e164": "3592",
+    "notes": "Capital and largest city"
+  },
+  {
+    "id": "35932",
+    "code": "32",
+    "country": "BG",
+    "region": "Plovdiv",
+    "city": "",
+    "e164": "35932",
+    "notes": "European Capital of Culture  ancient history"
+  },
+  {
+    "id": "35952",
+    "code": "52",
+    "country": "BG",
+    "region": "Varna",
+    "city": "",
+    "e164": "35952",
+    "notes": "Maritime capital  major Black Sea resort"
+  },
+  {
+    "id": "35956",
+    "code": "56",
+    "country": "BG",
+    "region": "Burgas",
+    "city": "",
+    "e164": "35956",
+    "notes": "Major port and oil industry center"
+  },
+  {
+    "id": "35982",
+    "code": "82",
+    "country": "BG",
+    "region": "Ruse",
+    "city": "",
+    "e164": "35982",
+    "notes": "Known as 'Little Vienna'  on the Danube"
+  },
+  {
+    "id": "35942",
+    "code": "42",
+    "country": "BG",
+    "region": "Stara Zagora",
+    "city": "",
+    "e164": "35942",
+    "notes": "City of linden trees and poets"
+  },
+  {
+    "id": "35964",
+    "code": "64",
+    "country": "BG",
+    "region": "Pleven",
+    "city": "",
+    "e164": "35964",
+    "notes": "Historical city known for the 1877 siege"
+  },
+  {
+    "id": "35944",
+    "code": "44",
+    "country": "BG",
+    "region": "Sliven",
+    "city": "",
+    "e164": "35944",
+    "notes": "Known for textile industry and Blue Rocks"
+  },
+  {
+    "id": "35958",
+    "code": "58",
+    "country": "BG",
+    "region": "Dobrich",
+    "city": "",
+    "e164": "35958",
+    "notes": "Center of the Dobrudzha grain region"
+  },
+  {
+    "id": "35954",
+    "code": "54",
+    "country": "BG",
+    "region": "Shumen",
+    "city": "",
+    "e164": "35954",
+    "notes": "Home to the Monument to 1300 Years of Bulgaria"
+  },
+  {
+    "id": "35976",
+    "code": "76",
+    "country": "BG",
+    "region": "Pernik",
+    "city": "",
+    "e164": "35976",
+    "notes": "Heavy industry and mining heritage"
+  },
+  {
+    "id": "35938",
+    "code": "38",
+    "country": "BG",
+    "region": "Haskovo",
+    "city": "",
+    "e164": "35938",
+    "notes": "Monument of the Holy Mother of God"
+  },
+  {
+    "id": "35962",
+    "code": "62",
+    "country": "BG",
+    "region": "Veliko Tarnovo",
+    "city": "",
+    "e164": "35962",
+    "notes": "Medieval capital of the Second Bulgarian Empire"
+  },
+  {
+    "id": "35973",
+    "code": "73",
+    "country": "BG",
+    "region": "Blagoevgrad",
+    "city": "",
+    "e164": "35973",
+    "notes": "University town in the southwest"
+  }
+]

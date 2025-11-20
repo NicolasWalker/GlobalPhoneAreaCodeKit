@@ -1,0 +1,128 @@
+[
+  {
+    "id": "322",
+    "code": "2",
+    "country": "BE",
+    "region": "Brussels",
+    "city": "",
+    "e164": "322",
+    "notes": "Capital of Belgium and EU administrative center"
+  },
+  {
+    "id": "323",
+    "code": "3",
+    "country": "BE",
+    "region": "Antwerp",
+    "city": "",
+    "e164": "323",
+    "notes": "Diamond capital  major port"
+  },
+  {
+    "id": "324",
+    "code": "4",
+    "country": "BE",
+    "region": "Liège",
+    "city": "",
+    "e164": "324",
+    "notes": "Major cultural and industrial hub in Wallonia"
+  },
+  {
+    "id": "329",
+    "code": "9",
+    "country": "BE",
+    "region": "Ghent",
+    "city": "",
+    "e164": "329",
+    "notes": "Historic university city and port"
+  },
+  {
+    "id": "3250",
+    "code": "50",
+    "country": "BE",
+    "region": "Bruges",
+    "city": "",
+    "e164": "3250",
+    "notes": "The 'Venice of the North'  UNESCO site"
+  },
+  {
+    "id": "3271",
+    "code": "71",
+    "country": "BE",
+    "region": "Charleroi",
+    "city": "",
+    "e164": "3271",
+    "notes": "Industrial heritage  largest city in Wallonia"
+  },
+  {
+    "id": "3281",
+    "code": "81",
+    "country": "BE",
+    "region": "Namur",
+    "city": "",
+    "e164": "3281",
+    "notes": "Capital of Wallonia"
+  },
+  {
+    "id": "3265",
+    "code": "65",
+    "country": "BE",
+    "region": "Mons",
+    "city": "",
+    "e164": "3265",
+    "notes": "Cultural capital  NATO SHAPE headquarters"
+  },
+  {
+    "id": "3216",
+    "code": "16",
+    "country": "BE",
+    "region": "Leuven",
+    "city": "",
+    "e164": "3216",
+    "notes": "Home to KU Leuven university"
+  },
+  {
+    "id": "3211",
+    "code": "11",
+    "country": "BE",
+    "region": "Hasselt",
+    "city": "",
+    "e164": "3211",
+    "notes": "Capital of Limburg  known for gin (jenever)"
+  },
+  {
+    "id": "3215",
+    "code": "15",
+    "country": "BE",
+    "region": "Mechelen",
+    "city": "",
+    "e164": "3215",
+    "notes": "Historic city between Brussels and Antwerp"
+  },
+  {
+    "id": "3259",
+    "code": "59",
+    "country": "BE",
+    "region": "Ostend",
+    "city": "",
+    "e164": "3259",
+    "notes": "Coastal city  queen of seaside resorts"
+  },
+  {
+    "id": "3269",
+    "code": "69",
+    "country": "BE",
+    "region": "Tournai",
+    "city": "",
+    "e164": "3269",
+    "notes": "One of the oldest cities in Belgium"
+  },
+  {
+    "id": "3263",
+    "code": "63",
+    "country": "BE",
+    "region": "Arlon",
+    "city": "",
+    "e164": "3263",
+    "notes": "Capital of Luxembourg province"
+  }
+]

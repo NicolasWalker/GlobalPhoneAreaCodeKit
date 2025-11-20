@@ -1,0 +1,178 @@
+client:
+  name: basic
+  file-system: device-agnostic
+tools: {}
+targets:
+  "GlobalPhoneAreaCodeKit-arm64-apple-macosx15.0-debug.module": ["<GlobalPhoneAreaCodeKit-arm64-apple-macosx15.0-debug.module>"]
+  "PackageStructure": ["<PackageStructure>"]
+  "main": ["<GlobalPhoneAreaCodeKit-arm64-apple-macosx15.0-debug.module>"]
+  "test": ["<GlobalPhoneAreaCodeKit-arm64-apple-macosx15.0-debug.module>"]
+default: "main"
+nodes:
+  "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/Sources/GlobalPhoneAreaCodeKit/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+commands:
+  "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit.build/sources":
+    tool: write-auxiliary-file
+    inputs: ["<sources-file-list>","/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/Sources/GlobalPhoneAreaCodeKit/GlobalPhoneAreaCodeKit.swift","/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit.build/DerivedSources/resource_bundle_accessor.swift"]
+    outputs: ["/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit.build/sources"]
+    description: "Write auxiliary file /Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit.build/sources"
+
+  "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/AD-codes.json":
+    tool: copy-tool
+    inputs: ["/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/Sources/GlobalPhoneAreaCodeKit/Resources/AD-codes.json"]
+    outputs: ["/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/AD-codes.json"]
+    description: "Copying /Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/Sources/GlobalPhoneAreaCodeKit/Resources/AD-codes.json"
+
+  "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/AL-codes.json":
+    tool: copy-tool
+    inputs: ["/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/Sources/GlobalPhoneAreaCodeKit/Resources/AL-codes.json"]
+    outputs: ["/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/AL-codes.json"]
+    description: "Copying /Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/Sources/GlobalPhoneAreaCodeKit/Resources/AL-codes.json"
+
+  "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/AT-codes.json":
+    tool: copy-tool
+    inputs: ["/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/Sources/GlobalPhoneAreaCodeKit/Resources/AT-codes.json"]
+    outputs: ["/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/AT-codes.json"]
+    description: "Copying /Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/Sources/GlobalPhoneAreaCodeKit/Resources/AT-codes.json"
+
+  "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/BA-codes.json":
+    tool: copy-tool
+    inputs: ["/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/Sources/GlobalPhoneAreaCodeKit/Resources/BA-codes.json"]
+    outputs: ["/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/BA-codes.json"]
+    description: "Copying /Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/Sources/GlobalPhoneAreaCodeKit/Resources/BA-codes.json"
+
+  "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/BE-codes.json":
+    tool: copy-tool
+    inputs: ["/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/Sources/GlobalPhoneAreaCodeKit/Resources/BE-codes.json"]
+    outputs: ["/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/BE-codes.json"]
+    description: "Copying /Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/Sources/GlobalPhoneAreaCodeKit/Resources/BE-codes.json"
+
+  "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/BG-codes.json":
+    tool: copy-tool
+    inputs: ["/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/Sources/GlobalPhoneAreaCodeKit/Resources/BG-codes.json"]
+    outputs: ["/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/BG-codes.json"]
+    description: "Copying /Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/Sources/GlobalPhoneAreaCodeKit/Resources/BG-codes.json"
+
+  "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/BR-codes.json":
+    tool: copy-tool
+    inputs: ["/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/Sources/GlobalPhoneAreaCodeKit/Resources/BR-codes.json"]
+    outputs: ["/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/BR-codes.json"]
+    description: "Copying /Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/Sources/GlobalPhoneAreaCodeKit/Resources/BR-codes.json"
+
+  "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/BY-codes.json":
+    tool: copy-tool
+    inputs: ["/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/Sources/GlobalPhoneAreaCodeKit/Resources/BY-codes.json"]
+    outputs: ["/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/BY-codes.json"]
+    description: "Copying /Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/Sources/GlobalPhoneAreaCodeKit/Resources/BY-codes.json"
+
+  "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/CA-codes.json":
+    tool: copy-tool
+    inputs: ["/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/Sources/GlobalPhoneAreaCodeKit/Resources/CA-codes.json"]
+    outputs: ["/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/CA-codes.json"]
+    description: "Copying /Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/Sources/GlobalPhoneAreaCodeKit/Resources/CA-codes.json"
+
+  "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/CH-codes.json":
+    tool: copy-tool
+    inputs: ["/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/Sources/GlobalPhoneAreaCodeKit/Resources/CH-codes.json"]
+    outputs: ["/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/CH-codes.json"]
+    description: "Copying /Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/Sources/GlobalPhoneAreaCodeKit/Resources/CH-codes.json"
+
+  "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/CZ-codes.json":
+    tool: copy-tool
+    inputs: ["/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/Sources/GlobalPhoneAreaCodeKit/Resources/CZ-codes.json"]
+    outputs: ["/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/CZ-codes.json"]
+    description: "Copying /Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/Sources/GlobalPhoneAreaCodeKit/Resources/CZ-codes.json"
+
+  "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/DE-codes.json":
+    tool: copy-tool
+    inputs: ["/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/Sources/GlobalPhoneAreaCodeKit/Resources/DE-codes.json"]
+    outputs: ["/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/DE-codes.json"]
+    description: "Copying /Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/Sources/GlobalPhoneAreaCodeKit/Resources/DE-codes.json"
+
+  "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/FR-codes.json":
+    tool: copy-tool
+    inputs: ["/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/Sources/GlobalPhoneAreaCodeKit/Resources/FR-codes.json"]
+    outputs: ["/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/FR-codes.json"]
+    description: "Copying /Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/Sources/GlobalPhoneAreaCodeKit/Resources/FR-codes.json"
+
+  "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/GB-codes.json":
+    tool: copy-tool
+    inputs: ["/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/Sources/GlobalPhoneAreaCodeKit/Resources/GB-codes.json"]
+    outputs: ["/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/GB-codes.json"]
+    description: "Copying /Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/Sources/GlobalPhoneAreaCodeKit/Resources/GB-codes.json"
+
+  "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/GG-codes.json":
+    tool: copy-tool
+    inputs: ["/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/Sources/GlobalPhoneAreaCodeKit/Resources/GG-codes.json"]
+    outputs: ["/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/GG-codes.json"]
+    description: "Copying /Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/Sources/GlobalPhoneAreaCodeKit/Resources/GG-codes.json"
+
+  "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/GI-codes.json":
+    tool: copy-tool
+    inputs: ["/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/Sources/GlobalPhoneAreaCodeKit/Resources/GI-codes.json"]
+    outputs: ["/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/GI-codes.json"]
+    description: "Copying /Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/Sources/GlobalPhoneAreaCodeKit/Resources/GI-codes.json"
+
+  "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/GR-codes.json":
+    tool: copy-tool
+    inputs: ["/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/Sources/GlobalPhoneAreaCodeKit/Resources/GR-codes.json"]
+    outputs: ["/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/GR-codes.json"]
+    description: "Copying /Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/Sources/GlobalPhoneAreaCodeKit/Resources/GR-codes.json"
+
+  "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/HR-codes.json":
+    tool: copy-tool
+    inputs: ["/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/Sources/GlobalPhoneAreaCodeKit/Resources/HR-codes.json"]
+    outputs: ["/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/HR-codes.json"]
+    description: "Copying /Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/Sources/GlobalPhoneAreaCodeKit/Resources/HR-codes.json"
+
+  "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/HU-codes.json":
+    tool: copy-tool
+    inputs: ["/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/Sources/GlobalPhoneAreaCodeKit/Resources/HU-codes.json"]
+    outputs: ["/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/HU-codes.json"]
+    description: "Copying /Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/Sources/GlobalPhoneAreaCodeKit/Resources/HU-codes.json"
+
+  "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/MX-codes.json":
+    tool: copy-tool
+    inputs: ["/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/Sources/GlobalPhoneAreaCodeKit/Resources/MX-codes.json"]
+    outputs: ["/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/MX-codes.json"]
+    description: "Copying /Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/Sources/GlobalPhoneAreaCodeKit/Resources/MX-codes.json"
+
+  "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/US-codes.json":
+    tool: copy-tool
+    inputs: ["/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/Sources/GlobalPhoneAreaCodeKit/Resources/US-codes.json"]
+    outputs: ["/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/US-codes.json"]
+    description: "Copying /Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/Sources/GlobalPhoneAreaCodeKit/Resources/US-codes.json"
+
+  "/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt":
+    tool: write-auxiliary-file
+    inputs: ["<swift-get-version>","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"]
+    outputs: ["/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"]
+    always-out-of-date: "true"
+    description: "Write auxiliary file /Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+
+  "<GlobalPhoneAreaCodeKit-arm64-apple-macosx15.0-debug.module>":
+    tool: phony
+    inputs: ["/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit.build/GlobalPhoneAreaCodeKit.swift.o","/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit.build/resource_bundle_accessor.swift.o","/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/Modules/GlobalPhoneAreaCodeKit.swiftmodule"]
+    outputs: ["<GlobalPhoneAreaCodeKit-arm64-apple-macosx15.0-debug.module>"]
+
+  "C.GlobalPhoneAreaCodeKit-arm64-apple-macosx15.0-debug.module":
+    tool: shell
+    inputs: ["/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/Sources/GlobalPhoneAreaCodeKit/GlobalPhoneAreaCodeKit.swift","/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit.build/DerivedSources/resource_bundle_accessor.swift","/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt","<GlobalPhoneAreaCodeKit-arm64-apple-macosx15.0-debug.module-resources>","/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit.build/sources"]
+    outputs: ["/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit.build/GlobalPhoneAreaCodeKit.swift.o","/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit.build/resource_bundle_accessor.swift.o","/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/Modules/GlobalPhoneAreaCodeKit.swiftmodule"]
+    description: "Compiling Swift Module 'GlobalPhoneAreaCodeKit' (2 sources)"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-module-name","GlobalPhoneAreaCodeKit","-emit-dependencies","-emit-module","-emit-module-path","/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/Modules/GlobalPhoneAreaCodeKit.swiftmodule","-output-file-map","/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit.build/output-file-map.json","-parse-as-library","-incremental","-c","@/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit.build/sources","-I","/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/Modules","-target","arm64-apple-macosx10.15","-incremental","-enable-batch-mode","-serialize-diagnostics","-index-store-path","/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/index/store","-Onone","-enable-testing","-j12","-DSWIFT_PACKAGE","-DDEBUG","-DSWIFT_MODULE_RESOURCE_BUNDLE_AVAILABLE","-module-cache-path","/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/ModuleCache","-parseable-output","-parse-as-library","-emit-objc-header","-emit-objc-header-path","/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit.build/include/GlobalPhoneAreaCodeKit-Swift.h","-swift-version","5","-plugin-path","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-g","-Xcc","-isysroot","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.1.sdk","-Xcc","-F","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-Xcc","-F","-Xcc","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks","-Xcc","-fPIC","-Xcc","-g","-package-name","globalphoneareacodes"]
+
+  "GlobalPhoneAreaCodeKit-arm64-apple-macosx15.0-debug.module-resources":
+    tool: phony
+    inputs: ["/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/AD-codes.json","/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/AL-codes.json","/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/AT-codes.json","/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/BA-codes.json","/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/BE-codes.json","/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/BG-codes.json","/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/BR-codes.json","/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/BY-codes.json","/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/CA-codes.json","/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/CH-codes.json","/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/CZ-codes.json","/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/DE-codes.json","/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/FR-codes.json","/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/GB-codes.json","/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/GG-codes.json","/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/GI-codes.json","/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/GR-codes.json","/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/HR-codes.json","/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/HU-codes.json","/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/MX-codes.json","/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/.build/arm64-apple-macosx/debug/GlobalPhoneAreaCodeKit_GlobalPhoneAreaCodeKit.bundle/US-codes.json"]
+    outputs: ["<GlobalPhoneAreaCodeKit-arm64-apple-macosx15.0-debug.module-resources>"]
+
+  "PackageStructure":
+    tool: package-structure-tool
+    inputs: ["/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/Sources/GlobalPhoneAreaCodeKit/","/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/Package.swift","/Users/nick/Documents/GitHub/GlobalPhoneAreaCodes/Package.resolved"]
+    outputs: ["<PackageStructure>"]
+    description: "Planning build"
+    allow-missing-inputs: true
+

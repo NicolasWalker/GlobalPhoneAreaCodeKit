@@ -12,10 +12,27 @@ public struct AreaCode: Codable, Identifiable {
     
     public var flag: String {
         switch country.lowercased() {
-        case "usa": return "🇺🇸"
-        case "canada": return "🇨🇦"
-        case "uk": return "🇬🇧"
-        case "brazil": return "🇧🇷"
+        case "us", "usa": return "🇺🇸"
+        case "ca", "canada": return "🇨🇦"
+        case "gb", "uk": return "🇬🇧"
+        case "br", "brazil": return "🇧🇷"
+        case "ad": return "🇦🇩"
+        case "al": return "🇦🇱"
+        case "at": return "🇦🇹"
+        case "ba": return "🇧🇦"
+        case "be": return "🇧🇪"
+        case "bg": return "🇧🇬"
+        case "by": return "🇧🇾"
+        case "ch": return "🇨🇭"
+        case "cz": return "🇨🇿"
+        case "de": return "🇩🇪"
+        case "fr": return "🇫🇷"
+        case "gg": return "🇬🇬"
+        case "gi": return "🇬🇮"
+        case "gr": return "🇬🇷"
+        case "hr": return "🇭🇷"
+        case "hu": return "🇭🇺"
+        case "mx": return "🇲🇽"
         default: return "🌍"
         }
     }

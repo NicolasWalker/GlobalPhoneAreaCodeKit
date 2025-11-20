@@ -1,0 +1,38 @@
+[
+  {
+    "id": "441481",
+    "code": "1481",
+    "country": "GG",
+    "region": "St. Peter Port",
+    "city": "",
+    "e164": "441481",
+    "notes": "Bailiwick of Guernsey - Main landline code"
+  },
+  {
+    "id": "447781",
+    "code": "7781",
+    "country": "GG",
+    "region": "Mobile",
+    "city": "",
+    "e164": "447781",
+    "notes": "Sure Mobile (Guernsey)"
+  },
+  {
+    "id": "447839",
+    "code": "7839",
+    "country": "GG",
+    "region": "Mobile",
+    "city": "",
+    "e164": "447839",
+    "notes": "Airtel-Vodafone (Guernsey)"
+  },
+  {
+    "id": "447911",
+    "code": "7911",
+    "country": "GG",
+    "region": "Mobile",
+    "city": "",
+    "e164": "447911",
+    "notes": "JT (Guernsey)"
+  }
+]

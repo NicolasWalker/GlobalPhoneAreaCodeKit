@@ -1,0 +1,119 @@
+[
+  {
+    "id": "3021",
+    "code": "21",
+    "country": "GR",
+    "region": "Athens",
+    "city": "Piraeus",
+    "e164": "3021",
+    "notes": "Capital and largest city - The 21 region"
+  },
+  {
+    "id": "30231",
+    "code": "231",
+    "country": "GR",
+    "region": "Thessaloniki",
+    "city": "",
+    "e164": "30231",
+    "notes": "Second largest city - Cultural capital"
+  },
+  {
+    "id": "30281",
+    "code": "281",
+    "country": "GR",
+    "region": "Heraklion",
+    "city": "",
+    "e164": "30281",
+    "notes": "Major city on Crete"
+  },
+  {
+    "id": "30261",
+    "code": "261",
+    "country": "GR",
+    "region": "Patras",
+    "city": "",
+    "e164": "30261",
+    "notes": "Major port - Gateway to the West"
+  },
+  {
+    "id": "30241",
+    "code": "241",
+    "country": "GR",
+    "region": "Larissa",
+    "city": "",
+    "e164": "30241",
+    "notes": "Major agricultural center"
+  },
+  {
+    "id": "30242",
+    "code": "242",
+    "country": "GR",
+    "region": "Volos",
+    "city": "",
+    "e164": "30242",
+    "notes": "Port city at the foot of Mt Pelion"
+  },
+  {
+    "id": "30265",
+    "code": "265",
+    "country": "GR",
+    "region": "Ioannina",
+    "city": "",
+    "e164": "30265",
+    "notes": "Historic city on Lake Pamvotis"
+  },
+  {
+    "id": "30224",
+    "code": "224",
+    "country": "GR",
+    "region": "Rhodes",
+    "city": "Dodecanese",
+    "e164": "30224",
+    "notes": "Knight's island - Major tourist hub"
+  },
+  {
+    "id": "30266",
+    "code": "266",
+    "country": "GR",
+    "region": "Corfu",
+    "city": "",
+    "e164": "30266",
+    "notes": "Kerkyra - Historic Venetian influences"
+  },
+  {
+    "id": "30272",
+    "code": "272",
+    "country": "GR",
+    "region": "Kalamata",
+    "city": "",
+    "e164": "30272",
+    "notes": "Famous for olives"
+  },
+  {
+    "id": "30251",
+    "code": "251",
+    "country": "GR",
+    "region": "Kavala",
+    "city": "",
+    "e164": "30251",
+    "notes": "Principal seaport of eastern Macedonia"
+  },
+  {
+    "id": "30228",
+    "code": "228",
+    "country": "GR",
+    "region": "Cyclades",
+    "city": "Mykonos, Santorini",
+    "e164": "30228",
+    "notes": "Famous island group"
+  },
+  {
+    "id": "3069",
+    "code": "69",
+    "country": "GR",
+    "region": "Mobile",
+    "city": "",
+    "e164": "3069",
+    "notes": "Standard mobile prefix"
+  }
+]

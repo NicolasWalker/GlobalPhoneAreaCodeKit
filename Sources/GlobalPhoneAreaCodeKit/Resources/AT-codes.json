@@ -1,0 +1,101 @@
+[
+  {
+    "id": "431",
+    "code": "1",
+    "country": "AT",
+    "region": "Vienna",
+    "city": "",
+    "e164": "431",
+    "notes": "Federal capital and largest city"
+  },
+  {
+    "id": "43316",
+    "code": "316",
+    "country": "AT",
+    "region": "Graz",
+    "city": "",
+    "e164": "43316",
+    "notes": "Second largest city  university hub"
+  },
+  {
+    "id": "43732",
+    "code": "732",
+    "country": "AT",
+    "region": "Linz",
+    "city": "",
+    "e164": "43732",
+    "notes": "Industrial center and Danube port"
+  },
+  {
+    "id": "43662",
+    "code": "662",
+    "country": "AT",
+    "region": "Salzburg",
+    "city": "",
+    "e164": "43662",
+    "notes": "Mozart's birthplace  major tourist destination"
+  },
+  {
+    "id": "43512",
+    "code": "512",
+    "country": "AT",
+    "region": "Innsbruck",
+    "city": "",
+    "e164": "43512",
+    "notes": "Capital of Tyrol  Alps sports center"
+  },
+  {
+    "id": "43463",
+    "code": "463",
+    "country": "AT",
+    "region": "Klagenfurt",
+    "city": "",
+    "e164": "43463",
+    "notes": "Capital of Carinthia  near Lake Wörthersee"
+  },
+  {
+    "id": "435574",
+    "code": "5574",
+    "country": "AT",
+    "region": "Bregenz",
+    "city": "",
+    "e164": "435574",
+    "notes": "Capital of Vorarlberg  Lake Constance festival"
+  },
+  {
+    "id": "432682",
+    "code": "2682",
+    "country": "AT",
+    "region": "Eisenstadt",
+    "city": "",
+    "e164": "432682",
+    "notes": "Capital of Burgenland  Haydn city"
+  },
+  {
+    "id": "432742",
+    "code": "2742",
+    "country": "AT",
+    "region": "St. Pölten",
+    "city": "",
+    "e164": "432742",
+    "notes": "Capital of Lower Austria"
+  },
+  {
+    "id": "434242",
+    "code": "4242",
+    "country": "AT",
+    "region": "Villach",
+    "city": "",
+    "e164": "434242",
+    "notes": "Second largest city in Carinthia"
+  },
+  {
+    "id": "437242",
+    "code": "7242",
+    "country": "AT",
+    "region": "Wels",
+    "city": "",
+    "e164": "437242",
+    "notes": "Trade fair city"
+  }
+]

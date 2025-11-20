@@ -1,0 +1,182 @@
+[
+  {
+    "id": "5255",
+    "code": "55",
+    "country": "MX",
+    "region": "Mexico City",
+    "city": "Naucalpan, State of Mexico",
+    "e164": "5255",
+    "notes": "Capital and massive cultural hub - The CDMX region"
+  },
+  {
+    "id": "5233",
+    "code": "33",
+    "country": "MX",
+    "region": "Guadalajara",
+    "city": "Zapopan",
+    "e164": "5233",
+    "notes": "The pearl of the west - Home of Mariachi and Tequila"
+  },
+  {
+    "id": "5281",
+    "code": "81",
+    "country": "MX",
+    "region": "Monterrey",
+    "city": "San Pedro Garza García",
+    "e164": "5281",
+    "notes": "Industrial capital of the north - Business hub"
+  },
+  {
+    "id": "52222",
+    "code": "222",
+    "country": "MX",
+    "region": "Puebla City",
+    "city": "Cholula",
+    "e164": "52222",
+    "notes": "Famous for Mole Poblano and colonial architecture"
+  },
+  {
+    "id": "52442",
+    "code": "442",
+    "country": "MX",
+    "region": "Santiago de Querétaro",
+    "city": "",
+    "e164": "52442",
+    "notes": "Safe and rapidly growing industrial city"
+  },
+  {
+    "id": "52998",
+    "code": "998",
+    "country": "MX",
+    "region": "Cancún",
+    "city": "",
+    "e164": "52998",
+    "notes": "Major Caribbean tourist destination"
+  },
+  {
+    "id": "52664",
+    "code": "664",
+    "country": "MX",
+    "region": "Tijuana",
+    "city": "",
+    "e164": "52664",
+    "notes": "Busiest border crossing in the world"
+  },
+  {
+    "id": "52999",
+    "code": "999",
+    "country": "MX",
+    "region": "Mérida",
+    "city": "",
+    "e164": "52999",
+    "notes": "The White City - Mayan culture hub"
+  },
+  {
+    "id": "52614",
+    "code": "614",
+    "country": "MX",
+    "region": "Chihuahua City",
+    "city": "",
+    "e164": "52614",
+    "notes": "Capital of the largest state"
+  },
+  {
+    "id": "52477",
+    "code": "477",
+    "country": "MX",
+    "region": "León",
+    "city": "",
+    "e164": "52477",
+    "notes": "Shoe capital of the world"
+  },
+  {
+    "id": "52662",
+    "code": "662",
+    "country": "MX",
+    "region": "Hermosillo",
+    "city": "",
+    "e164": "52662",
+    "notes": "The Sun City in the desert"
+  },
+  {
+    "id": "52871",
+    "code": "871",
+    "country": "MX",
+    "region": "Torreón",
+    "city": "Gómez Palacio, Durango",
+    "e164": "52871",
+    "notes": "Laguna region cotton hub"
+  },
+  {
+    "id": "52722",
+    "code": "722",
+    "country": "MX",
+    "region": "Toluca",
+    "city": "Metepec",
+    "e164": "52722",
+    "notes": "High altitude capital of Edomex"
+  },
+  {
+    "id": "52449",
+    "code": "449",
+    "country": "MX",
+    "region": "Aguascalientes",
+    "city": "",
+    "e164": "52449",
+    "notes": "San Marcos Fair location"
+  },
+  {
+    "id": "52961",
+    "code": "961",
+    "country": "MX",
+    "region": "Tuxtla Gutiérrez",
+    "city": "",
+    "e164": "52961",
+    "notes": "Gateway to Sumidero Canyon"
+  },
+  {
+    "id": "52322",
+    "code": "322",
+    "country": "MX",
+    "region": "Puerto Vallarta",
+    "city": "",
+    "e164": "52322",
+    "notes": "Pacific coast resort town"
+  },
+  {
+    "id": "52624",
+    "code": "624",
+    "country": "MX",
+    "region": "Cabo San Lucas",
+    "city": "San José del Cabo",
+    "e164": "52624",
+    "notes": "Luxury tourism corridor"
+  },
+  {
+    "id": "52744",
+    "code": "744",
+    "country": "MX",
+    "region": "Acapulco",
+    "city": "",
+    "e164": "52744",
+    "notes": "Legendary beach destination"
+  },
+  {
+    "id": "52229",
+    "code": "229",
+    "country": "MX",
+    "region": "Veracruz City",
+    "city": "Boca del Río",
+    "e164": "52229",
+    "notes": "Major Gulf port and carnival city"
+  },
+  {
+    "id": "52667",
+    "code": "667",
+    "country": "MX",
+    "region": "Culiacán",
+    "city": "",
+    "e164": "52667",
+    "notes": "Agricultural heartland of the northwest"
+  }
+]
