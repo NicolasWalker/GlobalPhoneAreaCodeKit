@@ -2,19 +2,19 @@
 import PackageDescription
 
 let package = Package(
-    name: "AreaCodeKit",
+    name: "GlobalPhoneAreaCodeKit",
     platforms: [
         .iOS(.v13),
         .macOS(.v10_15)
     ],
     products: [
         .library(
-            name: "AreaCodeKit",
-            targets: ["AreaCodeKit"]),
+            name: "GlobalPhoneAreaCodeKit",
+            targets: ["GlobalPhoneAreaCodeKit"]),
     ],
     targets: [
         .target(
-            name: "AreaCodeKit",
+            name: "GlobalPhoneAreaCodeKit",
             dependencies: [],
             resources: [
                 .process("Resources/area_codes.json")
