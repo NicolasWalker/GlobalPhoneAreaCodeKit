@@ -76,7 +76,7 @@
     "code": "9",
     "country": "FR",
     "region": "VoIP / Non-geographic",
-    "city": "VoIP",
+    "city": "",
     "e164": "339",
     "notes": "VoIP and non-geographic allocations"
   }

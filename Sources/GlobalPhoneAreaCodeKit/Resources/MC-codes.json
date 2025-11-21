@@ -4,7 +4,7 @@
     "code": "9",
     "country": "MC",
     "region": "Fixed Line",
-    "city": "Fixed Line",
+    "city": "",
     "e164": "3779",
     "notes": "Principality of Monaco. Monte Carlo Casino. Formula 1 Grand Prix."
   },
@@ -13,7 +13,7 @@
     "code": "93",
     "country": "MC",
     "region": "Fixed Line",
-    "city": "Fixed Line",
+    "city": "",
     "e164": "37793",
     "notes": "Specific prefix often associated with Monegasque administration."
   },
@@ -22,7 +22,7 @@
     "code": "99",
     "country": "MC",
     "region": "Fixed Line",
-    "city": "Fixed Line",
+    "city": "",
     "e164": "37799",
     "notes": "Monaco Telecom services."
   },

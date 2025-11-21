@@ -13,7 +13,7 @@
     "code": "22",
     "country": "MT",
     "region": "Fixed Line",
-    "city": "Fixed Line",
+    "city": "",
     "e164": "35622",
     "notes": "General fixed line services."
   },
@@ -22,7 +22,7 @@
     "code": "23",
     "country": "MT",
     "region": "Fixed Line",
-    "city": "Fixed Line",
+    "city": "",
     "e164": "35623",
     "notes": "General fixed line services."
   },
