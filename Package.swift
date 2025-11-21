@@ -5,7 +5,9 @@ let package = Package(
     name: "GlobalPhoneAreaCodeKit",
     platforms: [
         .iOS(.v13),
-        .macOS(.v10_15)
+        .macOS(.v10_15),
+        .watchOS(.v6),
+        .tvOS(.v13)
     ],
     products: [
         .library(
@@ -19,6 +21,10 @@ let package = Package(
             resources: [
                 .process("Resources")
             ]
+        ),
+        .testTarget(
+            name: "GlobalPhoneAreaCodeKitTests",
+            dependencies: ["GlobalPhoneAreaCodeKit"]
         )
     ]
 )
