@@ -13,9 +13,9 @@
     "code": "202",
     "country": "US",
     "region": "Washington D.C.",
-    "city": "The entire District of Columbia",
+    "city": "Washington D.C.",
     "e164": "1202",
-    "notes": "Strictly the District. A status symbol for politicos and lobbyists."
+    "notes": "Strictly the District. A status symbol for politicos and lobbyists. The entire District of Columbia"
   },
   {
     "id": "1203",
@@ -49,7 +49,7 @@
     "code": "207",
     "country": "US",
     "region": "Maine",
-    "city": "Entire State",
+    "city": "Maine",
     "e164": "1207",
     "notes": "One of the few remaining single-code states. \"The 207\" is a point of state pride."
   },
@@ -58,7 +58,7 @@
     "code": "208",
     "country": "US",
     "region": "Idaho",
-    "city": "Entire State (historically)",
+    "city": "Idaho",
     "e164": "1208",
     "notes": "Idaho is famously protective of its \"208\" identity despite new overlays."
   },
@@ -85,16 +85,16 @@
     "code": "212",
     "country": "US",
     "region": "Manhattan",
-    "city": "Manhattan (Strictly)",
+    "city": "New York",
     "e164": "1212",
-    "notes": "The \"Gold Standard\" of phone numbers. Indicates you have had a landline since the 90s."
+    "notes": "The \"Gold Standard\" of phone numbers. Indicates you have had a landline since the 90s. Manhattan (Strictly)"
   },
   {
     "id": "1213",
     "code": "213",
     "country": "US",
     "region": "Los Angeles (Downtown)",
-    "city": "DTLA",
+    "city": "Los Angeles",
     "e164": "1213",
     "notes": "The original SoCal code (1947). Now mostly strictly Downtown LA."
   },
@@ -121,7 +121,7 @@
     "code": "216",
     "country": "US",
     "region": "Cleveland",
-    "city": "Cleveland proper",
+    "city": "Cleveland",
     "e164": "1216",
     "notes": "Famous from \"The Drew Carey Show\" and Bone Thugs-N-Harmony songs."
   },
@@ -211,7 +211,7 @@
     "code": "253",
     "country": "US",
     "region": "Tacoma",
-    "city": "",
+    "city": "Tacoma",
     "e164": "1253",
     "notes": "South of Seattle. distinct blue-collar identity from 206."
   },
@@ -238,9 +238,9 @@
     "code": "260",
     "country": "US",
     "region": "Fort Wayne",
-    "city": "Northeast Indiana.",
+    "city": "Fort Wayne",
     "e164": "1260",
-    "notes": ""
+    "notes": "Northeast Indiana."
   },
   {
     "id": "1262",
@@ -283,7 +283,7 @@
     "code": "279",
     "country": "US",
     "region": "Sacramento",
-    "city": "Overlay for 916",
+    "city": "Sacramento",
     "e164": "1279",
     "notes": "Newer overlay for the State Capital."
   },
@@ -310,7 +310,7 @@
     "code": "302",
     "country": "US",
     "region": "Delaware",
-    "city": "Entire State",
+    "city": "Delaware",
     "e164": "1302",
     "notes": ""
   },
@@ -328,7 +328,7 @@
     "code": "304",
     "country": "US",
     "region": "West Virginia",
-    "city": "Entire State",
+    "city": "West Virginia",
     "e164": "1304",
     "notes": "Traditionally covered the whole state (now has overlay 681)."
   },
@@ -346,7 +346,7 @@
     "code": "307",
     "country": "US",
     "region": "Wyoming",
-    "city": "Entire State",
+    "city": "Wyoming",
     "e164": "1307",
     "notes": "**The Big Miss!** Includes Yellowstone and Jackson Hole."
   },
@@ -373,16 +373,16 @@
     "code": "310",
     "country": "US",
     "region": "Los Angeles (Westside)",
-    "city": "Beverly Hills",
+    "city": "Los Angeles",
     "e164": "1310",
-    "notes": "The \"Prestige\" LA code. Implies wealth and beach proximity."
+    "notes": "The \"Prestige\" LA code. Implies wealth and beach proximity. Beverly Hills"
   },
   {
     "id": "1312",
     "code": "312",
     "country": "US",
     "region": "Chicago (The Loop)",
-    "city": "Downtown Chicago",
+    "city": "Chicago",
     "e164": "1312",
     "notes": "Strictly the business/downtown district. The \"212\" of the Midwest."
   },
@@ -391,7 +391,7 @@
     "code": "313",
     "country": "US",
     "region": "Detroit",
-    "city": "",
+    "city": "Detroit",
     "e164": "1313",
     "notes": "Eminem made this famous in the movie *8 Mile*. strictly \"The D.\""
   },
@@ -400,7 +400,7 @@
     "code": "314",
     "country": "US",
     "region": "St. Louis",
-    "city": "",
+    "city": "St. Louis",
     "e164": "1314",
     "notes": "Nelly made this famous with his song \"Ei (Remix)\" shouting out the 314."
   },
@@ -472,7 +472,7 @@
     "code": "323",
     "country": "US",
     "region": "Los Angeles (Central)",
-    "city": "Hollywood",
+    "city": "Los Angeles",
     "e164": "1323",
     "notes": "Historically the \"Cool/Hipster\" code surrounding Downtown."
   },
@@ -490,7 +490,7 @@
     "code": "329",
     "country": "US",
     "region": "Hudson Valley",
-    "city": "Overlay for 845",
+    "city": "Poughkeepsie",
     "e164": "1329",
     "notes": "A very new overlay code for the Poughkeepsie area."
   },
@@ -499,16 +499,16 @@
     "code": "330",
     "country": "US",
     "region": "Akron / Canton",
-    "city": "LeBron James' home region.",
+    "city": "Akron",
     "e164": "1330",
-    "notes": ""
+    "notes": "LeBron James' home region."
   },
   {
     "id": "1331",
     "code": "331",
     "country": "US",
     "region": "Chicago Suburbs",
-    "city": "Overlay for 630 (West Suburbs).",
+    "city": "Naperville",
     "e164": "1331",
     "notes": ""
   },
@@ -517,7 +517,7 @@
     "code": "332",
     "country": "US",
     "region": "Manhattan",
-    "city": "Manhattan Overlay",
+    "city": "New York",
     "e164": "1332",
     "notes": "The newest code for Manhattan. Lacks the status of 212 or 646."
   },
@@ -553,7 +553,7 @@
     "code": "341",
     "country": "US",
     "region": "East Bay",
-    "city": "Overlay for 510",
+    "city": "Oakland",
     "e164": "1341",
     "notes": "Newer overlay for Oakland/Berkeley."
   },
@@ -562,7 +562,7 @@
     "code": "346",
     "country": "US",
     "region": "Houston Metro",
-    "city": "Overlay for 713/281/832",
+    "city": "River Oaks",
     "e164": "1346",
     "notes": "Newer overlay code; lacks the specific geographic identity of 713 or 281."
   },
@@ -571,7 +571,7 @@
     "code": "347",
     "country": "US",
     "region": "NYC Outer Boroughs",
-    "city": "Bronx",
+    "city": "New York",
     "e164": "1347",
     "notes": "The \"Millennial\" NYC code. Common for cell phones issued post-2000."
   },
@@ -580,7 +580,7 @@
     "code": "350",
     "country": "US",
     "region": "Central Valley",
-    "city": "Overlay for 209",
+    "city": "Stockton",
     "e164": "1350",
     "notes": "Newer overlay for Stockton/Modesto."
   },
@@ -616,7 +616,7 @@
     "code": "363",
     "country": "US",
     "region": "Long Island",
-    "city": "Overlay for 516",
+    "city": "Great Neck",
     "e164": "1363",
     "notes": "Newer overlay for Nassau County."
   },
@@ -625,7 +625,7 @@
     "code": "369",
     "country": "US",
     "region": "North Coast",
-    "city": "Overlay for 707",
+    "city": "Napa",
     "e164": "1369",
     "notes": "Future overlay for the Napa/Sonoma wine country area."
   },
@@ -643,7 +643,7 @@
     "code": "401",
     "country": "US",
     "region": "Rhode Island",
-    "city": "Entire State",
+    "city": "Rhode Island",
     "e164": "1401",
     "notes": "The smallest state has just one code."
   },
@@ -679,7 +679,7 @@
     "code": "406",
     "country": "US",
     "region": "Montana",
-    "city": "Entire State",
+    "city": "Montana",
     "e164": "1406",
     "notes": "The 406 is a lifestyle brand in Montana (Big Sky Country)."
   },
@@ -742,7 +742,7 @@
     "code": "414",
     "country": "US",
     "region": "Milwaukee",
-    "city": "Milwaukee proper",
+    "city": "Milwaukee",
     "e164": "1414",
     "notes": "Old school brewing culture code."
   },
@@ -787,7 +787,7 @@
     "code": "424",
     "country": "US",
     "region": "Los Angeles (Westside)",
-    "city": "Overlay for 310",
+    "city": "Los Angeles",
     "e164": "1424",
     "notes": "The code you get when you move to Santa Monica too late to get a 310."
   },
@@ -823,7 +823,7 @@
     "code": "440",
     "country": "US",
     "region": "Cleveland Suburbs",
-    "city": "",
+    "city": "Parma",
     "e164": "1440",
     "notes": "The \"Donut\" code surrounding Cleveland (216)."
   },
@@ -832,7 +832,7 @@
     "code": "442",
     "country": "US",
     "region": "San Diego North",
-    "city": "Overlay for 760",
+    "city": "Oceanside",
     "e164": "1442",
     "notes": "Covers the desert and northern San Diego county."
   },
@@ -841,7 +841,7 @@
     "code": "469",
     "country": "US",
     "region": "Dallas Metro",
-    "city": "Overlay for 214/972",
+    "city": "Downtown",
     "e164": "1469",
     "notes": "Originally assigned to mobile phones and pagers in the late 90s."
   },
@@ -850,9 +850,9 @@
     "code": "470",
     "country": "US",
     "region": "Atlanta Metro",
-    "city": "Newer overlay for 404/770.",
+    "city": "Atlanta",
     "e164": "1470",
-    "notes": ""
+    "notes": "Newer overlay for 404/770."
   },
   {
     "id": "1478",
@@ -929,9 +929,9 @@
   {
     "id": "1506",
     "code": "506",
-    "country": "US",
+    "country": "CA",
     "region": "New Brunswick (Canada)",
-    "city": "Entire Province",
+    "city": "New Brunswick",
     "e164": "1506",
     "notes": "Often confused for a US code  but it's our neighbor to the north."
   },
@@ -1003,18 +1003,18 @@
     "code": "516",
     "country": "US",
     "region": "Long Island (Nassau)",
-    "city": "Great Neck",
+    "city": "Hempstead",
     "e164": "1516",
-    "notes": "The \"Great Gatsby\" code. Wealthy suburbs directly bordering Queens."
+    "notes": "The \"Great Gatsby\" code. Wealthy suburbs directly bordering Queens. Great Neck"
   },
   {
     "id": "1517",
     "code": "517",
     "country": "US",
     "region": "Lansing",
-    "city": "State Capital and Michigan State University (Spartans).",
+    "city": "Lansing",
     "e164": "1517",
-    "notes": ""
+    "notes": "State Capital and Michigan State University (Spartans)."
   },
   {
     "id": "1518",
@@ -1048,7 +1048,7 @@
     "code": "531",
     "country": "US",
     "region": "Eastern Nebraska",
-    "city": "Overlay for 402",
+    "city": "Omaha",
     "e164": "1531",
     "notes": "Newer overlay for Omaha."
   },
@@ -1057,25 +1057,25 @@
     "code": "540",
     "country": "US",
     "region": "Roanoke / Blacksburg",
-    "city": "Virginia Tech area and Shenandoah Valley.",
+    "city": "Roanoke",
     "e164": "1540",
-    "notes": ""
+    "notes": "Virginia Tech area and Shenandoah Valley."
   },
   {
     "id": "1541",
     "code": "541",
     "country": "US",
     "region": "Eugene / Bend",
-    "city": "University of Oregon (Nike birthplace) and high desert.",
+    "city": "Eugene",
     "e164": "1541",
-    "notes": ""
+    "notes": "University of Oregon (Nike birthplace) and high desert."
   },
   {
     "id": "1544",
     "code": "544",
     "country": "US",
     "region": "Central Texas",
-    "city": "Overlay for 254",
+    "city": "Waco",
     "e164": "1544",
     "notes": ""
   },
@@ -1120,16 +1120,16 @@
     "code": "570",
     "country": "US",
     "region": "Scranton / Wilkes-Barre",
-    "city": "Northeast PA. Famous as the setting for *The Office*.",
+    "city": "Scranton / Wilkes-Barre",
     "e164": "1570",
-    "notes": ""
+    "notes": "Northeast PA. Famous as the setting for *The Office*."
   },
   {
     "id": "1571",
     "code": "571",
     "country": "US",
     "region": "Northern Virginia",
-    "city": "Overlay for 703 (DC Suburbs).",
+    "city": "Arlington",
     "e164": "1571",
     "notes": ""
   },
@@ -1138,9 +1138,9 @@
     "code": "573",
     "country": "US",
     "region": "Columbia / Jefferson City",
-    "city": "Mizzou and the Ozarks.",
+    "city": "Columbia",
     "e164": "1573",
-    "notes": ""
+    "notes": "Mizzou and the Ozarks."
   },
   {
     "id": "1574",
@@ -1201,7 +1201,7 @@
     "code": "603",
     "country": "US",
     "region": "New Hampshire",
-    "city": "Entire State",
+    "city": "New Hampshire",
     "e164": "1603",
     "notes": "Live Free or Die code."
   },
@@ -1210,7 +1210,7 @@
     "code": "605",
     "country": "US",
     "region": "South Dakota",
-    "city": "Entire State",
+    "city": "South Dakota",
     "e164": "1605",
     "notes": "Includes Mt. Rushmore and Sturgis."
   },
@@ -1219,9 +1219,9 @@
     "code": "606",
     "country": "US",
     "region": "Eastern Kentucky",
-    "city": "Appalachian coal country.",
+    "city": "Ashland",
     "e164": "1606",
-    "notes": ""
+    "notes": "Appalachian coal country."
   },
   {
     "id": "1607",
@@ -1264,7 +1264,7 @@
     "code": "612",
     "country": "US",
     "region": "Minneapolis",
-    "city": "Minneapolis proper",
+    "city": "Minneapolis",
     "e164": "1612",
     "notes": "Prince was from the 612."
   },
@@ -1273,7 +1273,7 @@
     "code": "614",
     "country": "US",
     "region": "Columbus",
-    "city": "Columbus proper",
+    "city": "Columbus",
     "e164": "1614",
     "notes": "The political and educational center of Ohio."
   },
@@ -1282,7 +1282,7 @@
     "code": "615",
     "country": "US",
     "region": "Nashville",
-    "city": "Nashville proper",
+    "city": "Nashville",
     "e164": "1615",
     "notes": "The \"Music City\" code. Highly coveted by aspiring country stars."
   },
@@ -1291,9 +1291,9 @@
     "code": "616",
     "country": "US",
     "region": "Grand Rapids",
-    "city": "Western Michigan.",
+    "city": "Grand Rapids",
     "e164": "1616",
-    "notes": ""
+    "notes": "Western Michigan."
   },
   {
     "id": "1617",
@@ -1354,7 +1354,7 @@
     "code": "628",
     "country": "US",
     "region": "San Francisco",
-    "city": "Overlay for 415",
+    "city": "San Francisco",
     "e164": "1628",
     "notes": "The new code for SF. Locals will know you are a recent transplant."
   },
@@ -1372,9 +1372,9 @@
     "code": "631",
     "country": "US",
     "region": "Long Island (Suffolk)",
-    "city": "The Hamptons",
+    "city": "Brentwood",
     "e164": "1631",
-    "notes": "The \"Summer Vacation\" code for wealthy Manhattanites."
+    "notes": "The \"Summer Vacation\" code for wealthy Manhattanites. The Hamptons"
   },
   {
     "id": "1641",
@@ -1390,7 +1390,7 @@
     "code": "646",
     "country": "US",
     "region": "Manhattan",
-    "city": "Manhattan Overlay",
+    "city": "New York",
     "e164": "1646",
     "notes": "Introduced in the late 90s. Respectable  but not 212."
   },
@@ -1417,7 +1417,7 @@
     "code": "657",
     "country": "US",
     "region": "Orange County (North)",
-    "city": "Overlay for 714",
+    "city": "Anaheim",
     "e164": "1657",
     "notes": "Newer overlay for Anaheim/Santa Ana."
   },
@@ -1453,7 +1453,7 @@
     "code": "669",
     "country": "US",
     "region": "Silicon Valley",
-    "city": "Overlay for 408",
+    "city": "San Jose",
     "e164": "1669",
     "notes": "Newer overlay for San Jose."
   },
@@ -1462,7 +1462,7 @@
     "code": "678",
     "country": "US",
     "region": "Atlanta Metro",
-    "city": "The first major overlay for Atlanta. Ubiquitous in the metro area.",
+    "city": "Atlanta",
     "e164": "1678",
     "notes": ""
   },
@@ -1471,7 +1471,7 @@
     "code": "680",
     "country": "US",
     "region": "Central NY",
-    "city": "Overlay for 315",
+    "city": "Syracuse",
     "e164": "1680",
     "notes": "Newer overlay for Syracuse."
   },
@@ -1480,7 +1480,7 @@
     "code": "682",
     "country": "US",
     "region": "Fort Worth Metro",
-    "city": "Overlay for 817",
+    "city": "Sundance Square",
     "e164": "1682",
     "notes": "Newer overlay for the Fort Worth side of the Metroplex."
   },
@@ -1489,7 +1489,7 @@
     "code": "701",
     "country": "US",
     "region": "North Dakota",
-    "city": "Entire State",
+    "city": "North Dakota",
     "e164": "1701",
     "notes": ""
   },
@@ -1525,9 +1525,9 @@
     "code": "706",
     "country": "US",
     "region": "Athens / Augusta",
-    "city": "University of Georgia (Bulldogs) and The Masters golf tournament.",
+    "city": "Athens",
     "e164": "1706",
-    "notes": ""
+    "notes": "University of Georgia (Bulldogs) and The Masters golf tournament."
   },
   {
     "id": "1707",
@@ -1588,18 +1588,18 @@
     "code": "717",
     "country": "US",
     "region": "Harrisburg / Lancaster",
-    "city": "Amish Country and the State Capital.",
+    "city": "Harrisburg",
     "e164": "1717",
-    "notes": ""
+    "notes": "Amish Country and the State Capital."
   },
   {
     "id": "1718",
     "code": "718",
     "country": "US",
     "region": "NYC Outer Boroughs",
-    "city": "Brooklyn / Bronx / Queens / Staten Island",
+    "city": "New York",
     "e164": "1718",
-    "notes": "The \"Real New Yorker\" code for many. Not 212  but culturally massive (Biggie/Jay-Z)."
+    "notes": "The \"Real New Yorker\" code for many. Not 212  but culturally massive (Biggie/Jay-Z). Brooklyn / Bronx / Queens / Staten Island"
   },
   {
     "id": "1719",
@@ -1615,7 +1615,7 @@
     "code": "720",
     "country": "US",
     "region": "Denver Metro",
-    "city": "Overlay for 303.",
+    "city": "Denver",
     "e164": "1720",
     "notes": ""
   },
@@ -1624,7 +1624,7 @@
     "code": "724",
     "country": "US",
     "region": "Pittsburgh Suburbs",
-    "city": "Outer ring of Pittsburgh",
+    "city": "Pittsburgh",
     "e164": "1724",
     "notes": "Historically distinct from the city (412)."
   },
@@ -1669,7 +1669,7 @@
     "code": "737",
     "country": "US",
     "region": "Austin Metro",
-    "city": "Overlay for 512",
+    "city": "Downtown",
     "e164": "1737",
     "notes": "The newer code you get when you move to Austin now; lacks the \"old Austin\" status of 512."
   },
@@ -1678,7 +1678,7 @@
     "code": "738",
     "country": "US",
     "region": "Los Angeles",
-    "city": "Overlay for 213/323",
+    "city": "Los Angeles",
     "e164": "1738",
     "notes": "A very new overlay for the downtown/Hollywood area."
   },
@@ -1696,7 +1696,7 @@
     "code": "747",
     "country": "US",
     "region": "San Fernando Valley",
-    "city": "Overlay for 818",
+    "city": "Los Angeles",
     "e164": "1747",
     "notes": "Newer overlay for \"The Valley.\""
   },
@@ -1705,7 +1705,7 @@
     "code": "754",
     "country": "US",
     "region": "Broward County",
-    "city": "Overlay for 954",
+    "city": "Fort Lauderdale",
     "e164": "1754",
     "notes": "Newer overlay for Fort Lauderdale."
   },
@@ -1759,9 +1759,9 @@
     "code": "773",
     "country": "US",
     "region": "Chicago (Neighborhoods)",
-    "city": "Lincoln Park",
+    "city": "Chicago",
     "e164": "1773",
-    "notes": "Covers everything in Chicago that isn't the downtown Loop."
+    "notes": "Covers everything in Chicago that isn't the downtown Loop. Lincoln Park"
   },
   {
     "id": "1775",
@@ -1777,9 +1777,9 @@
     "code": "781",
     "country": "US",
     "region": "Boston Suburbs",
-    "city": "Route 128 tech corridor.",
+    "city": "Waltham",
     "e164": "1781",
-    "notes": ""
+    "notes": "Route 128 tech corridor."
   },
   {
     "id": "1785",
@@ -1795,7 +1795,7 @@
     "code": "786",
     "country": "US",
     "region": "Miami Metro",
-    "city": "Overlay for 305",
+    "city": "South Beach",
     "e164": "1786",
     "notes": "Often associated with newer residents or cell phones. \"305\" is the badge of honor."
   },
@@ -1822,7 +1822,7 @@
     "code": "802",
     "country": "US",
     "region": "Vermont",
-    "city": "Entire State",
+    "city": "Vermont",
     "e164": "1802",
     "notes": "Famous for maple syrup, skiing and fall folliage."
   },
@@ -1831,7 +1831,7 @@
     "code": "803",
     "country": "US",
     "region": "Columbia",
-    "city": "",
+    "city": "Columbia",
     "e164": "1803",
     "notes": "State Capital of South Carolina."
   },
@@ -1858,7 +1858,7 @@
     "code": "808",
     "country": "US",
     "region": "Hawaii",
-    "city": "Entire State",
+    "city": "Hawaii",
     "e164": "1808",
     "notes": "Culturally refers to locals. \"808s\" is also slang for drum machines (Kanye West album)."
   },
@@ -1894,7 +1894,7 @@
     "code": "815",
     "country": "US",
     "region": "Joliet / Rockford",
-    "city": "",
+    "city": "Joliet",
     "e164": "1815",
     "notes": "Northern Illinois outside of Chicago/Suburbs."
   },
@@ -1921,16 +1921,16 @@
     "code": "818",
     "country": "US",
     "region": "The Valley",
-    "city": "Sherman Oaks",
+    "city": "Los Angeles",
     "e164": "1818",
-    "notes": "Pop culture icon (\"Valley Girl\" accent)."
+    "notes": "Pop culture icon (\"Valley Girl\" accent). Sherman Oaks"
   },
   {
     "id": "1820",
     "code": "820",
     "country": "US",
     "region": "Central Coast",
-    "city": "Overlay for 805",
+    "city": "Santa Barbara",
     "e164": "1820",
     "notes": "Newer overlay for Santa Barbara/Ventura."
   },
@@ -1966,7 +1966,7 @@
     "code": "832",
     "country": "US",
     "region": "Houston Metro",
-    "city": "Overlay for 713/281",
+    "city": "River Oaks",
     "e164": "1832",
     "notes": "Commonly assigned to cell phones in the Houston metro since the late 90s."
   },
@@ -1975,7 +1975,7 @@
     "code": "837",
     "country": "US",
     "region": "Central Valley",
-    "city": "Overlay for 530",
+    "city": "Chico",
     "e164": "1837",
     "notes": "Future overlay for Northern California."
   },
@@ -1984,7 +1984,7 @@
     "code": "840",
     "country": "US",
     "region": "Inland Empire",
-    "city": "Overlay for 909",
+    "city": "San Bernardino",
     "e164": "1840",
     "notes": "Newer overlay for San Bernardino."
   },
@@ -2029,7 +2029,7 @@
     "code": "856",
     "country": "US",
     "region": "South Jersey (Camden)",
-    "city": "",
+    "city": "Camden",
     "e164": "1856",
     "notes": "Philly suburbs (Cherry Hill). distinct from the shore (609)."
   },
@@ -2038,7 +2038,7 @@
     "code": "857",
     "country": "US",
     "region": "Boston",
-    "city": "Overlay for 617",
+    "city": "Boston",
     "e164": "1857",
     "notes": "Common for newer cell phones in downtown Boston."
   },
@@ -2056,7 +2056,7 @@
     "code": "859",
     "country": "US",
     "region": "Lexington",
-    "city": "University of Kentucky (Wildcats).",
+    "city": "Lexington",
     "e164": "1859",
     "notes": "University of Kentucky (Wildcats)."
   },
@@ -2074,7 +2074,7 @@
     "code": "862",
     "country": "US",
     "region": "North Jersey",
-    "city": "Overlay for 973",
+    "city": "Newark",
     "e164": "1862",
     "notes": "Newark suburbs."
   },
@@ -2092,7 +2092,7 @@
     "code": "864",
     "country": "US",
     "region": "Greenville / Spartanburg",
-    "city": "",
+    "city": "Greenville",
     "e164": "1864",
     "notes": "Upstate South Carolina. BMW manufacturing hub."
   },
@@ -2101,7 +2101,7 @@
     "code": "865",
     "country": "US",
     "region": "Knoxville",
-    "city": "",
+    "city": "Knoxville",
     "e164": "1865",
     "notes": "University of Tennessee (Vols)."
   },
@@ -2137,7 +2137,7 @@
     "code": "907",
     "country": "US",
     "region": "Alaska",
-    "city": "Entire State",
+    "city": "Alaska",
     "e164": "1907",
     "notes": "The largest geographic area code in the US."
   },
@@ -2155,7 +2155,7 @@
     "code": "910",
     "country": "US",
     "region": "Fayetteville / Wilmington",
-    "city": "",
+    "city": "Fayetteville",
     "e164": "1910",
     "notes": "Fort Liberty (formerly Bragg) and the coast."
   },
@@ -2164,7 +2164,7 @@
     "code": "912",
     "country": "US",
     "region": "Savannah",
-    "city": "",
+    "city": "Savannah",
     "e164": "1912",
     "notes": "Historic coastal Georgia."
   },
@@ -2209,9 +2209,9 @@
     "code": "917",
     "country": "US",
     "region": "New York City",
-    "city": "Mobile Phones / Pagers (originally)",
+    "city": "New York",
     "e164": "1917",
-    "notes": "The first overlay code in NYC (1992). Now a badge of honor for a long-time mobile user."
+    "notes": "The first overlay code in NYC (1992). Now a badge of honor for a long-time mobile user. Mobile Phones / Pagers (originally)"
   },
   {
     "id": "1919",
@@ -2227,7 +2227,7 @@
     "code": "920",
     "country": "US",
     "region": "Green Bay",
-    "city": "",
+    "city": "Green Bay",
     "e164": "1920",
     "notes": "Home of the Packers (Lambeau Field)."
   },
@@ -2254,7 +2254,7 @@
     "code": "929",
     "country": "US",
     "region": "NYC Outer Boroughs",
-    "city": "Overlay for 718/347",
+    "city": "New York",
     "e164": "1929",
     "notes": "The newest active overlay for Brooklyn/Queens."
   },
@@ -2272,7 +2272,7 @@
     "code": "934",
     "country": "US",
     "region": "Long Island (Suffolk)",
-    "city": "Overlay for 631",
+    "city": "Long Island",
     "e164": "1934",
     "notes": "Newer overlay for the Hamptons/Suffolk."
   },
@@ -2290,7 +2290,7 @@
     "code": "937",
     "country": "US",
     "region": "Dayton",
-    "city": "",
+    "city": "Dayton",
     "e164": "1937",
     "notes": "Wright-Patterson AFB and aviation history."
   },
@@ -2362,7 +2362,7 @@
     "code": "971",
     "country": "US",
     "region": "Portland",
-    "city": "Overlay for 503",
+    "city": "Portland",
     "e164": "1971",
     "notes": "The newer Portland code."
   },
@@ -2389,7 +2389,7 @@
     "code": "978",
     "country": "US",
     "region": "Lowell / North Shore",
-    "city": "",
+    "city": "Lowell",
     "e164": "1978",
     "notes": "Historic industrial towns north of Boston."
   },
