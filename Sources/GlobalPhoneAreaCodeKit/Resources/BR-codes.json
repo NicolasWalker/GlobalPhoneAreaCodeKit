@@ -76,18 +76,18 @@
     "code": "21",
     "country": "BR",
     "region": "Rio de Janeiro",
-    "city": "Rio City",
+    "city": "Rio de Janeiro",
     "e164": "5521",
-    "notes": "The \"Hollywood\" code. Copacabana, Beach, Sugar loaf and Christ the Redeemer."
+    "notes": "Classic Brazil: Copacabana, Beach, Sugar loaf and Christ the Redeemer."
   },
   {
     "id": "5522",
     "code": "22",
     "country": "BR",
     "region": "Rio Coast (North)",
-    "city": "Cabo Frio",
+    "city": "Cabo Frio/Buzios",
     "e164": "5522",
-    "notes": "The \"Hamptons\" of Rio. Where the wealthy go for holidays (Búzios)."
+    "notes": "The \"Hamptons\" of Rio. Where the wealthy go for holidays & weekend getaways."
   },
   {
     "id": "5524",
