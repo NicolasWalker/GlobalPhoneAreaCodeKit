@@ -69,6 +69,58 @@ final class GlobalPhoneAreaCodeKitTests: XCTestCase {
         XCTAssertNil(result, "Should not find invalid E.164")
     }
     
+    func testLookupE164SanitizesInput() async throws {
+        let result = try await GlobalPhoneAreaCodeKit.shared.lookup(e164: " +1-212 ")
+        XCTAssertEqual(result?.e164, "1212", "Formatted input should match after digit stripping")
+    }
+    
+    // MARK: - Digit Stripping Tests
+    
+    func testDigitsOnly() {
+        XCTAssertEqual(AreaCode.digitsOnly("+1 (212) 555-1234"), "12125551234")
+        XCTAssertEqual(AreaCode.digitsOnly("00 44 20 7183 8753"), "00442071838753")
+        XCTAssertEqual(AreaCode.digitsOnly("1212"), "1212")
+        XCTAssertEqual(AreaCode.digitsOnly("abc"), "")
+        XCTAssertEqual(AreaCode.digitsOnly(""), "")
+    }
+    
+    // MARK: - Resolve Tests
+    
+    func testResolveUSNumber() async throws {
+        let result = try await GlobalPhoneAreaCodeKit.shared.resolve(fullE164: "+1 (212) 555-1234")
+        XCTAssertEqual(result?.e164, "1212", "Should longest-prefix match to US 212")
+        XCTAssertEqual(result?.country, "US")
+    }
+    
+    func testResolveGBNumber() async throws {
+        let result = try await GlobalPhoneAreaCodeKit.shared.resolve(fullE164: "+442071838753")
+        XCTAssertEqual(result?.e164, "4420", "Should longest-prefix match to London 020")
+        XCTAssertEqual(result?.country, "GB")
+    }
+    
+    func testResolveInternationalDialingPrefix() async throws {
+        let result = try await GlobalPhoneAreaCodeKit.shared.resolve(fullE164: "00442071838753")
+        XCTAssertEqual(result?.e164, "4420", "Leading 00 should be treated as international prefix")
+    }
+    
+    func testResolvePrefersLongestMatch() async throws {
+        // BY 375212 should win over any shorter prefix for a Belarus number
+        let result = try await GlobalPhoneAreaCodeKit.shared.resolve(fullE164: "+375 212 123456")
+        XCTAssertEqual(result?.e164, "375212")
+        XCTAssertEqual(result?.country, "BY")
+    }
+    
+    func testResolveGarbage() async throws {
+        let empty = try await GlobalPhoneAreaCodeKit.shared.resolve(fullE164: "")
+        XCTAssertNil(empty, "Empty input should resolve to nil")
+        
+        let letters = try await GlobalPhoneAreaCodeKit.shared.resolve(fullE164: "not a number")
+        XCTAssertNil(letters, "Non-numeric input should resolve to nil")
+        
+        let unknown = try await GlobalPhoneAreaCodeKit.shared.resolve(fullE164: "999999999999")
+        XCTAssertNil(unknown, "Unknown prefix should resolve to nil")
+    }
+    
     // MARK: - Search Tests
     
     func testSearchByCity() async throws {
@@ -120,6 +172,23 @@ final class GlobalPhoneAreaCodeKitTests: XCTestCase {
         }
     }
     
+    func testCodesForGB() async throws {
+        let gbCodes = try await GlobalPhoneAreaCodeKit.shared.codes(forCountry: "GB")
+        XCTAssertFalse(gbCodes.isEmpty, "Should find GB area codes")
+        
+        for code in gbCodes {
+            XCTAssertEqual(code.country, "GB", "GB data should carry ISO code GB, not UK")
+        }
+    }
+    
+    func testCodesForUKAliasReturnsGB() async throws {
+        let viaAlias = try await GlobalPhoneAreaCodeKit.shared.codes(forCountry: "UK")
+        let viaISO = try await GlobalPhoneAreaCodeKit.shared.codes(forCountry: "GB")
+        
+        XCTAssertFalse(viaAlias.isEmpty, "UK alias should resolve to GB data")
+        XCTAssertEqual(Set(viaAlias), Set(viaISO), "UK alias should return the same set as GB")
+    }
+    
     func testCodesForInvalidCountry() async throws {
         do {
             let codes = try await GlobalPhoneAreaCodeKit.shared.codes(forCountry: "INVALID")
@@ -164,6 +233,81 @@ final class GlobalPhoneAreaCodeKitTests: XCTestCase {
         // Should be unique
         let uniqueCountries = Set(countries)
         XCTAssertEqual(countries.count, uniqueCountries.count, "Countries should be unique")
+    }
+    
+    // MARK: - ISO 3166-1 alpha-2 Tests
+    
+    func testAvailableCountriesAreISO() async throws {
+        let countries = try await GlobalPhoneAreaCodeKit.shared.availableCountries()
+        
+        XCTAssertTrue(countries.contains("GB"), "Should include GB")
+        XCTAssertFalse(countries.contains("UK"), "UK is not an ISO 3166-1 alpha-2 code")
+        
+        for country in countries {
+            XCTAssertEqual(country.count, 2, "\(country) should be a two-letter ISO code")
+            XCTAssertEqual(country, country.uppercased(), "\(country) should be uppercase")
+        }
+    }
+    
+    func testNoRecordUsesUK() async throws {
+        let allCodes = try await GlobalPhoneAreaCodeKit.shared.getAllCodes()
+        XCTAssertFalse(allCodes.contains { $0.country == "UK" }, "No record should carry UK")
+    }
+    
+    func testNormalizeCountryCode() {
+        XCTAssertEqual(AreaCode.normalizeCountryCode("UK"), "GB")
+        XCTAssertEqual(AreaCode.normalizeCountryCode("uk"), "GB")
+        XCTAssertEqual(AreaCode.normalizeCountryCode("USA"), "US")
+        XCTAssertEqual(AreaCode.normalizeCountryCode("gb"), "GB")
+        XCTAssertEqual(AreaCode.normalizeCountryCode("DE"), "DE")
+    }
+    
+    func testGBFlag() async throws {
+        let gbCodes = try await GlobalPhoneAreaCodeKit.shared.codes(forCountry: "GB")
+        XCTAssertEqual(gbCodes.first?.flag, "🇬🇧", "GB should render the Union Jack")
+    }
+    
+    // MARK: - Coordinate Tests
+    
+    func testUSAreaCodeHasCoordinates() async throws {
+        let nyc = try await GlobalPhoneAreaCodeKit.shared.lookup(e164: "1212")
+        XCTAssertNotNil(nyc?.latitude, "US 212 should have a centroid latitude")
+        XCTAssertNotNil(nyc?.longitude, "US 212 should have a centroid longitude")
+        
+        if let lat = nyc?.latitude, let lon = nyc?.longitude {
+            XCTAssertEqual(lat, 40.71427, accuracy: 0.001, "212 centroid should be Manhattan")
+            XCTAssertEqual(lon, -74.00597, accuracy: 0.001)
+        }
+    }
+    
+    func testNonUSAreaCodeHasNoCoordinates() async throws {
+        let london = try await GlobalPhoneAreaCodeKit.shared.lookup(e164: "4420")
+        XCTAssertNotNil(london, "London 020 should exist")
+        XCTAssertNil(london?.latitude, "Non-US codes have no coordinates yet")
+        XCTAssertNil(london?.longitude)
+    }
+    
+    // MARK: - Locale Country Name Tests
+    
+    func testCountryNameUsesLocale() async throws {
+        guard let germany = try await GlobalPhoneAreaCodeKit.shared.codes(forCountry: "DE").first else {
+            XCTFail("Should find German area codes")
+            return
+        }
+        
+        let expected = Locale.current.localizedString(forRegionCode: "DE") ?? "DE"
+        XCTAssertEqual(germany.countryName, expected, "countryName should come from Locale")
+    }
+    
+    func testCountryNameForGB() async throws {
+        guard let gb = try await GlobalPhoneAreaCodeKit.shared.codes(forCountry: "GB").first else {
+            XCTFail("Should find GB area codes")
+            return
+        }
+        
+        let expected = Locale.current.localizedString(forRegionCode: "GB") ?? "GB"
+        XCTAssertEqual(gb.countryName, expected)
+        XCTAssertFalse(gb.countryName.isEmpty)
     }
     
     // MARK: - Data Loading Tests

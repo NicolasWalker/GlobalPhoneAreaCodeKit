@@ -18,6 +18,7 @@
 1228,US,228,MS,Gulf Coast,Biloxi, Gulfport, Ocean Springs,"The ""Coastal Mississippi"" code; casino country."
 1229,US,229,GA,Southwest Georgia,Albany / Valdosta,Home to Plains,, GA (Jimmy Carter's home).
 1239,US,239,FL,Southwest Florida,Naples, Fort Myers, Cape Coral,"Covers the ""Paradise Coast."""
+1240,US,240,MD,Western and southern Maryland,Germantown, Silver Spring, Waldorf, Frederick, Rockville, Bethesda, Gaithersburg, Bowie,"Overlay with 301 and 227. Covers western and southern Maryland, including suburban areas near Washington, D.C. Eastern Time Zone."
 1248,US,248,MI,Detroit Suburbs,Oakland County,,,"(Troy  Birmingham). The ""Wealthy"" Detroit code vs the city's 313."
 1251,US,251,AL,Mobile / Gulf Coast,Mobile Bay,,,Known as the birthplace of the original Mardi Gras.
 1252,US,252,NC,Outer Banks,Rocky Mount / ECU / The Coast,,,"The ""OBX"" code. Popular vacation spot."
@@ -101,7 +102,6 @@
 1503,US,503,OR,Portland,Portland, Salem,,"The original Oregon code. ""Keep Portland Weird"" territory."
 1504,US,504,LA,New Orleans,New Orleans, Metairie, Kenner,"Deep cultural significance; ""The 504 Boyz"" (rap group)."
 1505,US,505,NM,Albuquerque,Albuquerque, Santa Fe,,Historically the whole state. Breaking Bad territory.
-1506,US,506,NB,New Brunswick (Canada),Entire Province,,,Often confused for a US code  but it's our neighbor to the north.
 1507,US,507,MN,Southern MN,Rochester (Mayo Clinic), Mankato.,,
 1508,US,508,MA,Massachusetts (Coast),Cape Cod, Worcester, New Bedford,"The ""Summer Vacation"" code for Bostonians."
 1509,US,509,WA,Eastern Washington,Spokane, Yakima, Walla Walla,The dry agricultural side of the state.
@@ -169,6 +169,7 @@
 1704,US,704,NC,Charlotte,Uptown Charlotte, Concord, Banking hub of the south.,
 1706,US,706,GA,Athens / Augusta,University of Georgia (Bulldogs) and The Masters golf tournament.,,,
 1707,US,707,CA,North Coast,Napa, Sonoma, Humboldt,"Known for Wine Country and the ""Emerald Triangle"" (cannabis culture)."
+1708,US,708,IL,Chicago West Suburbs,Cicero, Oak Park, Berwyn,"The inner western suburbs of Chicago. Distinct from 630 (further west) and 773 (city proper)."
 1712,US,712,IA,Western Iowa,Sioux City / Council Bluffs,,,First caucus voters in the nation.
 1713,US,713,TX,Houston (Core),River Oaks, Montrose,Rice University,"The ""Inside the Loop"" code. Historically defined as strictly inside Interstate 610."
 1714,US,714,CA,Orange County (North),Anaheim, Huntington Beach, Fullerton,"Home to Disneyland and ""No Doubt"" (Gwen Stefani)."

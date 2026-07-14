@@ -29,81 +29,64 @@ public enum AreaCodeError: Error, LocalizedError {
 public struct AreaCode: Codable, Identifiable, Sendable, Hashable {
     public var id: String { e164 }
     public let code: String
+    /// ISO 3166-1 alpha-2 country code (e.g. "US", "GB"). Normalized on decode.
     public let country: String
     public let region: String
     public let city: String
     public let e164: String
     public let notes: String
+    /// Approximate centroid latitude for this area code, when available
+    public let latitude: Double?
+    /// Approximate centroid longitude for this area code, when available
+    public let longitude: Double?
+    
+    private enum CodingKeys: String, CodingKey {
+        case code, country, region, city, e164, notes, latitude, longitude
+    }
+    
+    public init(from decoder: Decoder) throws {
+        let container = try decoder.container(keyedBy: CodingKeys.self)
+        code = try container.decode(String.self, forKey: .code)
+        country = AreaCode.normalizeCountryCode(try container.decode(String.self, forKey: .country))
+        region = try container.decode(String.self, forKey: .region)
+        city = try container.decode(String.self, forKey: .city)
+        e164 = try container.decode(String.self, forKey: .e164)
+        notes = try container.decode(String.self, forKey: .notes)
+        latitude = try container.decodeIfPresent(Double.self, forKey: .latitude)
+        longitude = try container.decodeIfPresent(Double.self, forKey: .longitude)
+    }
+    
+    // MARK: - Normalization Helpers
+    
+    /// Strips all non-digit characters from a phone number string
+    ///
+    /// Use this to sanitize user input before lookups, e.g.
+    /// `"+1 (212) 555-1234"` becomes `"12125551234"`.
+    public static func digitsOnly(_ input: String) -> String {
+        input.filter { $0.isASCII && $0.isNumber }
+    }
+    
+    /// Normalizes a country identifier to ISO 3166-1 alpha-2
+    ///
+    /// Maps common non-ISO aliases (`"UK"` → `"GB"`, `"USA"` → `"US"`)
+    /// and uppercases the result.
+    public static func normalizeCountryCode(_ raw: String) -> String {
+        let upper = raw.trimmingCharacters(in: .whitespaces).uppercased()
+        switch upper {
+        case "UK": return "GB"
+        case "USA": return "US"
+        default: return upper
+        }
+    }
     
     /// Returns the country's flag emoji
     public var flag: String {
         countryCodeToFlag(country)
     }
     
-    /// Returns the full country name when available
+    /// Returns the localized country name derived from the ISO code via `Locale`
     public var countryName: String {
-        switch country.uppercased() {
-        case "US", "USA": return "United States"
-        case "CA": return "Canada"
-        case "GB", "UK": return "United Kingdom"
-        case "DE": return "Germany"
-        case "FR": return "France"
-        case "BR": return "Brazil"
-        case "MX": return "Mexico"
-        case "AD": return "Andorra"
-        case "AG": return "Antigua and Barbuda"
-        case "AL": return "Albania"
-        case "AT": return "Austria"
-        case "BA": return "Bosnia and Herzegovina"
-        case "BB": return "Barbados"
-        case "BE": return "Belgium"
-        case "BG": return "Bulgaria"
-        case "BS": return "Bahamas"
-        case "BY": return "Belarus"
-        case "BZ": return "Belize"
-        case "CH": return "Switzerland"
-        case "CR": return "Costa Rica"
-        case "CU": return "Cuba"
-        case "CY": return "Cyprus"
-        case "CZ": return "Czech Republic"
-        case "DK": return "Denmark"
-        case "EE": return "Estonia"
-        case "ES": return "Spain"
-        case "FI": return "Finland"
-        case "GG": return "Guernsey"
-        case "GI": return "Gibraltar"
-        case "GR": return "Greece"
-        case "HR": return "Croatia"
-        case "HU": return "Hungary"
-        case "IE": return "Ireland"
-        case "IM": return "Isle of Man"
-        case "IS": return "Iceland"
-        case "IT": return "Italy"
-        case "JE": return "Jersey"
-        case "LI": return "Liechtenstein"
-        case "LT": return "Lithuania"
-        case "LU": return "Luxembourg"
-        case "LV": return "Latvia"
-        case "MC": return "Monaco"
-        case "MD": return "Moldova"
-        case "ME": return "Montenegro"
-        case "MK": return "North Macedonia"
-        case "MT": return "Malta"
-        case "NL": return "Netherlands"
-        case "NO": return "Norway"
-        case "PL": return "Poland"
-        case "PT": return "Portugal"
-        case "RO": return "Romania"
-        case "RS": return "Serbia"
-        case "RU": return "Russia"
-        case "SE": return "Sweden"
-        case "SI": return "Slovenia"
-        case "SK": return "Slovakia"
-        case "SM": return "San Marino"
-        case "UA": return "Ukraine"
-        case "VA": return "Vatican City"
-        default: return country
-        }
+        Locale.current.localizedString(forRegionCode: country.uppercased()) ?? country
     }
     
     /// A formatted display name suitable for lists
@@ -134,12 +117,9 @@ public struct AreaCode: Codable, Identifiable, Sendable, Hashable {
     // MARK: - Private Helpers
     
     private func countryCodeToFlag(_ countryCode: String) -> String {
-        let code = countryCode.uppercased()
+        let code = AreaCode.normalizeCountryCode(countryCode)
         
-        // Handle special cases
-        guard code.count == 2 else {
-            if code == "UK" { return "🇬🇧" }
-            if code == "USA" { return "🇺🇸" }
+        guard code.count == 2, code.allSatisfy({ $0.isASCII && $0.isLetter }) else {
             return "🌍"
         }
         
@@ -170,6 +150,9 @@ public struct AreaCode: Codable, Identifiable, Sendable, Hashable {
 /// ```swift
 /// let kit = GlobalPhoneAreaCodeKit.shared
 ///
+/// // Resolve a full phone number to its area code (longest-prefix match)
+/// let nyc = try await kit.resolve(fullE164: "+1 (212) 555-1234")
+///
 /// // Look up a specific area code
 /// let results = try await kit.lookup(code: "212")
 ///
@@ -191,6 +174,12 @@ public actor GlobalPhoneAreaCodeKit {
     
     /// Cache of area codes by country code
     private var countryCache: [String: [AreaCode]] = [:]
+    
+    /// Cached E.164 prefix index for `resolve(fullE164:)`
+    private var e164Index: [String: AreaCode]?
+    
+    /// Length of the longest known E.164 prefix (bounds the resolve walk)
+    private var maxE164Length = 0
     
     /// Whether data is currently being loaded
     private var isLoading = false
@@ -238,22 +227,61 @@ public actor GlobalPhoneAreaCodeKit {
     
     /// Look up area codes by code number
     ///
+    /// Input is sanitized with `AreaCode.digitsOnly(_:)`, so formatted
+    /// strings like `"(212)"` match as well.
+    ///
     /// - Parameter code: The area code to search for (e.g., "212", "416")
     /// - Returns: Array of matching area codes (multiple entries for overlapping codes)
     /// - Throws: `AreaCodeError` if data cannot be loaded
     public func lookup(code: String) async throws -> [AreaCode] {
+        let digits = AreaCode.digitsOnly(code)
+        guard !digits.isEmpty else { return [] }
         let allCodes = try await getAllCodes()
-        return allCodes.filter { $0.code == code }
+        return allCodes.filter { $0.code == digits }
     }
     
-    /// Look up an area code by E.164 format
+    /// Look up an area code by exact E.164 prefix
     ///
-    /// - Parameter e164: The E.164 number to search for (e.g., "1212")
+    /// Input is sanitized with `AreaCode.digitsOnly(_:)`, so `"+1212"`
+    /// and `"1212"` are equivalent. For matching a full phone number,
+    /// use `resolve(fullE164:)` instead.
+    ///
+    /// - Parameter e164: The E.164 prefix to search for (e.g., "1212")
     /// - Returns: The matching area code, or nil if not found
     /// - Throws: `AreaCodeError` if data cannot be loaded
     public func lookup(e164: String) async throws -> AreaCode? {
+        let digits = AreaCode.digitsOnly(e164)
+        guard !digits.isEmpty else { return nil }
         let allCodes = try await getAllCodes()
-        return allCodes.first { $0.e164 == e164 }
+        return allCodes.first { $0.e164 == digits }
+    }
+    
+    /// Resolve a full phone number to its area code using longest-prefix matching
+    ///
+    /// The input may contain any formatting (`+`, spaces, dashes, parentheses);
+    /// it is reduced to digits before matching. A leading international dialing
+    /// prefix `00` is stripped. The longest known E.164 prefix wins, e.g.
+    /// `"+1 (212) 555-1234"` resolves to the `1212` entry rather than a shorter match.
+    ///
+    /// - Parameter fullE164: A full phone number in any common format
+    /// - Returns: The area code whose E.164 prefix is the longest match, or nil
+    /// - Throws: `AreaCodeError` if data cannot be loaded
+    public func resolve(fullE164: String) async throws -> AreaCode? {
+        var digits = AreaCode.digitsOnly(fullE164)
+        if digits.hasPrefix("00") {
+            digits.removeFirst(2)
+        }
+        guard !digits.isEmpty else { return nil }
+        
+        let index = try await getE164Index()
+        var length = min(maxE164Length, digits.count)
+        while length > 0 {
+            if let match = index[String(digits.prefix(length))] {
+                return match
+            }
+            length -= 1
+        }
+        return nil
     }
     
     /// Search area codes by city, region, or notes
@@ -273,12 +301,14 @@ public actor GlobalPhoneAreaCodeKit {
     /// Get all area codes for a specific country
     ///
     /// This method uses a country-specific cache for better performance.
+    /// Input is normalized to ISO 3166-1 alpha-2, so aliases like `"UK"`
+    /// (for `"GB"`) and `"USA"` (for `"US"`) are accepted.
     ///
-    /// - Parameter country: Country code (e.g., "US", "CA") or name
+    /// - Parameter country: ISO 3166-1 alpha-2 country code (e.g., "US", "CA")
     /// - Returns: Array of area codes for the specified country
     /// - Throws: `AreaCodeError` if data cannot be loaded
     public func codes(forCountry country: String) async throws -> [AreaCode] {
-        let normalizedCountry = country.uppercased()
+        let normalizedCountry = AreaCode.normalizeCountryCode(country)
         
         // Check cache first
         if let cached = countryCache[normalizedCountry] {
@@ -291,11 +321,9 @@ public actor GlobalPhoneAreaCodeKit {
             return countryCodes
         }
         
-        // Fall back to filtering all codes (for country name searches)
+        // Fall back to filtering all codes
         let allCodes = try await getAllCodes()
-        let filtered = allCodes.filter { 
-            $0.country.localizedCaseInsensitiveContains(country) 
-        }
+        let filtered = allCodes.filter { $0.country == normalizedCountry }
         
         // Cache the result
         countryCache[normalizedCountry] = filtered
@@ -321,7 +349,7 @@ public actor GlobalPhoneAreaCodeKit {
     
     /// Get all unique countries available in the dataset
     ///
-    /// - Returns: Array of unique country codes (sorted)
+    /// - Returns: Array of unique ISO 3166-1 alpha-2 country codes (sorted)
     /// - Throws: `AreaCodeError` if data cannot be loaded
     public func availableCountries() async throws -> [String] {
         let allCodes = try await getAllCodes()
@@ -334,8 +362,30 @@ public actor GlobalPhoneAreaCodeKit {
     public func clearCache() {
         allCodesCache = nil
         countryCache.removeAll()
+        e164Index = nil
+        maxE164Length = 0
         loadTask?.cancel()
         loadTask = nil
+    }
+    
+    // MARK: - Private Index
+    
+    /// Builds (once) and returns the E.164 prefix index used by `resolve(fullE164:)`
+    private func getE164Index() async throws -> [String: AreaCode] {
+        if let index = e164Index {
+            return index
+        }
+        
+        let allCodes = try await getAllCodes()
+        var index: [String: AreaCode] = [:]
+        index.reserveCapacity(allCodes.count)
+        for areaCode in allCodes where index[areaCode.e164] == nil {
+            index[areaCode.e164] = areaCode
+        }
+        
+        e164Index = index
+        maxE164Length = index.keys.map(\.count).max() ?? 0
+        return index
     }
     
     // MARK: - Private Loading Methods

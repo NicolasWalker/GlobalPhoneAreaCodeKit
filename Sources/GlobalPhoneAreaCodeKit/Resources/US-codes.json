@@ -6,7 +6,9 @@
     "region": "North Jersey",
     "city": "Jersey City",
     "e164": "1201",
-    "notes": "The very first area code ever assigned (1947). Home to the Sopranos settings."
+    "notes": "The very first area code ever assigned (1947). Home to the Sopranos settings.",
+    "latitude": 40.83885,
+    "longitude": -74.045678125
   },
   {
     "id": "1202",
@@ -15,7 +17,9 @@
     "region": "Washington D.C.",
     "city": "Washington D.C.",
     "e164": "1202",
-    "notes": "Strictly the District. A status symbol for politicos and lobbyists."
+    "notes": "Strictly the District. A status symbol for politicos and lobbyists.",
+    "latitude": 38.89511,
+    "longitude": -77.03637
   },
   {
     "id": "1203",
@@ -24,7 +28,9 @@
     "region": "Southwest Connecticut",
     "city": "Fairfield County",
     "e164": "1203",
-    "notes": "The \"Gold Coast\" of Connecticut; hedge fund country close to NYC."
+    "notes": "The \"Gold Coast\" of Connecticut; hedge fund country close to NYC.",
+    "latitude": 41.291798125,
+    "longitude": -73.122453125
   },
   {
     "id": "1205",
@@ -33,7 +39,9 @@
     "region": "Birmingham",
     "city": "Birmingham",
     "e164": "1205",
-    "notes": "Historically covered the entire state of Alabama."
+    "notes": "Historically covered the entire state of Alabama.",
+    "latitude": 33.427671111111,
+    "longitude": -86.886473333333
   },
   {
     "id": "1206",
@@ -42,7 +50,9 @@
     "region": "Seattle",
     "city": "Seattle",
     "e164": "1206",
-    "notes": "The original grunge-era code. Suburbs like Bellevue are 425."
+    "notes": "The original grunge-era code. Suburbs like Bellevue are 425.",
+    "latitude": 47.564027142857,
+    "longitude": -122.34897571429
   },
   {
     "id": "1207",
@@ -51,7 +61,9 @@
     "region": "Maine",
     "city": "Maine",
     "e164": "1207",
-    "notes": "One of the few remaining single-code states. \"The 207\" is a point of state pride."
+    "notes": "One of the few remaining single-code states. \"The 207\" is a point of state pride.",
+    "latitude": 44.000005,
+    "longitude": -69.987965
   },
   {
     "id": "1208",
@@ -60,7 +72,9 @@
     "region": "Idaho",
     "city": "Idaho",
     "e164": "1208",
-    "notes": "Idaho is famously protective of its \"208\" identity despite new overlays."
+    "notes": "Idaho is famously protective of its \"208\" identity despite new overlays.",
+    "latitude": 44.415674,
+    "longitude": -115.558462
   },
   {
     "id": "1209",
@@ -69,7 +83,9 @@
     "region": "Central Valley",
     "city": "Stockton",
     "e164": "1209",
-    "notes": "Agricultural hub; famously shouted out by the Diaz brothers (UFC fighters)."
+    "notes": "Agricultural hub; famously shouted out by the Diaz brothers (UFC fighters).",
+    "latitude": 37.604049,
+    "longitude": -120.999087
   },
   {
     "id": "1210",
@@ -78,7 +94,9 @@
     "region": "San Antonio",
     "city": "Downtown",
     "e164": "1210",
-    "notes": "The \"Military City\" code. One of the original Texas area codes."
+    "notes": "The \"Military City\" code. One of the original Texas area codes.",
+    "latitude": 29.42412,
+    "longitude": -98.49363
   },
   {
     "id": "1212",
@@ -87,7 +105,9 @@
     "region": "Manhattan",
     "city": "New York",
     "e164": "1212",
-    "notes": "The \"Gold Standard\" of phone numbers. Indicates you have had a landline since the 90s."
+    "notes": "The \"Gold Standard\" of phone numbers. Indicates you have had a landline since the 90s.",
+    "latitude": 40.71427,
+    "longitude": -74.00597
   },
   {
     "id": "1213",
@@ -96,7 +116,9 @@
     "region": "Los Angeles (Downtown)",
     "city": "Los Angeles",
     "e164": "1213",
-    "notes": "The original SoCal code (1947). Now mostly strictly Downtown LA."
+    "notes": "The original SoCal code (1947). Now mostly strictly Downtown LA.",
+    "latitude": 34.05223,
+    "longitude": -118.24368
   },
   {
     "id": "1214",
@@ -105,7 +127,9 @@
     "region": "Dallas (Core)",
     "city": "Downtown",
     "e164": "1214",
-    "notes": "The original Dallas code. historically considered the \"prestige\" code vs. the suburban 972."
+    "notes": "The original Dallas code. historically considered the \"prestige\" code vs. the suburban 972.",
+    "latitude": 32.863500833333,
+    "longitude": -96.837767916667
   },
   {
     "id": "1215",
@@ -114,7 +138,9 @@
     "region": "Philadelphia",
     "city": "Philadelphia",
     "e164": "1215",
-    "notes": "The original Philly code. \"The 215\" vs the suburban \"610\"."
+    "notes": "The original Philly code. \"The 215\" vs the suburban \"610\".",
+    "latitude": 40.05372,
+    "longitude": -74.99628
   },
   {
     "id": "1216",
@@ -123,7 +149,9 @@
     "region": "Cleveland",
     "city": "Cleveland",
     "e164": "1216",
-    "notes": "Famous from \"The Drew Carey Show\" and Bone Thugs-N-Harmony songs."
+    "notes": "Famous from \"The Drew Carey Show\" and Bone Thugs-N-Harmony songs.",
+    "latitude": 41.4749,
+    "longitude": -81.616895454545
   },
   {
     "id": "1217",
@@ -132,7 +160,9 @@
     "region": "Central Illinois",
     "city": "Springfield",
     "e164": "1217",
-    "notes": "Home to the State Capitol and University of Illinois."
+    "notes": "Home to the State Capitol and University of Illinois.",
+    "latitude": 39.917895714286,
+    "longitude": -88.895028571429
   },
   {
     "id": "1219",
@@ -141,7 +171,9 @@
     "region": "Northwest Indiana",
     "city": "Gary",
     "e164": "1219",
-    "notes": "Culturally part of the Chicago metro area (suburbs) but in Indiana."
+    "notes": "Culturally part of the Chicago metro area (suburbs) but in Indiana.",
+    "latitude": 41.566263333333,
+    "longitude": -87.2636
   },
   {
     "id": "1225",
@@ -150,7 +182,9 @@
     "region": "Baton Rouge",
     "city": "Baton Rouge",
     "e164": "1225",
-    "notes": "spells \"CAJ\" on the dial pad."
+    "notes": "spells \"CAJ\" on the dial pad.",
+    "latitude": 30.45075,
+    "longitude": -91.15455
   },
   {
     "id": "1228",
@@ -159,7 +193,9 @@
     "region": "Gulf Coast",
     "city": "Biloxi",
     "e164": "1228",
-    "notes": "The \"Coastal Mississippi\" code; casino country."
+    "notes": "The \"Coastal Mississippi\" code; casino country.",
+    "latitude": 30.388626666667,
+    "longitude": -88.845213333333
   },
   {
     "id": "1229",
@@ -168,7 +204,9 @@
     "region": "Southwest Georgia",
     "city": "Albany / Valdosta",
     "e164": "1229",
-    "notes": "GA (Jimmy Carter's home)."
+    "notes": "GA (Jimmy Carter's home).",
+    "latitude": 31.205925,
+    "longitude": -83.71803
   },
   {
     "id": "1239",
@@ -177,7 +215,9 @@
     "region": "Southwest Florida",
     "city": "Naples",
     "e164": "1239",
-    "notes": "Covers the \"Paradise Coast.\""
+    "notes": "Covers the \"Paradise Coast.\"",
+    "latitude": 26.456114285714,
+    "longitude": -81.800608571429
   },
   {
     "id": "1248",
@@ -186,7 +226,9 @@
     "region": "Detroit Suburbs",
     "city": "Oakland County (Troy / Birmingham)",
     "e164": "1248",
-    "notes": "The \"Wealthy\" Detroit code vs the city's 313."
+    "notes": "The \"Wealthy\" Detroit code vs the city's 313.",
+    "latitude": 42.543724615385,
+    "longitude": -83.262428461538
   },
   {
     "id": "1251",
@@ -195,7 +237,9 @@
     "region": "Mobile / Gulf Coast",
     "city": "Mobile Bay",
     "e164": "1251",
-    "notes": "Known as the birthplace of the original Mardi Gras."
+    "notes": "Known as the birthplace of the original Mardi Gras.",
+    "latitude": 30.71658,
+    "longitude": -88.06097
   },
   {
     "id": "1252",
@@ -204,7 +248,9 @@
     "region": "Outer Banks",
     "city": "Rocky Mount / ECU / The Coast",
     "e164": "1252",
-    "notes": "The \"OBX\" code. Popular vacation spot."
+    "notes": "The \"OBX\" code. Popular vacation spot.",
+    "latitude": 35.42039,
+    "longitude": -77.43325
   },
   {
     "id": "1253",
@@ -213,7 +259,9 @@
     "region": "Tacoma",
     "city": "Tacoma",
     "e164": "1253",
-    "notes": "South of Seattle. distinct blue-collar identity from 206."
+    "notes": "South of Seattle. distinct blue-collar identity from 206.",
+    "latitude": 47.228641,
+    "longitude": -122.365951
   },
   {
     "id": "1254",
@@ -222,7 +270,9 @@
     "region": "Central Texas",
     "city": "Waco",
     "e164": "1254",
-    "notes": "Known for the Magnolia Market (Chip & Joanna Gaines) and military history."
+    "notes": "Known for the Magnolia Market (Chip & Joanna Gaines) and military history.",
+    "latitude": 31.204726,
+    "longitude": -97.579188
   },
   {
     "id": "1256",
@@ -231,7 +281,9 @@
     "region": "North Alabama",
     "city": "Huntsville",
     "e164": "1256",
-    "notes": "Known as \"Rocket City\" (NASA Marshall Space Flight Center)."
+    "notes": "Known as \"Rocket City\" (NASA Marshall Space Flight Center).",
+    "latitude": 34.418243333333,
+    "longitude": -86.638881666667
   },
   {
     "id": "1260",
@@ -240,7 +292,9 @@
     "region": "Fort Wayne",
     "city": "Fort Wayne",
     "e164": "1260",
-    "notes": "Northeast Indiana."
+    "notes": "Northeast Indiana.",
+    "latitude": 41.1306,
+    "longitude": -85.12886
   },
   {
     "id": "1262",
@@ -249,7 +303,9 @@
     "region": "Milwaukee Suburbs",
     "city": "Waukesha",
     "e164": "1262",
-    "notes": "The conservative suburban ring around Milwaukee (414)."
+    "notes": "The conservative suburban ring around Milwaukee (414).",
+    "latitude": 42.991375,
+    "longitude": -88.039892
   },
   {
     "id": "1269",
@@ -258,7 +314,9 @@
     "region": "Kalamazoo",
     "city": "Southwest Michigan",
     "e164": "1269",
-    "notes": "Home to Western Michigan University."
+    "notes": "Home to Western Michigan University.",
+    "latitude": 42.270053333333,
+    "longitude": -85.448463333333
   },
   {
     "id": "1270",
@@ -267,7 +325,9 @@
     "region": "Western Kentucky",
     "city": "Paducah / Bowling Green",
     "e164": "1270",
-    "notes": "Home to the National Corvette Museum."
+    "notes": "Home to the National Corvette Museum.",
+    "latitude": 37.44057,
+    "longitude": -87.006631428571
   },
   {
     "id": "1276",
@@ -276,7 +336,9 @@
     "region": "Southwest Virginia",
     "city": "Bristol",
     "e164": "1276",
-    "notes": "The birthplace of Country Music (Bristol Motor Speedway area)."
+    "notes": "The birthplace of Country Music (Bristol Motor Speedway area).",
+    "latitude": 37.55376,
+    "longitude": -77.46026
   },
   {
     "id": "1279",
@@ -294,7 +356,9 @@
     "region": "Houston (Suburbs)",
     "city": "Katy",
     "e164": "1281",
-    "notes": "Historically the suburban ring outside the \"610 Loop.\" Now overlays the whole city."
+    "notes": "Historically the suburban ring outside the \"610 Loop.\" Now overlays the whole city.",
+    "latitude": 29.709178888889,
+    "longitude": -95.300398888889
   },
   {
     "id": "1301",
@@ -303,7 +367,20 @@
     "region": "Maryland (DC Suburbs)",
     "city": "Bethesda",
     "e164": "1301",
-    "notes": "Historically the whole state; now implies the wealthy DC suburbs."
+    "notes": "Historically the whole state; now implies the wealthy DC suburbs.",
+    "latitude": 39.047505,
+    "longitude": -77.121279285714
+  },
+  {
+    "id": "1240",
+    "code": "240",
+    "country": "US",
+    "region": "Western and southern Maryland",
+    "city": "Germantown",
+    "e164": "1240",
+    "notes": "Overlay with 301 and 227. Covers western and southern Maryland, including suburban areas near Washington, D.C. Eastern Time Zone.",
+    "latitude": 39.047505,
+    "longitude": -77.121279285714
   },
   {
     "id": "1302",
@@ -312,7 +389,9 @@
     "region": "Delaware",
     "city": "Delaware",
     "e164": "1302",
-    "notes": ""
+    "notes": "",
+    "latitude": 39.52928,
+    "longitude": -75.606873333333
   },
   {
     "id": "1303",
@@ -321,7 +400,9 @@
     "region": "Denver",
     "city": "Denver",
     "e164": "1303",
-    "notes": "The original Colorado code. 720 is the overlay  but 303 is the \"native\" badge."
+    "notes": "The original Colorado code. 720 is the overlay  but 303 is the \"native\" badge.",
+    "latitude": 39.77755625,
+    "longitude": -105.00266666667
   },
   {
     "id": "1304",
@@ -330,7 +411,9 @@
     "region": "West Virginia",
     "city": "West Virginia",
     "e164": "1304",
-    "notes": "Traditionally covered the whole state (now has overlay 681)."
+    "notes": "Traditionally covered the whole state (now has overlay 681).",
+    "latitude": 39.361145,
+    "longitude": -81.162093333333
   },
   {
     "id": "1305",
@@ -339,7 +422,9 @@
     "region": "Miami",
     "city": "South Beach",
     "e164": "1305",
-    "notes": "The ultimate \"212\" of Florida. \"The 305\" is a cultural brand made famous by Pitbull."
+    "notes": "The ultimate \"212\" of Florida. \"The 305\" is a cultural brand made famous by Pitbull.",
+    "latitude": 25.740417037037,
+    "longitude": -80.35898037037
   },
   {
     "id": "1307",
@@ -348,7 +433,9 @@
     "region": "Wyoming",
     "city": "Wyoming",
     "e164": "1307",
-    "notes": "Includes Yellowstone and Jackson Hole."
+    "notes": "Includes Yellowstone and Jackson Hole.",
+    "latitude": 42.4022675,
+    "longitude": -105.5566625
   },
   {
     "id": "1308",
@@ -357,7 +444,9 @@
     "region": "Western Nebraska",
     "city": "Grand Island / Kearney",
     "e164": "1308",
-    "notes": "The rural western half of the state (Cornhusker country)."
+    "notes": "The rural western half of the state (Cornhusker country).",
+    "latitude": 40.91612,
+    "longitude": -99.396303333333
   },
   {
     "id": "1309",
@@ -366,7 +455,9 @@
     "region": "Central Illinois",
     "city": "Peoria / Bloomington",
     "e164": "1309",
-    "notes": "Home to Caterpillar HQ history."
+    "notes": "Home to Caterpillar HQ history.",
+    "latitude": 40.93229,
+    "longitude": -89.855943333333
   },
   {
     "id": "1310",
@@ -375,7 +466,9 @@
     "region": "Los Angeles (Westside)",
     "city": "Los Angeles / Beverly Hills",
     "e164": "1310",
-    "notes": "The \"Prestige\" LA code. Implies wealth and beach proximity."
+    "notes": "The \"Prestige\" LA code. Implies wealth and beach proximity.",
+    "latitude": 33.899128125,
+    "longitude": -118.352904375
   },
   {
     "id": "1312",
@@ -384,7 +477,9 @@
     "region": "Chicago (The Loop)",
     "city": "Chicago",
     "e164": "1312",
-    "notes": "Strictly the business/downtown district. The \"212\" of the Midwest."
+    "notes": "Strictly the business/downtown district. The \"212\" of the Midwest.",
+    "latitude": 41.88475,
+    "longitude": -88.20396
   },
   {
     "id": "1313",
@@ -393,7 +488,9 @@
     "region": "Detroit",
     "city": "Detroit",
     "e164": "1313",
-    "notes": "Eminem made this famous in the movie *8 Mile*. strictly \"The D.\""
+    "notes": "Eminem made this famous in the movie *8 Mile*. strictly \"The D.\"",
+    "latitude": 42.312228888889,
+    "longitude": -83.201191111111
   },
   {
     "id": "1314",
@@ -402,7 +499,9 @@
     "region": "St. Louis",
     "city": "St. Louis",
     "e164": "1314",
-    "notes": "Nelly made this famous with his song \"Ei (Remix)\" shouting out the 314."
+    "notes": "Nelly made this famous with his song \"Ei (Remix)\" shouting out the 314.",
+    "latitude": 38.649496666667,
+    "longitude": -90.323053333333
   },
   {
     "id": "1315",
@@ -411,7 +510,9 @@
     "region": "Central NY",
     "city": "Syracuse",
     "e164": "1315",
-    "notes": "Home to the Snow Belt and Syracuse University."
+    "notes": "Home to the Snow Belt and Syracuse University.",
+    "latitude": 43.253676,
+    "longitude": -75.862524
   },
   {
     "id": "1316",
@@ -420,7 +521,9 @@
     "region": "Wichita",
     "city": "Wichita metro",
     "e164": "1316",
-    "notes": "Historically covered all of southern Kansas."
+    "notes": "Historically covered all of southern Kansas.",
+    "latitude": 37.69224,
+    "longitude": -97.33754
   },
   {
     "id": "1317",
@@ -429,7 +532,9 @@
     "region": "Indianapolis",
     "city": "Indianapolis metro",
     "e164": "1317",
-    "notes": "known as the \"Indy\" code."
+    "notes": "known as the \"Indy\" code.",
+    "latitude": 39.866706666667,
+    "longitude": -86.071743333333
   },
   {
     "id": "1318",
@@ -438,7 +543,9 @@
     "region": "North Louisiana",
     "city": "Shreveport / Monroe",
     "e164": "1318",
-    "notes": "Distinct culture from the Cajun south (337/504)."
+    "notes": "Distinct culture from the Cajun south (337/504).",
+    "latitude": 32.278824,
+    "longitude": -92.942602
   },
   {
     "id": "1319",
@@ -447,7 +554,9 @@
     "region": "Eastern Iowa",
     "city": "Iowa City",
     "e164": "1319",
-    "notes": "Home to the University of Iowa."
+    "notes": "Home to the University of Iowa.",
+    "latitude": 41.921948333333,
+    "longitude": -91.778878333333
   },
   {
     "id": "1320",
@@ -456,7 +565,9 @@
     "region": "Central Minnesota",
     "city": "St. Cloud",
     "e164": "1320",
-    "notes": ""
+    "notes": "",
+    "latitude": 45.5608,
+    "longitude": -94.16249
   },
   {
     "id": "1321",
@@ -465,7 +576,9 @@
     "region": "Space Coast / Orlando",
     "city": "Cape Canaveral / Orlando",
     "e164": "1321",
-    "notes": "The only area code that is a countdown (3-2-1) in honor of rocket launches at NASA."
+    "notes": "The only area code that is a countdown (3-2-1) in honor of rocket launches at NASA.",
+    "latitude": 28.3756865,
+    "longitude": -81.1535335
   },
   {
     "id": "1323",
@@ -474,7 +587,9 @@
     "region": "Los Angeles (Central)",
     "city": "Los Angeles",
     "e164": "1323",
-    "notes": "Historically the \"Cool/Hipster\" code surrounding Downtown."
+    "notes": "Historically the \"Cool/Hipster\" code surrounding Downtown.",
+    "latitude": 33.987178181818,
+    "longitude": -118.21200545455
   },
   {
     "id": "1325",
@@ -483,7 +598,9 @@
     "region": "West Central Texas",
     "city": "Abilene",
     "e164": "1325",
-    "notes": "Covers a massive rural area of ranching country."
+    "notes": "Covers a massive rural area of ranching country.",
+    "latitude": 31.956255,
+    "longitude": -100.08509
   },
   {
     "id": "1329",
@@ -501,7 +618,9 @@
     "region": "Akron / Canton",
     "city": "Akron",
     "e164": "1330",
-    "notes": "LeBron James' home region."
+    "notes": "LeBron James' home region.",
+    "latitude": 41.063504444444,
+    "longitude": -81.314626111111
   },
   {
     "id": "1331",
@@ -510,7 +629,9 @@
     "region": "Chicago Suburbs",
     "city": "Naperville",
     "e164": "1331",
-    "notes": ""
+    "notes": "",
+    "latitude": 41.8771732,
+    "longitude": -88.0948236
   },
   {
     "id": "1332",
@@ -528,7 +649,9 @@
     "region": "Montgomery",
     "city": "Montgomery",
     "e164": "1334",
-    "notes": "Civil Rights history hub."
+    "notes": "Civil Rights history hub.",
+    "latitude": 32.187855,
+    "longitude": -85.86078875
   },
   {
     "id": "1336",
@@ -537,7 +660,9 @@
     "region": "Piedmont Triad",
     "city": "Greensboro",
     "e164": "1336",
-    "notes": "Tobacco and furniture country."
+    "notes": "Tobacco and furniture country.",
+    "latitude": 35.986358,
+    "longitude": -79.858592
   },
   {
     "id": "1337",
@@ -546,7 +671,9 @@
     "region": "Lafayette",
     "city": "Southwest Louisiana",
     "e164": "1337",
-    "notes": "The heart of \"Cajun Country\" (Acadiana)."
+    "notes": "The heart of \"Cajun Country\" (Acadiana).",
+    "latitude": 30.242168,
+    "longitude": -92.500372
   },
   {
     "id": "1341",
@@ -564,7 +691,9 @@
     "region": "Houston Metro",
     "city": "River Oaks",
     "e164": "1346",
-    "notes": "Newer overlay code; lacks the specific geographic identity of 713 or 281."
+    "notes": "Newer overlay code; lacks the specific geographic identity of 713 or 281.",
+    "latitude": 29.709178888889,
+    "longitude": -95.300398888889
   },
   {
     "id": "1347",
@@ -573,7 +702,9 @@
     "region": "NYC Outer Boroughs",
     "city": "New York",
     "e164": "1347",
-    "notes": "The \"Millennial\" NYC code. Common for cell phones issued post-2000."
+    "notes": "The \"Millennial\" NYC code. Common for cell phones issued post-2000.",
+    "latitude": 40.691608,
+    "longitude": -73.959668
   },
   {
     "id": "1350",
@@ -591,7 +722,9 @@
     "region": "Gainesville / Ocala",
     "city": "University of Florida campus",
     "e164": "1352",
-    "notes": "Known as the \"Nature Coast\" code."
+    "notes": "Known as the \"Nature Coast\" code.",
+    "latitude": 28.372005,
+    "longitude": -81.7805925
   },
   {
     "id": "1360",
@@ -600,7 +733,9 @@
     "region": "Western Washington",
     "city": "Olympia",
     "e164": "1360",
-    "notes": "Vancouver. Everything in West WA that isn't Seattle/Tacoma."
+    "notes": "Vancouver. Everything in West WA that isn't Seattle/Tacoma.",
+    "latitude": 47.411182222222,
+    "longitude": -122.57029111111
   },
   {
     "id": "1361",
@@ -609,7 +744,9 @@
     "region": "Corpus Christi",
     "city": "Padre Island",
     "e164": "1361",
-    "notes": "The \"Coastal Bend\" code."
+    "notes": "The \"Coastal Bend\" code.",
+    "latitude": 28.040573333333,
+    "longitude": -97.418696666667
   },
   {
     "id": "1363",
@@ -636,7 +773,9 @@
     "region": "Daytona Beach",
     "city": "Daytona International Speedway",
     "e164": "1386",
-    "notes": "Home of the Daytona 500."
+    "notes": "Home of the Daytona 500.",
+    "latitude": 29.167798571429,
+    "longitude": -81.110851428571
   },
   {
     "id": "1401",
@@ -645,7 +784,9 @@
     "region": "Rhode Island",
     "city": "Rhode Island",
     "e164": "1401",
-    "notes": "The smallest state has just one code."
+    "notes": "The smallest state has just one code.",
+    "latitude": 41.773583,
+    "longitude": -71.418123
   },
   {
     "id": "1402",
@@ -654,7 +795,9 @@
     "region": "Eastern Nebraska",
     "city": "Omaha",
     "e164": "1402",
-    "notes": "Warren Buffett lives in the 402."
+    "notes": "Warren Buffett lives in the 402.",
+    "latitude": 41.238971428571,
+    "longitude": -96.881062857143
   },
   {
     "id": "1404",
@@ -663,7 +806,9 @@
     "region": "Atlanta (ITP)",
     "city": "Inside the Perimeter (I-285)",
     "e164": "1404",
-    "notes": "The \"Real Atlanta\" code. Suburbanites have 770 or 678."
+    "notes": "The \"Real Atlanta\" code. Suburbanites have 770 or 678.",
+    "latitude": 33.734668888889,
+    "longitude": -84.372366666667
   },
   {
     "id": "1405",
@@ -672,7 +817,9 @@
     "region": "Oklahoma City",
     "city": "Oklahoma City metro",
     "e164": "1405",
-    "notes": "University of Oklahoma territory."
+    "notes": "University of Oklahoma territory.",
+    "latitude": 35.504228,
+    "longitude": -97.413675
   },
   {
     "id": "1406",
@@ -681,7 +828,9 @@
     "region": "Montana",
     "city": "Montana",
     "e164": "1406",
-    "notes": "The 406 is a lifestyle brand in Montana (Big Sky Country)."
+    "notes": "The 406 is a lifestyle brand in Montana (Big Sky Country).",
+    "latitude": 46.40531,
+    "longitude": -111.567485
   },
   {
     "id": "1407",
@@ -690,7 +839,9 @@
     "region": "Orlando (Core)",
     "city": "Downtown Orlando",
     "e164": "1407",
-    "notes": "The primary Orlando code. Recognized globally due to Disney and tourism."
+    "notes": "The primary Orlando code. Recognized globally due to Disney and tourism.",
+    "latitude": 28.393690666667,
+    "longitude": -81.308249333333
   },
   {
     "id": "1408",
@@ -699,7 +850,9 @@
     "region": "Silicon Valley",
     "city": "San Jose",
     "e164": "1408",
-    "notes": "The code for Apple HQ. High-tech history."
+    "notes": "The code for Apple HQ. High-tech history.",
+    "latitude": 37.267165555556,
+    "longitude": -121.88483222222
   },
   {
     "id": "1409",
@@ -708,7 +861,9 @@
     "region": "Southeast Texas",
     "city": "Galveston Island",
     "e164": "1409",
-    "notes": "Historically included Houston until 1983. Now mostly coastal/industrial."
+    "notes": "Historically included Houston until 1983. Now mostly coastal/industrial.",
+    "latitude": 29.66411,
+    "longitude": -94.436145
   },
   {
     "id": "1410",
@@ -717,7 +872,9 @@
     "region": "Baltimore",
     "city": "Baltimore City",
     "e164": "1410",
-    "notes": "Known for \"The Wire\" and crabcakes."
+    "notes": "Known for \"The Wire\" and crabcakes.",
+    "latitude": 39.249978709677,
+    "longitude": -76.587990645161
   },
   {
     "id": "1412",
@@ -726,7 +883,9 @@
     "region": "Pittsburgh",
     "city": "Pittsburgh",
     "e164": "1412",
-    "notes": "One of the original 1947 codes."
+    "notes": "One of the original 1947 codes.",
+    "latitude": 40.399266666667,
+    "longitude": -79.919527777778
   },
   {
     "id": "1413",
@@ -735,7 +894,9 @@
     "region": "Western Mass",
     "city": "The Berkshires",
     "e164": "1413",
-    "notes": "Distinctly rural/academic vibe compared to Boston's 617."
+    "notes": "Distinctly rural/academic vibe compared to Boston's 617.",
+    "latitude": 42.19644625,
+    "longitude": -72.713425
   },
   {
     "id": "1414",
@@ -744,7 +905,9 @@
     "region": "Milwaukee",
     "city": "Milwaukee",
     "e164": "1414",
-    "notes": "Old school brewing culture code."
+    "notes": "Old school brewing culture code.",
+    "latitude": 42.946165714286,
+    "longitude": -87.950007142857
   },
   {
     "id": "1415",
@@ -753,7 +916,9 @@
     "region": "San Francisco",
     "city": "San Francisco",
     "e164": "1415",
-    "notes": "The tech prestige code. Startups crave a 415 number for legitimacy."
+    "notes": "The tech prestige code. Startups crave a 415 number for legitimacy.",
+    "latitude": 37.927565,
+    "longitude": -122.517545
   },
   {
     "id": "1417",
@@ -762,7 +927,9 @@
     "region": "Southwest Missouri",
     "city": "Springfield / Branson",
     "e164": "1417",
-    "notes": "The Ozarks / Bass Pro Shops HQ"
+    "notes": "The Ozarks / Bass Pro Shops HQ",
+    "latitude": 37.14978,
+    "longitude": -93.90576
   },
   {
     "id": "1419",
@@ -771,7 +938,9 @@
     "region": "Northwest Ohio",
     "city": "Toledo",
     "e164": "1419",
-    "notes": "Historically covered half of Ohio."
+    "notes": "Historically covered half of Ohio.",
+    "latitude": 41.128782857143,
+    "longitude": -83.21476
   },
   {
     "id": "1423",
@@ -780,7 +949,9 @@
     "region": "East Tennessee",
     "city": "Chattanooga / Johnson City",
     "e164": "1423",
-    "notes": ""
+    "notes": "",
+    "latitude": 35.841677142857,
+    "longitude": -83.68173
   },
   {
     "id": "1424",
@@ -789,7 +960,9 @@
     "region": "Los Angeles (Westside)",
     "city": "Los Angeles",
     "e164": "1424",
-    "notes": "The code you get when you move to Santa Monica too late to get a 310."
+    "notes": "The code you get when you move to Santa Monica too late to get a 310.",
+    "latitude": 33.899128125,
+    "longitude": -118.352904375
   },
   {
     "id": "1425",
@@ -798,7 +971,9 @@
     "region": "Seattle Suburbs (Eastside)",
     "city": "Bellevue",
     "e164": "1425",
-    "notes": "The \"Tech Suburb\" code (Microsoft HQ). Wealthier suburban vibe."
+    "notes": "The \"Tech Suburb\" code (Microsoft HQ). Wealthier suburban vibe.",
+    "latitude": 47.733239285714,
+    "longitude": -121.86407785714
   },
   {
     "id": "1432",
@@ -807,7 +982,9 @@
     "region": "West Texas (Permian Basin)",
     "city": "Midland",
     "e164": "1432",
-    "notes": "The heart of Texas oil country and \"Friday Night Lights.\""
+    "notes": "The heart of Texas oil country and \"Friday Night Lights.\"",
+    "latitude": 32.030033333333,
+    "longitude": -102.01847
   },
   {
     "id": "1435",
@@ -816,7 +993,9 @@
     "region": "Rural Utah",
     "city": "Park City / Moab / St. George",
     "e164": "1435",
-    "notes": "Includes all the National Parks (Zion  Arches) and Ski Resorts."
+    "notes": "Includes all the National Parks (Zion  Arches) and Ski Resorts.",
+    "latitude": 39.270445,
+    "longitude": -112.68724
   },
   {
     "id": "1440",
@@ -825,7 +1004,9 @@
     "region": "Cleveland Suburbs",
     "city": "Parma",
     "e164": "1440",
-    "notes": "The \"Donut\" code surrounding Cleveland (216)."
+    "notes": "The \"Donut\" code surrounding Cleveland (216).",
+    "latitude": 41.479659333333,
+    "longitude": -81.697331333333
   },
   {
     "id": "1442",
@@ -834,7 +1015,9 @@
     "region": "San Diego North",
     "city": "Oceanside",
     "e164": "1442",
-    "notes": "Covers the desert and northern San Diego county."
+    "notes": "Covers the desert and northern San Diego county.",
+    "latitude": 33.669568095238,
+    "longitude": -116.75811238095
   },
   {
     "id": "1469",
@@ -843,7 +1026,9 @@
     "region": "Dallas Metro",
     "city": "Downtown",
     "e164": "1469",
-    "notes": "Originally assigned to mobile phones and pagers in the late 90s."
+    "notes": "Originally assigned to mobile phones and pagers in the late 90s.",
+    "latitude": 32.869057826087,
+    "longitude": -96.826015652174
   },
   {
     "id": "1470",
@@ -861,7 +1046,9 @@
     "region": "Middle Georgia",
     "city": "Macon / Warner Robins",
     "e164": "1478",
-    "notes": "Home of the Allman Brothers Band history."
+    "notes": "Home of the Allman Brothers Band history.",
+    "latitude": 32.730835,
+    "longitude": -83.61615
   },
   {
     "id": "1479",
@@ -870,7 +1057,9 @@
     "region": "Northwest Arkansas",
     "city": "Fayetteville / Bentonville",
     "e164": "1479",
-    "notes": "Home to Walmart HQ and the Arkansas Razorbacks."
+    "notes": "Home to Walmart HQ and the Arkansas Razorbacks.",
+    "latitude": 35.849136,
+    "longitude": -93.987424
   },
   {
     "id": "1480",
@@ -879,7 +1068,9 @@
     "region": "Phoenix (East Valley)",
     "city": "Scottsdale",
     "e164": "1480",
-    "notes": "Generally considered the \"wealthy/upscale\" part of the Phoenix metro."
+    "notes": "Generally considered the \"wealthy/upscale\" part of the Phoenix metro.",
+    "latitude": 33.431751428571,
+    "longitude": -111.79106428571
   },
   {
     "id": "1501",
@@ -888,7 +1079,9 @@
     "region": "Little Rock",
     "city": "Central Arkansas",
     "e164": "1501",
-    "notes": "The \"Clinton\" code (governor's mansion area)."
+    "notes": "The \"Clinton\" code (governor's mansion area).",
+    "latitude": 34.768187142857,
+    "longitude": -92.421822857143
   },
   {
     "id": "1502",
@@ -897,7 +1090,9 @@
     "region": "Louisville",
     "city": "Louisville",
     "e164": "1502",
-    "notes": "Home of the Kentucky Derby."
+    "notes": "Home of the Kentucky Derby.",
+    "latitude": 38.227575,
+    "longitude": -85.316345
   },
   {
     "id": "1503",
@@ -906,7 +1101,9 @@
     "region": "Portland",
     "city": "Portland",
     "e164": "1503",
-    "notes": "The original Oregon code. \"Keep Portland Weird\" territory."
+    "notes": "The original Oregon code. \"Keep Portland Weird\" territory.",
+    "latitude": 45.347859333333,
+    "longitude": -122.79654266667
   },
   {
     "id": "1504",
@@ -915,7 +1112,9 @@
     "region": "New Orleans",
     "city": "New Orleans",
     "e164": "1504",
-    "notes": "Deep cultural significance; \"The 504 Boyz\" (rap group)."
+    "notes": "Deep cultural significance; \"The 504 Boyz\" (rap group).",
+    "latitude": 29.941272857143,
+    "longitude": -90.092177142857
   },
   {
     "id": "1505",
@@ -924,16 +1123,9 @@
     "region": "Albuquerque",
     "city": "Albuquerque",
     "e164": "1505",
-    "notes": "Historically the whole state. Breaking Bad territory."
-  },
-  {
-    "id": "1506",
-    "code": "506",
-    "country": "CA",
-    "region": "New Brunswick (Canada)",
-    "city": "New Brunswick",
-    "e164": "1506",
-    "notes": "Often confused for a US code  but it's our neighbor to the north."
+    "notes": "Historically the whole state. Breaking Bad territory.",
+    "latitude": 35.545173333333,
+    "longitude": -107.14879333333
   },
   {
     "id": "1507",
@@ -942,7 +1134,9 @@
     "region": "Southern MN",
     "city": "Rochester (Mayo Clinic)",
     "e164": "1507",
-    "notes": ""
+    "notes": "",
+    "latitude": 44.048388333333,
+    "longitude": -92.93543
   },
   {
     "id": "1508",
@@ -951,7 +1145,9 @@
     "region": "Massachusetts (Coast)",
     "city": "Cape Cod",
     "e164": "1508",
-    "notes": "The \"Summer Vacation\" code for Bostonians."
+    "notes": "The \"Summer Vacation\" code for Bostonians.",
+    "latitude": 42.006992727273,
+    "longitude": -71.224194545455
   },
   {
     "id": "1509",
@@ -960,7 +1156,9 @@
     "region": "Eastern Washington",
     "city": "Spokane",
     "e164": "1509",
-    "notes": "The dry agricultural side of the state."
+    "notes": "The dry agricultural side of the state.",
+    "latitude": 46.765124444444,
+    "longitude": -118.73412111111
   },
   {
     "id": "1510",
@@ -969,7 +1167,9 @@
     "region": "East Bay",
     "city": "Oakland",
     "e164": "1510",
-    "notes": "Historically the counter-culture/activist counterpart to SF's 415."
+    "notes": "Historically the counter-culture/activist counterpart to SF's 415.",
+    "latitude": 37.43248,
+    "longitude": -121.80745230769
   },
   {
     "id": "1512",
@@ -978,7 +1178,9 @@
     "region": "Austin (Core)",
     "city": "Downtown",
     "e164": "1512",
-    "notes": "The original Austin code. Extremely coveted as the city became a tech hub."
+    "notes": "The original Austin code. Extremely coveted as the city became a tech hub.",
+    "latitude": 30.359314,
+    "longitude": -97.772174
   },
   {
     "id": "1513",
@@ -987,7 +1189,9 @@
     "region": "Cincinnati",
     "city": "Cincinnati",
     "e164": "1513",
-    "notes": "Original code; distinct identity from Cleveland/Columbus."
+    "notes": "Original code; distinct identity from Cleveland/Columbus.",
+    "latitude": 39.349302857143,
+    "longitude": -84.498834285714
   },
   {
     "id": "1515",
@@ -996,7 +1200,9 @@
     "region": "Des Moines",
     "city": "Central Iowa",
     "e164": "1515",
-    "notes": "Political hub due to the Iowa Caucuses."
+    "notes": "Political hub due to the Iowa Caucuses.",
+    "latitude": 41.840495,
+    "longitude": -93.75476
   },
   {
     "id": "1516",
@@ -1005,7 +1211,9 @@
     "region": "Long Island (Nassau)",
     "city": "Hempstead / Great Neck",
     "e164": "1516",
-    "notes": "The \"Great Gatsby\" code. Wealthy suburbs directly bordering Queens."
+    "notes": "The \"Great Gatsby\" code. Wealthy suburbs directly bordering Queens.",
+    "latitude": 40.701854736842,
+    "longitude": -73.598140526316
   },
   {
     "id": "1517",
@@ -1014,7 +1222,9 @@
     "region": "Lansing",
     "city": "Lansing",
     "e164": "1517",
-    "notes": "State Capital and Michigan State University (Spartans)."
+    "notes": "State Capital and Michigan State University (Spartans).",
+    "latitude": 42.487028333333,
+    "longitude": -84.137551666667
   },
   {
     "id": "1518",
@@ -1023,7 +1233,9 @@
     "region": "Upstate NY",
     "city": "Albany",
     "e164": "1518",
-    "notes": "Home to the State Capital and massive state parks."
+    "notes": "Home to the State Capital and massive state parks.",
+    "latitude": 42.819186,
+    "longitude": -73.833068
   },
   {
     "id": "1520",
@@ -1032,7 +1244,9 @@
     "region": "Tucson",
     "city": "Tucson",
     "e164": "1520",
-    "notes": "Home of the University of Arizona."
+    "notes": "Home of the University of Arizona.",
+    "latitude": 32.118015714286,
+    "longitude": -110.97648428571
   },
   {
     "id": "1530",
@@ -1041,7 +1255,9 @@
     "region": "Northern California",
     "city": "Chico",
     "e164": "1530",
-    "notes": "Lake Tahoe. The outdoor adventure hub."
+    "notes": "Lake Tahoe. The outdoor adventure hub.",
+    "latitude": 39.338822857143,
+    "longitude": -121.56659428571
   },
   {
     "id": "1531",
@@ -1050,7 +1266,9 @@
     "region": "Eastern Nebraska",
     "city": "Omaha",
     "e164": "1531",
-    "notes": "Newer overlay for Omaha."
+    "notes": "Newer overlay for Omaha.",
+    "latitude": 41.238971428571,
+    "longitude": -96.881062857143
   },
   {
     "id": "1540",
@@ -1059,7 +1277,9 @@
     "region": "Roanoke / Blacksburg",
     "city": "Roanoke",
     "e164": "1540",
-    "notes": "Virginia Tech area and Shenandoah Valley."
+    "notes": "Virginia Tech area and Shenandoah Valley.",
+    "latitude": 37.829541428571,
+    "longitude": -79.504057142857
   },
   {
     "id": "1541",
@@ -1068,7 +1288,9 @@
     "region": "Eugene / Bend",
     "city": "Eugene",
     "e164": "1541",
-    "notes": "University of Oregon (Nike birthplace) and high desert."
+    "notes": "University of Oregon (Nike birthplace) and high desert.",
+    "latitude": 43.77279625,
+    "longitude": -123.19441625
   },
   {
     "id": "1544",
@@ -1086,7 +1308,9 @@
     "region": "Central Valley (South)",
     "city": "Fresno",
     "e164": "1559",
-    "notes": "The Raisin Capital of the world and gateway to Yosemite."
+    "notes": "The Raisin Capital of the world and gateway to Yosemite.",
+    "latitude": 36.50766,
+    "longitude": -119.5360325
   },
   {
     "id": "1561",
@@ -1095,7 +1319,9 @@
     "region": "Palm Beach County",
     "city": "Palm Beach Island",
     "e164": "1561",
-    "notes": "Wealthy coastal enclave; the \"Gold Coast\" of Florida."
+    "notes": "Wealthy coastal enclave; the \"Gold Coast\" of Florida.",
+    "latitude": 26.555793333333,
+    "longitude": -80.135440833333
   },
   {
     "id": "1562",
@@ -1104,7 +1330,9 @@
     "region": "Long Beach",
     "city": "Long Beach",
     "e164": "1562",
-    "notes": "Famous in 90s rap (Snoop Dogg/Sublime). Culturally distinct from LA proper."
+    "notes": "Famous in 90s rap (Snoop Dogg/Sublime). Culturally distinct from LA proper.",
+    "latitude": 33.897952857143,
+    "longitude": -118.08427714286
   },
   {
     "id": "1563",
@@ -1113,7 +1341,9 @@
     "region": "Eastern Iowa",
     "city": "Davenport / Quad Cities",
     "e164": "1563",
-    "notes": "Border region along the Mississippi River."
+    "notes": "Border region along the Mississippi River.",
+    "latitude": 41.763524,
+    "longitude": -90.59797
   },
   {
     "id": "1570",
@@ -1122,7 +1352,9 @@
     "region": "Scranton / Wilkes-Barre",
     "city": "Scranton / Wilkes-Barre",
     "e164": "1570",
-    "notes": "Northeast PA. Famous as the setting for *The Office*."
+    "notes": "Northeast PA. Famous as the setting for *The Office*.",
+    "latitude": 41.238118,
+    "longitude": -76.10365
   },
   {
     "id": "1571",
@@ -1131,7 +1363,9 @@
     "region": "Northern Virginia",
     "city": "Arlington",
     "e164": "1571",
-    "notes": ""
+    "notes": "",
+    "latitude": 38.8324725,
+    "longitude": -77.270965
   },
   {
     "id": "1573",
@@ -1140,7 +1374,9 @@
     "region": "Columbia / Jefferson City",
     "city": "Columbia",
     "e164": "1573",
-    "notes": "Mizzou and the Ozarks."
+    "notes": "Mizzou and the Ozarks.",
+    "latitude": 38.278096666667,
+    "longitude": -91.341913333333
   },
   {
     "id": "1574",
@@ -1149,7 +1385,9 @@
     "region": "North Central Indiana",
     "city": "South Bend",
     "e164": "1574",
-    "notes": "Home of the University of Notre Dame."
+    "notes": "Home of the University of Notre Dame.",
+    "latitude": 41.672602,
+    "longitude": -86.066116
   },
   {
     "id": "1575",
@@ -1158,7 +1396,9 @@
     "region": "Rural New Mexico",
     "city": "Taos / Roswell / Las Cruces",
     "e164": "1575",
-    "notes": "Covers the UFO crash site (Roswell) and White Sands."
+    "notes": "Covers the UFO crash site (Roswell) and White Sands.",
+    "latitude": 33.022383333333,
+    "longitude": -104.63893833333
   },
   {
     "id": "1580",
@@ -1167,7 +1407,9 @@
     "region": "Rural Oklahoma",
     "city": "Enid / Lawton",
     "e164": "1580",
-    "notes": "The vast majority of Oklahoma's land area."
+    "notes": "The vast majority of Oklahoma's land area.",
+    "latitude": 35.170991666667,
+    "longitude": -97.964955
   },
   {
     "id": "1585",
@@ -1176,7 +1418,9 @@
     "region": "Western NY",
     "city": "Rochester",
     "e164": "1585",
-    "notes": "Home of Kodak and the \"Garbage Plate.\""
+    "notes": "Home of Kodak and the \"Garbage Plate.\"",
+    "latitude": 43.171913333333,
+    "longitude": -77.581943333333
   },
   {
     "id": "1601",
@@ -1185,7 +1429,9 @@
     "region": "Mississippi",
     "city": "Jackson",
     "e164": "1601",
-    "notes": "Historically the whole state."
+    "notes": "Historically the whole state.",
+    "latitude": 32.197054285714,
+    "longitude": -89.961072857143
   },
   {
     "id": "1602",
@@ -1194,7 +1440,9 @@
     "region": "Phoenix (Core)",
     "city": "Central Phoenix",
     "e164": "1602",
-    "notes": "One of the original codes; formerly covered the whole state."
+    "notes": "One of the original codes; formerly covered the whole state.",
+    "latitude": 33.44838,
+    "longitude": -112.07404
   },
   {
     "id": "1603",
@@ -1203,7 +1451,9 @@
     "region": "New Hampshire",
     "city": "New Hampshire",
     "e164": "1603",
-    "notes": "Live Free or Die code."
+    "notes": "Live Free or Die code.",
+    "latitude": 43.04893875,
+    "longitude": -71.33472
   },
   {
     "id": "1605",
@@ -1212,7 +1462,9 @@
     "region": "South Dakota",
     "city": "South Dakota",
     "e164": "1605",
-    "notes": "Includes Mt. Rushmore and Sturgis."
+    "notes": "Includes Mt. Rushmore and Sturgis.",
+    "latitude": 44.472588,
+    "longitude": -99.176772
   },
   {
     "id": "1606",
@@ -1221,7 +1473,9 @@
     "region": "Eastern Kentucky",
     "city": "Ashland",
     "e164": "1606",
-    "notes": "Appalachian coal country."
+    "notes": "Appalachian coal country.",
+    "latitude": 38.47841,
+    "longitude": -82.63794
   },
   {
     "id": "1607",
@@ -1230,7 +1484,9 @@
     "region": "Southern Tier",
     "city": "Binghamton",
     "e164": "1607",
-    "notes": "Home to Cornell University. Rural and academic vibes."
+    "notes": "Home to Cornell University. Rural and academic vibes.",
+    "latitude": 42.209706666667,
+    "longitude": -76.407436666667
   },
   {
     "id": "1608",
@@ -1239,7 +1495,9 @@
     "region": "Madison",
     "city": "Madison / Wisconsin Dells",
     "e164": "1608",
-    "notes": "University of Wisconsin (Badgers). A major college town code."
+    "notes": "University of Wisconsin (Badgers). A major college town code.",
+    "latitude": 43.042495,
+    "longitude": -89.563915
   },
   {
     "id": "1609",
@@ -1248,7 +1506,9 @@
     "region": "South Jersey",
     "city": "Trenton",
     "e164": "1609",
-    "notes": "Culturally Philadelphia-aligned (Eagles fans) vs. 201's Giants fans."
+    "notes": "Culturally Philadelphia-aligned (Eagles fans) vs. 201's Giants fans.",
+    "latitude": 39.9697625,
+    "longitude": -74.7087
   },
   {
     "id": "1610",
@@ -1257,7 +1517,9 @@
     "region": "Philadelphia Suburbs",
     "city": "The Main Line",
     "e164": "1610",
-    "notes": "One of the wealthiest suburban corridors in the US."
+    "notes": "One of the wealthiest suburban corridors in the US.",
+    "latitude": 40.251023,
+    "longitude": -75.457804
   },
   {
     "id": "1612",
@@ -1266,7 +1528,9 @@
     "region": "Minneapolis",
     "city": "Minneapolis",
     "e164": "1612",
-    "notes": "Prince was from the 612."
+    "notes": "Prince was from the 612.",
+    "latitude": 44.9708,
+    "longitude": -93.32084
   },
   {
     "id": "1614",
@@ -1275,7 +1539,9 @@
     "region": "Columbus",
     "city": "Columbus",
     "e164": "1614",
-    "notes": "The political and educational center of Ohio."
+    "notes": "The political and educational center of Ohio.",
+    "latitude": 40.008745,
+    "longitude": -83.0058775
   },
   {
     "id": "1615",
@@ -1284,7 +1550,9 @@
     "region": "Nashville",
     "city": "Nashville",
     "e164": "1615",
-    "notes": "The \"Music City\" code. Highly coveted by aspiring country stars."
+    "notes": "The \"Music City\" code. Highly coveted by aspiring country stars.",
+    "latitude": 36.10672375,
+    "longitude": -86.5878425
   },
   {
     "id": "1616",
@@ -1293,7 +1561,9 @@
     "region": "Grand Rapids",
     "city": "Grand Rapids",
     "e164": "1616",
-    "notes": "Western Michigan."
+    "notes": "Western Michigan.",
+    "latitude": 42.915765,
+    "longitude": -85.73082
   },
   {
     "id": "1617",
@@ -1302,7 +1572,9 @@
     "region": "Boston",
     "city": "Downtown",
     "e164": "1617",
-    "notes": "The \"Smartest\" area code (Harvard/MIT). Original 1947 code."
+    "notes": "The \"Smartest\" area code (Harvard/MIT). Original 1947 code.",
+    "latitude": 42.348581818182,
+    "longitude": -71.100127272727
   },
   {
     "id": "1618",
@@ -1311,7 +1583,9 @@
     "region": "Southern Illinois",
     "city": "Carbondale",
     "e164": "1618",
-    "notes": "Culturally distinct from Chicago; closer to St. Louis/Kentucky."
+    "notes": "Culturally distinct from Chicago; closer to St. Louis/Kentucky.",
+    "latitude": 38.56595375,
+    "longitude": -89.9325675
   },
   {
     "id": "1619",
@@ -1320,7 +1594,9 @@
     "region": "San Diego (Core)",
     "city": "Downtown SD",
     "e164": "1619",
-    "notes": "The \"Top Gun\" code. The original San Diego identifier."
+    "notes": "The \"Top Gun\" code. The original San Diego identifier.",
+    "latitude": 32.720583333333,
+    "longitude": -117.04660416667
   },
   {
     "id": "1620",
@@ -1329,7 +1605,9 @@
     "region": "Southern Kansas",
     "city": "Dodge City / Hutchinson",
     "e164": "1620",
-    "notes": "Wild West history (\"Get out of Dodge\")."
+    "notes": "Wild West history (\"Get out of Dodge\").",
+    "latitude": 38.0473075,
+    "longitude": -98.7502925
   },
   {
     "id": "1623",
@@ -1338,7 +1616,9 @@
     "region": "West Phoenix",
     "city": "Glendale / Peoria",
     "e164": "1623",
-    "notes": "Home to the Arizona Cardinals stadium."
+    "notes": "Home to the Arizona Cardinals stadium.",
+    "latitude": 33.5849,
+    "longitude": -112.29812166667
   },
   {
     "id": "1626",
@@ -1347,7 +1627,9 @@
     "region": "Pasadena",
     "city": "San Gabriel Valley. Home of the Rose Bowl.",
     "e164": "1626",
-    "notes": ""
+    "notes": "",
+    "latitude": 34.0783752,
+    "longitude": -118.0051808
   },
   {
     "id": "1628",
@@ -1356,7 +1638,9 @@
     "region": "San Francisco",
     "city": "San Francisco",
     "e164": "1628",
-    "notes": "The new code for SF. Locals will know you are a recent transplant."
+    "notes": "The new code for SF. Locals will know you are a recent transplant.",
+    "latitude": 37.927565,
+    "longitude": -122.517545
   },
   {
     "id": "1630",
@@ -1365,7 +1649,9 @@
     "region": "Chicago West Suburbs",
     "city": "Naperville",
     "e164": "1630",
-    "notes": "Aurora. The \"Tech Corridor\" of Illinois."
+    "notes": "Aurora. The \"Tech Corridor\" of Illinois.",
+    "latitude": 41.8771732,
+    "longitude": -88.0948236
   },
   {
     "id": "1631",
@@ -1374,7 +1660,9 @@
     "region": "Long Island (Suffolk)",
     "city": "Brentwood / The Hamptons",
     "e164": "1631",
-    "notes": "The \"Summer Vacation\" code for wealthy Manhattanites."
+    "notes": "The \"Summer Vacation\" code for wealthy Manhattanites.",
+    "latitude": 40.79404826087,
+    "longitude": -73.20643
   },
   {
     "id": "1641",
@@ -1383,7 +1671,9 @@
     "region": "Central Iowa",
     "city": "Mason City",
     "e164": "1641",
-    "notes": "Famous for being the area code of \"Free Conference Call\" numbers."
+    "notes": "Famous for being the area code of \"Free Conference Call\" numbers.",
+    "latitude": 42.074336666667,
+    "longitude": -92.840106666667
   },
   {
     "id": "1646",
@@ -1392,7 +1682,9 @@
     "region": "Manhattan",
     "city": "New York",
     "e164": "1646",
-    "notes": "Introduced in the late 90s. Respectable  but not 212."
+    "notes": "Introduced in the late 90s. Respectable  but not 212.",
+    "latitude": 40.71427,
+    "longitude": -74.00597
   },
   {
     "id": "1650",
@@ -1401,7 +1693,9 @@
     "region": "The Peninsula",
     "city": "Palo Alto",
     "e164": "1650",
-    "notes": "The Venture Capital / Facebook HQ code."
+    "notes": "The Venture Capital / Facebook HQ code.",
+    "latitude": 37.53483375,
+    "longitude": -122.284655625
   },
   {
     "id": "1651",
@@ -1410,7 +1704,9 @@
     "region": "St. Paul",
     "city": "St. Paul (The Twin Cities)",
     "e164": "1651",
-    "notes": "The \"Twin\" to Minneapolis (612)."
+    "notes": "The \"Twin\" to Minneapolis (612).",
+    "latitude": 44.912425714286,
+    "longitude": -93.084087857143
   },
   {
     "id": "1657",
@@ -1419,7 +1715,9 @@
     "region": "Orange County (North)",
     "city": "Anaheim",
     "e164": "1657",
-    "notes": "Newer overlay for Anaheim/Santa Ana."
+    "notes": "Newer overlay for Anaheim/Santa Ana.",
+    "latitude": 33.804700666667,
+    "longitude": -117.92452266667
   },
   {
     "id": "1660",
@@ -1428,7 +1726,9 @@
     "region": "North Missouri",
     "city": "Kirksville / Maryville",
     "e164": "1660",
-    "notes": ""
+    "notes": "",
+    "latitude": 38.70446,
+    "longitude": -93.22826
   },
   {
     "id": "1661",
@@ -1437,7 +1737,9 @@
     "region": "Kern County",
     "city": "Bakersfield",
     "e164": "1661",
-    "notes": "Home to the \"Bakersfield Sound\" (Country Music) and Magic Mountain."
+    "notes": "Home to the \"Bakersfield Sound\" (Country Music) and Magic Mountain.",
+    "latitude": 35.117865714286,
+    "longitude": -118.77457857143
   },
   {
     "id": "1662",
@@ -1446,7 +1748,9 @@
     "region": "North Mississippi",
     "city": "Oxford / Tupelo",
     "e164": "1662",
-    "notes": "Home to Ole Miss and Elvis Presley's birthplace."
+    "notes": "Home to Ole Miss and Elvis Presley's birthplace.",
+    "latitude": 34.109314285714,
+    "longitude": -89.632332857143
   },
   {
     "id": "1669",
@@ -1455,7 +1759,9 @@
     "region": "Silicon Valley",
     "city": "San Jose",
     "e164": "1669",
-    "notes": "Newer overlay for San Jose."
+    "notes": "Newer overlay for San Jose.",
+    "latitude": 37.267165555556,
+    "longitude": -121.88483222222
   },
   {
     "id": "1678",
@@ -1464,7 +1770,9 @@
     "region": "Atlanta Metro",
     "city": "Atlanta",
     "e164": "1678",
-    "notes": ""
+    "notes": "",
+    "latitude": 33.814474782609,
+    "longitude": -84.360855217391
   },
   {
     "id": "1680",
@@ -1482,7 +1790,9 @@
     "region": "Fort Worth Metro",
     "city": "Sundance Square",
     "e164": "1682",
-    "notes": "Newer overlay for the Fort Worth side of the Metroplex."
+    "notes": "Newer overlay for the Fort Worth side of the Metroplex.",
+    "latitude": 32.759575333333,
+    "longitude": -97.223403333333
   },
   {
     "id": "1701",
@@ -1491,7 +1801,9 @@
     "region": "North Dakota",
     "city": "North Dakota",
     "e164": "1701",
-    "notes": ""
+    "notes": "",
+    "latitude": 47.4602675,
+    "longitude": -99.003305
   },
   {
     "id": "1702",
@@ -1500,7 +1812,9 @@
     "region": "Las Vegas",
     "city": "The Strip",
     "e164": "1702",
-    "notes": "Synonymous with Sin City."
+    "notes": "Synonymous with Sin City.",
+    "latitude": 36.140527142857,
+    "longitude": -115.11436428571
   },
   {
     "id": "1703",
@@ -1509,7 +1823,9 @@
     "region": "Northern Virginia",
     "city": "Arlington",
     "e164": "1703",
-    "notes": "The Pentagon/CIA code. High income DC Suburb"
+    "notes": "The Pentagon/CIA code. High income DC Suburb",
+    "latitude": 38.8324725,
+    "longitude": -77.270965
   },
   {
     "id": "1704",
@@ -1518,7 +1834,9 @@
     "region": "Charlotte",
     "city": "Uptown Charlotte",
     "e164": "1704",
-    "notes": ""
+    "notes": "",
+    "latitude": 35.367685555556,
+    "longitude": -80.747737777778
   },
   {
     "id": "1706",
@@ -1527,7 +1845,9 @@
     "region": "Athens / Augusta",
     "city": "Athens",
     "e164": "1706",
-    "notes": "University of Georgia (Bulldogs) and The Masters golf tournament."
+    "notes": "University of Georgia (Bulldogs) and The Masters golf tournament.",
+    "latitude": 33.639484285714,
+    "longitude": -83.94034
   },
   {
     "id": "1707",
@@ -1536,7 +1856,20 @@
     "region": "North Coast",
     "city": "Napa",
     "e164": "1707",
-    "notes": "Known for Wine Country and the \"Emerald Triangle\" (cannabis culture)."
+    "notes": "Known for Wine Country and the \"Emerald Triangle\" (cannabis culture).",
+    "latitude": 38.514229090909,
+    "longitude": -122.52735727273
+  },
+  {
+    "id": "1708",
+    "code": "708",
+    "country": "US",
+    "region": "Chicago West Suburbs",
+    "city": "Cicero",
+    "e164": "1708",
+    "notes": "The inner western suburbs of Chicago. Distinct from 630 (further west) and 773 (city proper).",
+    "latitude": 41.705734761905,
+    "longitude": -87.72693047619
   },
   {
     "id": "1712",
@@ -1545,7 +1878,9 @@
     "region": "Western Iowa",
     "city": "Sioux City / Council Bluffs",
     "e164": "1712",
-    "notes": "First caucus voters in the nation."
+    "notes": "First caucus voters in the nation.",
+    "latitude": 41.880965,
+    "longitude": -96.13057
   },
   {
     "id": "1713",
@@ -1554,7 +1889,9 @@
     "region": "Houston (Core)",
     "city": "River Oaks",
     "e164": "1713",
-    "notes": "The \"Inside the Loop\" code. Historically defined as strictly inside Interstate 610."
+    "notes": "The \"Inside the Loop\" code. Historically defined as strictly inside Interstate 610.",
+    "latitude": 29.709178888889,
+    "longitude": -95.300398888889
   },
   {
     "id": "1714",
@@ -1563,7 +1900,9 @@
     "region": "Orange County (North)",
     "city": "Anaheim",
     "e164": "1714",
-    "notes": "Home to Disneyland and \"No Doubt\" (Gwen Stefani)."
+    "notes": "Home to Disneyland and \"No Doubt\" (Gwen Stefani).",
+    "latitude": 33.804700666667,
+    "longitude": -117.92452266667
   },
   {
     "id": "1715",
@@ -1572,7 +1911,9 @@
     "region": "Northern Wisconsin",
     "city": "Eau Claire / Wausau",
     "e164": "1715",
-    "notes": "The \"Northwoods.\" Cabins lakes, and snowmobiles."
+    "notes": "The \"Northwoods.\" Cabins lakes, and snowmobiles.",
+    "latitude": 45.25371,
+    "longitude": -90.7018125
   },
   {
     "id": "1716",
@@ -1581,7 +1922,9 @@
     "region": "Western NY",
     "city": "Buffalo",
     "e164": "1716",
-    "notes": "Home of the \"Bills Mafia\" and original Buffalo wings."
+    "notes": "Home of the \"Bills Mafia\" and original Buffalo wings.",
+    "latitude": 42.87564,
+    "longitude": -78.89547375
   },
   {
     "id": "1717",
@@ -1590,7 +1933,9 @@
     "region": "Harrisburg / Lancaster",
     "city": "Harrisburg",
     "e164": "1717",
-    "notes": "Amish Country and the State Capital."
+    "notes": "Amish Country and the State Capital.",
+    "latitude": 40.1537775,
+    "longitude": -76.582255
   },
   {
     "id": "1718",
@@ -1599,7 +1944,9 @@
     "region": "NYC Outer Boroughs",
     "city": "NYC (Brooklyn / Queens / Bronx / Staten Island)",
     "e164": "1718",
-    "notes": "The \"Real New Yorker\" code for many. Not 212  but culturally massive (Biggie/Jay-Z)."
+    "notes": "The \"Real New Yorker\" code for many. Not 212  but culturally massive (Biggie/Jay-Z).",
+    "latitude": 40.691608,
+    "longitude": -73.959668
   },
   {
     "id": "1719",
@@ -1608,7 +1955,9 @@
     "region": "Southern Colorado",
     "city": "Colorado Springs / Pueblo",
     "e164": "1719",
-    "notes": "Home to the US Air Force Academy and Pikes Peak."
+    "notes": "Home to the US Air Force Academy and Pikes Peak.",
+    "latitude": 38.64372,
+    "longitude": -104.75283333333
   },
   {
     "id": "1720",
@@ -1617,7 +1966,9 @@
     "region": "Denver Metro",
     "city": "Denver",
     "e164": "1720",
-    "notes": ""
+    "notes": "",
+    "latitude": 39.77755625,
+    "longitude": -105.00266666667
   },
   {
     "id": "1724",
@@ -1626,7 +1977,9 @@
     "region": "Pittsburgh Suburbs",
     "city": "Pittsburgh",
     "e164": "1724",
-    "notes": "Historically distinct from the city (412)."
+    "notes": "Historically distinct from the city (412).",
+    "latitude": 40.565275,
+    "longitude": -79.9919975
   },
   {
     "id": "1727",
@@ -1635,7 +1988,9 @@
     "region": "Pinellas County",
     "city": "St. Petersburg",
     "e164": "1727",
-    "notes": "Separated from Tampa's 813 in 1998. Home to some of the top beaches in the US."
+    "notes": "Separated from Tampa's 813 in 1998. Home to some of the top beaches in the US.",
+    "latitude": 28.006899,
+    "longitude": -82.736329
   },
   {
     "id": "1731",
@@ -1644,7 +1999,9 @@
     "region": "West Tennessee",
     "city": "Jackson",
     "e164": "1731",
-    "notes": "Rural area between Nashville and Memphis."
+    "notes": "Rural area between Nashville and Memphis.",
+    "latitude": 35.61452,
+    "longitude": -88.81395
   },
   {
     "id": "1732",
@@ -1653,7 +2010,9 @@
     "region": "Jersey Shore",
     "city": "Asbury Park",
     "e164": "1732",
-    "notes": "The \"Jersey Shore\" MTV reality show area."
+    "notes": "The \"Jersey Shore\" MTV reality show area.",
+    "latitude": 40.420721428571,
+    "longitude": -74.323679285714
   },
   {
     "id": "1734",
@@ -1662,7 +2021,9 @@
     "region": "Ann Arbor",
     "city": "Ann Arbor / Ypsilanti",
     "e164": "1734",
-    "notes": "Home to the University of Michigan (Wolverines)."
+    "notes": "Home to the University of Michigan (Wolverines).",
+    "latitude": 42.251202727273,
+    "longitude": -83.413476363636
   },
   {
     "id": "1737",
@@ -1671,7 +2032,9 @@
     "region": "Austin Metro",
     "city": "Downtown",
     "e164": "1737",
-    "notes": "The newer code you get when you move to Austin now; lacks the \"old Austin\" status of 512."
+    "notes": "The newer code you get when you move to Austin now; lacks the \"old Austin\" status of 512.",
+    "latitude": 30.359314,
+    "longitude": -97.772174
   },
   {
     "id": "1738",
@@ -1689,7 +2052,9 @@
     "region": "Southeast Ohio",
     "city": "Athens / Appalachia Ohio",
     "e164": "1740",
-    "notes": "Ohio University territory."
+    "notes": "Ohio University territory.",
+    "latitude": 39.74919875,
+    "longitude": -82.66145
   },
   {
     "id": "1747",
@@ -1698,7 +2063,9 @@
     "region": "San Fernando Valley",
     "city": "Los Angeles",
     "e164": "1747",
-    "notes": "Newer overlay for \"The Valley.\""
+    "notes": "Newer overlay for \"The Valley.\"",
+    "latitude": 34.186115,
+    "longitude": -118.43554333333
   },
   {
     "id": "1754",
@@ -1707,7 +2074,9 @@
     "region": "Broward County",
     "city": "Fort Lauderdale",
     "e164": "1754",
-    "notes": "Newer overlay for Fort Lauderdale."
+    "notes": "Newer overlay for Fort Lauderdale.",
+    "latitude": 26.143138421053,
+    "longitude": -80.201925263158
   },
   {
     "id": "1757",
@@ -1716,7 +2085,9 @@
     "region": "Hampton Roads",
     "city": "Virginia Beach",
     "e164": "1757",
-    "notes": "Huge military presence (Navy). Missy Elliott/Pharrell represent \"The 757\"."
+    "notes": "Huge military presence (Navy). Missy Elliott/Pharrell represent \"The 757\".",
+    "latitude": 36.870171428571,
+    "longitude": -76.313514285714
   },
   {
     "id": "1760",
@@ -1725,7 +2096,9 @@
     "region": "SoCal Desert",
     "city": "Palm Springs",
     "e164": "1760",
-    "notes": "Home to the Coachella Music Festival."
+    "notes": "Home to the Coachella Music Festival.",
+    "latitude": 33.669568095238,
+    "longitude": -116.75811238095
   },
   {
     "id": "1765",
@@ -1734,7 +2107,9 @@
     "region": "Central Indiana",
     "city": "Lafayette / Muncie",
     "e164": "1765",
-    "notes": "Purdue University (Boilermakers)."
+    "notes": "Purdue University (Boilermakers).",
+    "latitude": 40.289168571429,
+    "longitude": -85.937961428571
   },
   {
     "id": "1770",
@@ -1743,7 +2118,9 @@
     "region": "Atlanta Suburbs",
     "city": "Marietta",
     "e164": "1770",
-    "notes": "The Burbs of Atlanta."
+    "notes": "The Burbs of Atlanta.",
+    "latitude": 33.8336605,
+    "longitude": -84.3569235
   },
   {
     "id": "1772",
@@ -1752,7 +2129,9 @@
     "region": "Treasure Coast",
     "city": "Port St. Lucie",
     "e164": "1772",
-    "notes": "Named after the Spanish Treasure Fleet lost off the coast in 1715."
+    "notes": "Named after the Spanish Treasure Fleet lost off the coast in 1715.",
+    "latitude": 27.37194,
+    "longitude": -80.3461
   },
   {
     "id": "1773",
@@ -1761,7 +2140,9 @@
     "region": "Chicago (Neighborhoods)",
     "city": "Chicago (Lincoln Park / Neighborhoods)",
     "e164": "1773",
-    "notes": "Covers everything in Chicago that isn't the downtown Loop."
+    "notes": "Covers everything in Chicago that isn't the downtown Loop.",
+    "latitude": 41.88475,
+    "longitude": -88.20396
   },
   {
     "id": "1775",
@@ -1770,7 +2151,9 @@
     "region": "Northern Nevada",
     "city": "Reno / Carson City / Black Rock Desert",
     "e164": "1775",
-    "notes": "Home to Burning Man and Lake Tahoe (NV side)."
+    "notes": "Home to Burning Man and Lake Tahoe (NV side).",
+    "latitude": 38.6091575,
+    "longitude": -118.82945
   },
   {
     "id": "1776",
@@ -1779,7 +2162,9 @@
     "region": "Boston Suburbs",
     "city": "Waltham",
     "e164": "1781",
-    "notes": "Route 128 tech corridor."
+    "notes": "Route 128 tech corridor.",
+    "latitude": 42.389215652174,
+    "longitude": -71.100365652174
   },
   {
     "id": "1785",
@@ -1788,7 +2173,9 @@
     "region": "Northern Kansas",
     "city": "Topeka / Lawrence",
     "e164": "1785",
-    "notes": "University of Kansas (Jayhawks)."
+    "notes": "University of Kansas (Jayhawks).",
+    "latitude": 38.984614,
+    "longitude": -96.88463
   },
   {
     "id": "1786",
@@ -1797,7 +2184,9 @@
     "region": "Miami Metro",
     "city": "South Beach",
     "e164": "1786",
-    "notes": "Often associated with newer residents or cell phones. \"305\" is the badge of honor."
+    "notes": "Often associated with newer residents or cell phones. \"305\" is the badge of honor.",
+    "latitude": 25.740417037037,
+    "longitude": -80.35898037037
   },
   {
     "id": "1787",
@@ -1815,7 +2204,9 @@
     "region": "Salt Lake City",
     "city": "SLC Metro",
     "e164": "1801",
-    "notes": "The \"Mormon Corridor\" code."
+    "notes": "The \"Mormon Corridor\" code.",
+    "latitude": 40.653856428571,
+    "longitude": -111.88019214286
   },
   {
     "id": "1802",
@@ -1824,7 +2215,9 @@
     "region": "Vermont",
     "city": "Vermont",
     "e164": "1802",
-    "notes": "Famous for maple syrup, skiing and fall folliage."
+    "notes": "Famous for maple syrup, skiing and fall folliage.",
+    "latitude": 44.363525,
+    "longitude": -72.873175
   },
   {
     "id": "1803",
@@ -1833,7 +2226,9 @@
     "region": "Columbia",
     "city": "Columbia",
     "e164": "1803",
-    "notes": "State Capital of South Carolina."
+    "notes": "State Capital of South Carolina.",
+    "latitude": 34.08893,
+    "longitude": -81.057868
   },
   {
     "id": "1805",
@@ -1842,7 +2237,9 @@
     "region": "Central Coast",
     "city": "Santa Barbara",
     "e164": "1805",
-    "notes": "The \"American Riviera.\" Oprah and Prince Harry live here."
+    "notes": "The \"American Riviera.\" Oprah and Prince Harry live here.",
+    "latitude": 34.60204125,
+    "longitude": -119.696259375
   },
   {
     "id": "1806",
@@ -1851,7 +2248,9 @@
     "region": "Texas Panhandle",
     "city": "Lubbock (Texas Tech)",
     "e164": "1806",
-    "notes": "Buddy Holly's hometown code."
+    "notes": "Buddy Holly's hometown code.",
+    "latitude": 34.328216666667,
+    "longitude": -101.79777
   },
   {
     "id": "1808",
@@ -1860,7 +2259,9 @@
     "region": "Hawaii",
     "city": "Hawaii",
     "e164": "1808",
-    "notes": "Culturally refers to locals. \"808s\" is also slang for drum machines (Kanye West album)."
+    "notes": "Culturally refers to locals. \"808s\" is also slang for drum machines (Kanye West album).",
+    "latitude": 20.956035555556,
+    "longitude": -157.23792666667
   },
   {
     "id": "1810",
@@ -1869,7 +2270,9 @@
     "region": "Flint",
     "city": "Flint",
     "e164": "1810",
-    "notes": "Industrial history; General Motors birthplace."
+    "notes": "Industrial history; General Motors birthplace.",
+    "latitude": 42.994286666667,
+    "longitude": -83.242903333333
   },
   {
     "id": "1813",
@@ -1878,7 +2281,9 @@
     "region": "Tampa (Core)",
     "city": "Ybor City",
     "e164": "1813",
-    "notes": "The original Tampa Bay code. Often rivals St. Pete's 727."
+    "notes": "The original Tampa Bay code. Often rivals St. Pete's 727.",
+    "latitude": 28.047438888889,
+    "longitude": -82.427858888889
   },
   {
     "id": "1814",
@@ -1887,7 +2292,9 @@
     "region": "Central PA",
     "city": "State College (Penn State)",
     "e164": "1814",
-    "notes": "Happy Valley code."
+    "notes": "Happy Valley code.",
+    "latitude": 40.9420075,
+    "longitude": -78.8154425
   },
   {
     "id": "1815",
@@ -1896,7 +2303,9 @@
     "region": "Joliet / Rockford",
     "city": "Joliet",
     "e164": "1815",
-    "notes": "Northern Illinois outside of Chicago/Suburbs."
+    "notes": "Northern Illinois outside of Chicago/Suburbs.",
+    "latitude": 42.050869166667,
+    "longitude": -88.6227275
   },
   {
     "id": "1816",
@@ -1905,7 +2314,9 @@
     "region": "Kansas City",
     "city": "Kansas City (MO side)",
     "e164": "1816",
-    "notes": "BBQ capital of the world."
+    "notes": "BBQ capital of the world.",
+    "latitude": 39.104366,
+    "longitude": -94.500676
   },
   {
     "id": "1817",
@@ -1914,7 +2325,9 @@
     "region": "Fort Worth (Core)",
     "city": "Sundance Square",
     "e164": "1817",
-    "notes": "The \"Funky Town\" code. Distinct cultural identity from Dallas's 214."
+    "notes": "The \"Funky Town\" code. Distinct cultural identity from Dallas's 214.",
+    "latitude": 32.759575333333,
+    "longitude": -97.223403333333
   },
   {
     "id": "1818",
@@ -1923,7 +2336,9 @@
     "region": "The Valley",
     "city": "Los Angeles (The Valley / Sherman Oaks)",
     "e164": "1818",
-    "notes": "Pop culture icon (\"Valley Girl\" accent)."
+    "notes": "Pop culture icon (\"Valley Girl\" accent).",
+    "latitude": 34.186115,
+    "longitude": -118.43554333333
   },
   {
     "id": "1820",
@@ -1941,7 +2356,9 @@
     "region": "Asheville",
     "city": "Western NC Mountains / Asheville",
     "e164": "1828",
-    "notes": ""
+    "notes": "",
+    "latitude": 35.66707,
+    "longitude": -81.94761
   },
   {
     "id": "1830",
@@ -1950,7 +2367,9 @@
     "region": "Texas Hill Country",
     "city": "New Braunfels",
     "e164": "1830",
-    "notes": "The \"Donut\" code that encircles San Antonio. Famous for wineries and river floating."
+    "notes": "The \"Donut\" code that encircles San Antonio. Famous for wineries and river floating.",
+    "latitude": 29.478228,
+    "longitude": -99.325156
   },
   {
     "id": "1831",
@@ -1959,7 +2378,9 @@
     "region": "Central Coast",
     "city": "Monterey",
     "e164": "1831",
-    "notes": "Surf City and Pebble Beach golf culture."
+    "notes": "Surf City and Pebble Beach golf culture.",
+    "latitude": 36.758607142857,
+    "longitude": -121.77046571429
   },
   {
     "id": "1832",
@@ -1968,7 +2389,9 @@
     "region": "Houston Metro",
     "city": "River Oaks",
     "e164": "1832",
-    "notes": "Commonly assigned to cell phones in the Houston metro since the late 90s."
+    "notes": "Commonly assigned to cell phones in the Houston metro since the late 90s.",
+    "latitude": 29.709178888889,
+    "longitude": -95.300398888889
   },
   {
     "id": "1837",
@@ -1995,7 +2418,9 @@
     "region": "South Carolina Coast",
     "city": "Charleston",
     "e164": "1843",
-    "notes": "Lowcountry life."
+    "notes": "Lowcountry life.",
+    "latitude": 33.0913225,
+    "longitude": -79.901955
   },
   {
     "id": "1845",
@@ -2004,7 +2429,9 @@
     "region": "Hudson Valley",
     "city": "Poughkeepsie",
     "e164": "1845",
-    "notes": "Commuter belt for NYC and weekend getaway region."
+    "notes": "Commuter belt for NYC and weekend getaway region.",
+    "latitude": 41.47292,
+    "longitude": -74.064123333333
   },
   {
     "id": "1847",
@@ -2013,7 +2440,9 @@
     "region": "Chicago North Shore",
     "city": "Evanston",
     "e164": "1847",
-    "notes": "The \"Mean Girls\" and \"Home Alone\" filming locations."
+    "notes": "The \"Mean Girls\" and \"Home Alone\" filming locations.",
+    "latitude": 42.14730875,
+    "longitude": -87.947605625
   },
   {
     "id": "1850",
@@ -2022,7 +2451,9 @@
     "region": "Florida Panhandle",
     "city": "Tallahassee (Capitol)",
     "e164": "1850",
-    "notes": "Culturally distinct from South FL; often jokingly called \"Lower Alabama.\""
+    "notes": "Culturally distinct from South FL; often jokingly called \"Lower Alabama.\"",
+    "latitude": 30.418668888889,
+    "longitude": -86.61346
   },
   {
     "id": "1856",
@@ -2031,7 +2462,9 @@
     "region": "South Jersey (Camden)",
     "city": "Camden",
     "e164": "1856",
-    "notes": "Philly suburbs (Cherry Hill). distinct from the shore (609)."
+    "notes": "Philly suburbs (Cherry Hill). distinct from the shore (609).",
+    "latitude": 39.737218571429,
+    "longitude": -75.053785714286
   },
   {
     "id": "1857",
@@ -2040,7 +2473,9 @@
     "region": "Boston",
     "city": "Boston",
     "e164": "1857",
-    "notes": "Common for newer cell phones in downtown Boston."
+    "notes": "Common for newer cell phones in downtown Boston.",
+    "latitude": 42.348581818182,
+    "longitude": -71.100127272727
   },
   {
     "id": "1858",
@@ -2049,7 +2484,9 @@
     "region": "San Diego (North)",
     "city": "La Jolla",
     "e164": "1858",
-    "notes": "The \"Biotech Beach\" code. Generally wealthier than 619."
+    "notes": "The \"Biotech Beach\" code. Generally wealthier than 619.",
+    "latitude": 32.96282,
+    "longitude": -117.03586
   },
   {
     "id": "1859",
@@ -2058,7 +2495,9 @@
     "region": "Lexington",
     "city": "Lexington",
     "e164": "1859",
-    "notes": "University of Kentucky (Wildcats)."
+    "notes": "University of Kentucky (Wildcats).",
+    "latitude": 38.4547925,
+    "longitude": -84.4768825
   },
   {
     "id": "1860",
@@ -2067,7 +2506,9 @@
     "region": "Hartford/East CT",
     "city": "Hartford",
     "e164": "1860",
-    "notes": "Everything in CT that isn't a NYC suburb."
+    "notes": "Everything in CT that isn't a NYC suburb.",
+    "latitude": 41.674009166667,
+    "longitude": -72.641041666667
   },
   {
     "id": "1862",
@@ -2076,7 +2517,9 @@
     "region": "North Jersey",
     "city": "Newark",
     "e164": "1862",
-    "notes": "Newark suburbs."
+    "notes": "Newark suburbs.",
+    "latitude": 40.825112857143,
+    "longitude": -74.216403333333
   },
   {
     "id": "1863",
@@ -2085,7 +2528,9 @@
     "region": "Heartland Florida",
     "city": "Lakeland",
     "e164": "1863",
-    "notes": "Central agricultural hub; citrus and strawberries."
+    "notes": "Central agricultural hub; citrus and strawberries.",
+    "latitude": 28.030855,
+    "longitude": -81.84133
   },
   {
     "id": "1864",
@@ -2094,7 +2539,9 @@
     "region": "Greenville / Spartanburg",
     "city": "Greenville",
     "e164": "1864",
-    "notes": "Upstate South Carolina. BMW manufacturing hub."
+    "notes": "Upstate South Carolina. BMW manufacturing hub.",
+    "latitude": 34.720858333333,
+    "longitude": -82.294563333333
   },
   {
     "id": "1865",
@@ -2103,7 +2550,9 @@
     "region": "Knoxville",
     "city": "Knoxville",
     "e164": "1865",
-    "notes": "University of Tennessee (Vols)."
+    "notes": "University of Tennessee (Vols).",
+    "latitude": 35.9344575,
+    "longitude": -84.10762
   },
   {
     "id": "1901",
@@ -2112,7 +2561,9 @@
     "region": "Memphis",
     "city": "Memphis",
     "e164": "1901",
-    "notes": "Home of the Blues and Elvis."
+    "notes": "Home of the Blues and Elvis.",
+    "latitude": 35.120715,
+    "longitude": -89.849395
   },
   {
     "id": "1903",
@@ -2121,7 +2572,9 @@
     "region": "Northeast Texas",
     "city": "Tyler",
     "e164": "1903",
-    "notes": "Known for the Piney Woods and East Texas distinct culture."
+    "notes": "Known for the Piney Woods and East Texas distinct culture.",
+    "latitude": 33.012011111111,
+    "longitude": -95.526376666667
   },
   {
     "id": "1904",
@@ -2130,7 +2583,9 @@
     "region": "Jacksonville",
     "city": "Downtown Jax",
     "e164": "1904",
-    "notes": "One of the original FL codes. Covers the largest city by land area in the contiguous US."
+    "notes": "One of the original FL codes. Covers the largest city by land area in the contiguous US.",
+    "latitude": 30.252276666667,
+    "longitude": -81.605646666667
   },
   {
     "id": "1907",
@@ -2139,7 +2594,9 @@
     "region": "Alaska",
     "city": "Alaska",
     "e164": "1907",
-    "notes": "The largest geographic area code in the US."
+    "notes": "The largest geographic area code in the US.",
+    "latitude": 60.268353333333,
+    "longitude": -141.136315
   },
   {
     "id": "1909",
@@ -2148,7 +2605,9 @@
     "region": "Inland Empire",
     "city": "San Bernardino",
     "e164": "1909",
-    "notes": "The 909 was historically used as derogatory slang by coastal residents (now reclaimed)."
+    "notes": "The 909 was historically used as derogatory slang by coastal residents (now reclaimed).",
+    "latitude": 34.074295,
+    "longitude": -117.54055722222
   },
   {
     "id": "1910",
@@ -2157,7 +2616,9 @@
     "region": "Fayetteville / Wilmington",
     "city": "Fayetteville",
     "e164": "1910",
-    "notes": "Fort Liberty (formerly Bragg) and the coast."
+    "notes": "Fort Liberty (formerly Bragg) and the coast.",
+    "latitude": 34.757956,
+    "longitude": -78.453958
   },
   {
     "id": "1912",
@@ -2166,7 +2627,9 @@
     "region": "Savannah",
     "city": "Savannah",
     "e164": "1912",
-    "notes": "Historic coastal Georgia."
+    "notes": "Historic coastal Georgia.",
+    "latitude": 32.126403333333,
+    "longitude": -81.492983333333
   },
   {
     "id": "1913",
@@ -2175,7 +2638,9 @@
     "region": "Kansas City (Suburbs)",
     "city": "Overland Park",
     "e164": "1913",
-    "notes": "Johnson County. The wealthy KS side of the metro."
+    "notes": "Johnson County. The wealthy KS side of the metro.",
+    "latitude": 39.0303175,
+    "longitude": -94.718015
   },
   {
     "id": "1914",
@@ -2184,7 +2649,9 @@
     "region": "Westchester",
     "city": "Yonkers",
     "e164": "1914",
-    "notes": "The wealthy suburbs north of NYC. Location of the X-Men Mansion in comics."
+    "notes": "The wealthy suburbs north of NYC. Location of the X-Men Mansion in comics.",
+    "latitude": 41.026625,
+    "longitude": -73.8051675
   },
   {
     "id": "1915",
@@ -2193,7 +2660,9 @@
     "region": "El Paso",
     "city": "El Paso",
     "e164": "1915",
-    "notes": "Operates on Mountain Time (the only part of Texas that does)."
+    "notes": "Operates on Mountain Time (the only part of Texas that does).",
+    "latitude": 31.70664,
+    "longitude": -106.39512
   },
   {
     "id": "1916",
@@ -2202,7 +2671,9 @@
     "region": "Sacramento",
     "city": "Sacramento",
     "e164": "1916",
-    "notes": "The political center of California."
+    "notes": "The political center of California.",
+    "latitude": 38.540042352941,
+    "longitude": -121.39831588235
   },
   {
     "id": "1917",
@@ -2211,7 +2682,9 @@
     "region": "New York City",
     "city": "New York",
     "e164": "1917",
-    "notes": "The first overlay code in NYC (1992). Now a badge of honor for a long-time mobile user. Mobile Phones / Pagers (originally)"
+    "notes": "The first overlay code in NYC (1992). Now a badge of honor for a long-time mobile user. Mobile Phones / Pagers (originally)",
+    "latitude": 40.695385,
+    "longitude": -73.967385
   },
   {
     "id": "1919",
@@ -2220,7 +2693,9 @@
     "region": "The Triangle",
     "city": "Raleigh",
     "e164": "1919",
-    "notes": "Research Triangle Park (Duke/UNC/NC State)."
+    "notes": "Research Triangle Park (Duke/UNC/NC State).",
+    "latitude": 35.726142857143,
+    "longitude": -78.77469
   },
   {
     "id": "1920",
@@ -2229,7 +2704,9 @@
     "region": "Green Bay",
     "city": "Green Bay",
     "e164": "1920",
-    "notes": "Home of the Packers (Lambeau Field)."
+    "notes": "Home of the Packers (Lambeau Field).",
+    "latitude": 43.948076,
+    "longitude": -88.281434
   },
   {
     "id": "1925",
@@ -2238,7 +2715,9 @@
     "region": "East Bay Suburbs",
     "city": "Walnut Creek",
     "e164": "1925",
-    "notes": "Wealthy suburbs east of the Oakland hills."
+    "notes": "Wealthy suburbs east of the Oakland hills.",
+    "latitude": 37.891776666667,
+    "longitude": -121.935052
   },
   {
     "id": "1928",
@@ -2247,7 +2726,9 @@
     "region": "Northern Arizona",
     "city": "Flagstaff / Sedona / Grand Canyon",
     "e164": "1928",
-    "notes": "The code for the Grand Canyon."
+    "notes": "The code for the Grand Canyon.",
+    "latitude": 34.3190475,
+    "longitude": -113.5519425
   },
   {
     "id": "1929",
@@ -2256,7 +2737,9 @@
     "region": "NYC Outer Boroughs",
     "city": "New York",
     "e164": "1929",
-    "notes": "The newest active overlay for Brooklyn/Queens."
+    "notes": "The newest active overlay for Brooklyn/Queens.",
+    "latitude": 40.691608,
+    "longitude": -73.959668
   },
   {
     "id": "1931",
@@ -2265,7 +2748,9 @@
     "region": "Middle Tennessee",
     "city": "Clarksville / Cookeville",
     "e164": "1931",
-    "notes": "The rural ring around Nashville."
+    "notes": "The rural ring around Nashville.",
+    "latitude": 36.10256,
+    "longitude": -86.632123333333
   },
   {
     "id": "1934",
@@ -2283,7 +2768,9 @@
     "region": "Deep East Texas",
     "city": "Huntsville",
     "e164": "1936",
-    "notes": "Heavily wooded region; home to Sam Houston State University."
+    "notes": "Heavily wooded region; home to Sam Houston State University.",
+    "latitude": 30.99429,
+    "longitude": -95.097855
   },
   {
     "id": "1937",
@@ -2292,7 +2779,9 @@
     "region": "Dayton",
     "city": "Dayton",
     "e164": "1937",
-    "notes": "Wright-Patterson AFB and aviation history."
+    "notes": "Wright-Patterson AFB and aviation history.",
+    "latitude": 39.854266923077,
+    "longitude": -84.115557692308
   },
   {
     "id": "1940",
@@ -2301,7 +2790,9 @@
     "region": "North Texas",
     "city": "Denton",
     "e164": "1940",
-    "notes": "College town vibes (UNT/TWU) blending into horse country."
+    "notes": "College town vibes (UNT/TWU) blending into horse country.",
+    "latitude": 33.391593333333,
+    "longitude": -97.54021
   },
   {
     "id": "1941",
@@ -2310,7 +2801,9 @@
     "region": "Sarasota / Manatee",
     "city": "Siesta Key",
     "e164": "1941",
-    "notes": "Home to the Ringling Bros circus history."
+    "notes": "Home to the Ringling Bros circus history.",
+    "latitude": 27.202133333333,
+    "longitude": -82.344351666667
   },
   {
     "id": "1949",
@@ -2319,7 +2812,9 @@
     "region": "Orange County (South)",
     "city": "Newport Beach",
     "e164": "1949",
-    "notes": "The \"Real Housewives\" code. Very wealthy coastal suburbs."
+    "notes": "The \"Real Housewives\" code. Very wealthy coastal suburbs.",
+    "latitude": 33.573486153846,
+    "longitude": -117.73371615385
   },
   {
     "id": "1951",
@@ -2328,7 +2823,9 @@
     "region": "Inland Empire (South)",
     "city": "Riverside",
     "e164": "1951",
-    "notes": "Split off from 909. Known for wine (Temecula) and suburban sprawl."
+    "notes": "Split off from 909. Known for wine (Temecula) and suburban sprawl.",
+    "latitude": 33.819667,
+    "longitude": -117.258786
   },
   {
     "id": "1954",
@@ -2337,7 +2834,9 @@
     "region": "Broward County",
     "city": "Fort Lauderdale",
     "e164": "1954",
-    "notes": "Often overshadowed by 305  but distinct. \"The 954\" represents the Ft. Lauderdale metro."
+    "notes": "Often overshadowed by 305  but distinct. \"The 954\" represents the Ft. Lauderdale metro.",
+    "latitude": 26.143138421053,
+    "longitude": -80.201925263158
   },
   {
     "id": "1956",
@@ -2346,7 +2845,9 @@
     "region": "Rio Grande Valley",
     "city": "McAllen",
     "e164": "1956",
-    "notes": "Puro 956 is a major local catchphrase representing border culture."
+    "notes": "Puro 956 is a major local catchphrase representing border culture.",
+    "latitude": 26.299599,
+    "longitude": -98.138061
   },
   {
     "id": "1970",
@@ -2355,7 +2856,9 @@
     "region": "Colorado Mountains",
     "city": "Aspen",
     "e164": "1970",
-    "notes": "The \"Ski Bum\" code."
+    "notes": "The \"Ski Bum\" code.",
+    "latitude": 40.11755,
+    "longitude": -105.854795
   },
   {
     "id": "1971",
@@ -2364,7 +2867,9 @@
     "region": "Portland",
     "city": "Portland",
     "e164": "1971",
-    "notes": "The newer Portland code."
+    "notes": "The newer Portland code.",
+    "latitude": 45.347859333333,
+    "longitude": -122.79654266667
   },
   {
     "id": "1972",
@@ -2373,7 +2878,9 @@
     "region": "Dallas (Suburbs)",
     "city": "Plano",
     "e164": "1972",
-    "notes": "Historically the \"Suburban\" code to 214's \"Urban\" code. Now they are mixed."
+    "notes": "Historically the \"Suburban\" code to 214's \"Urban\" code. Now they are mixed.",
+    "latitude": 32.869057826087,
+    "longitude": -96.826015652174
   },
   {
     "id": "1973",
@@ -2382,7 +2889,9 @@
     "region": "North Jersey",
     "city": "Newark",
     "e164": "1973",
-    "notes": "Overlay for 201  heavily urban/industrial."
+    "notes": "Overlay for 201  heavily urban/industrial.",
+    "latitude": 40.834617368421,
+    "longitude": -74.219415789474
   },
   {
     "id": "1978",
@@ -2391,7 +2900,9 @@
     "region": "Lowell / North Shore",
     "city": "Lowell",
     "e164": "1978",
-    "notes": "Historic industrial towns north of Boston."
+    "notes": "Historic industrial towns north of Boston.",
+    "latitude": 42.603682857143,
+    "longitude": -71.226208571429
   },
   {
     "id": "1979",
@@ -2400,7 +2911,9 @@
     "region": "Brazos Valley",
     "city": "College Station (Texas A&M)",
     "e164": "1979",
-    "notes": "The \"Aggieland\" code."
+    "notes": "The \"Aggieland\" code.",
+    "latitude": 30.112066666667,
+    "longitude": -96.046253333333
   },
   {
     "id": "1985",
@@ -2409,7 +2922,9 @@
     "region": "North Shore",
     "city": "Slidell / Covington",
     "e164": "1985",
-    "notes": "The suburbs north of Lake Pontchartrain (across from New Orleans)."
+    "notes": "The suburbs north of Lake Pontchartrain (across from New Orleans).",
+    "latitude": 29.979313333333,
+    "longitude": -90.32739
   },
   {
     "id": "1989",
@@ -2418,6 +2933,8 @@
     "region": "Central Michigan",
     "city": "Saginaw / Mt. Pleasant",
     "e164": "1989",
-    "notes": "Central Michigan University area."
+    "notes": "Central Michigan University area.",
+    "latitude": 43.52936,
+    "longitude": -84.16104
   }
 ]

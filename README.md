@@ -64,6 +64,15 @@ Task {
         let formatted = nyc.formatPhoneNumber("5551234")
         print(formatted) // "+12125551234"
     }
+    
+    // 7. Resolve a full phone number (longest-prefix match)
+    // Any formatting is accepted - digits are extracted automatically
+    if let resolved = try await GlobalPhoneAreaCodeKit.shared.resolve(fullE164: "+1 (212) 555-1234") {
+        print(resolved.code)      // "212"
+        print(resolved.country)   // "US" (ISO 3166-1 alpha-2)
+        print(resolved.latitude ?? 0)   // 40.71427 (US codes have centroids)
+        print(resolved.longitude ?? 0)  // -74.00597
+    }
 }
 ```
 
@@ -108,6 +117,10 @@ struct AreaCodeSearchView: View {
 - ✅ **Type-Safe**: Codable, Sendable, and Hashable conformance
 - ✅ **SwiftUI Ready**: Built-in display helpers and Identifiable conformance
 - ✅ **E.164 Format**: Unambiguous phone number identification with country codes
+- ✅ **Full-Number Resolution**: `resolve(fullE164:)` longest-prefix matches complete phone numbers in any formatting
+- ✅ **Strict ISO 3166-1 alpha-2**: `country` is always an ISO code (`GB`, not `UK`); `UK`/`USA` accepted as input aliases
+- ✅ **Localized Names**: Country names derived via `Locale`, following the user's language
+- ✅ **Coordinates**: Optional centroid `latitude`/`longitude` (currently populated for US area codes)
 
 ## Supported Countries / Regions
 
@@ -184,13 +197,19 @@ func loadData() async throws {
 ### Core Methods
 
 - `getAllCodes() async throws -> [AreaCode]` - Get all area codes (lazy loaded)
+- `resolve(fullE164: String) async throws -> AreaCode?` - Resolve a full phone number via longest-prefix match (handles `+`, spaces, dashes, `00` prefix)
 - `lookup(code: String) async throws -> [AreaCode]` - Find by area code
-- `lookup(e164: String) async throws -> AreaCode?` - Find by E.164 format
+- `lookup(e164: String) async throws -> AreaCode?` - Find by exact E.164 prefix
 - `search(_ query: String) async throws -> [AreaCode]` - Search by text
-- `codes(forCountry: String) async throws -> [AreaCode]` - Filter by country
+- `codes(forCountry: String) async throws -> [AreaCode]` - Filter by ISO country code (`UK`/`USA` aliases accepted)
 - `suggestions(for: String, limit: Int) async throws -> [AreaCode]` - Autocomplete
-- `availableCountries() async throws -> [String]` - List all countries
+- `availableCountries() async throws -> [String]` - List all ISO 3166-1 alpha-2 country codes
 - `clearCache()` - Clear cached data
+
+### Static Helpers
+
+- `AreaCode.digitsOnly(_ input: String) -> String` - Strip all non-digit characters from a phone number
+- `AreaCode.normalizeCountryCode(_ raw: String) -> String` - Normalize to ISO 3166-1 alpha-2 (`UK` → `GB`, `USA` → `US`)
 
 ### Error Types
 
@@ -203,13 +222,15 @@ The library throws `AreaCodeError` with these cases:
 ### AreaCode Properties
 
 - `code: String` - The area code number
-- `country: String` - ISO country code
+- `country: String` - ISO 3166-1 alpha-2 country code (authoritative; e.g. `GB`, never `UK`)
 - `region: String` - State/province/region
 - `city: String` - Primary city
 - `e164: String` - E.164 format number
 - `notes: String` - Additional information
+- `latitude: Double?` - Approximate centroid latitude (currently US only; nil elsewhere)
+- `longitude: Double?` - Approximate centroid longitude (currently US only; nil elsewhere)
 - `flag: String` - Country flag emoji
-- `countryName: String` - Full country name
+- `countryName: String` - Localized country name derived via `Locale` from the ISO code
 - `displayName: String` - Formatted display string
 - `subtitle: String` - Location detail string
 
@@ -229,9 +250,12 @@ let results = try await kit.lookup(code: "212")
 // Unambiguous - returns exact match
 let usCode = try await kit.lookup(e164: "1212")      // US only
 let byCode = try await kit.lookup(e164: "375212")    // Belarus only
+
+// Or resolve a complete phone number directly
+let resolved = try await kit.resolve(fullE164: "+375 212 123456") // Belarus 212
 ```
 
-**Best Practice:** Use E.164 format when you need to identify a specific phone number region globally.
+**Best Practice:** Use E.164 format when you need to identify a specific phone number region globally. For raw user input or full phone numbers, use `resolve(fullE164:)` - it strips formatting and picks the longest matching prefix for you.
 
 
 ## Data Sources & Origin

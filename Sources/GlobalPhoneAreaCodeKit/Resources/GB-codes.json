@@ -2,7 +2,7 @@
   {
     "id": "44113",
     "code": "113",
-    "country": "UK",
+    "country": "GB",
     "region": "Leeds",
     "city": "Leeds",
     "e164": "44113",
@@ -11,7 +11,7 @@
   {
     "id": "44114",
     "code": "114",
-    "country": "UK",
+    "country": "GB",
     "region": "Sheffield",
     "city": "Sheffield",
     "e164": "44114",
@@ -20,7 +20,7 @@
   {
     "id": "44115",
     "code": "115",
-    "country": "UK",
+    "country": "GB",
     "region": "Nottingham",
     "city": "Nottingham",
     "e164": "44115",
@@ -29,7 +29,7 @@
   {
     "id": "44116",
     "code": "116",
-    "country": "UK",
+    "country": "GB",
     "region": "Leicester",
     "city": "Leicester",
     "e164": "44116",
@@ -38,7 +38,7 @@
   {
     "id": "44117",
     "code": "117",
-    "country": "UK",
+    "country": "GB",
     "region": "Bristol",
     "city": "Bristol",
     "e164": "44117",
@@ -47,7 +47,7 @@
   {
     "id": "44118",
     "code": "118",
-    "country": "UK",
+    "country": "GB",
     "region": "Reading",
     "city": "Reading",
     "e164": "44118",
@@ -56,7 +56,7 @@
   {
     "id": "44121",
     "code": "121",
-    "country": "UK",
+    "country": "GB",
     "region": "Birmingham",
     "city": "Birmingham",
     "e164": "44121",
@@ -65,7 +65,7 @@
   {
     "id": "44131",
     "code": "131",
-    "country": "UK",
+    "country": "GB",
     "region": "Edinburgh",
     "city": "Edinburgh",
     "e164": "44131",
@@ -74,7 +74,7 @@
   {
     "id": "44141",
     "code": "141",
-    "country": "UK",
+    "country": "GB",
     "region": "Glasgow",
     "city": "Glasgow",
     "e164": "44141",
@@ -83,7 +83,7 @@
   {
     "id": "44151",
     "code": "151",
-    "country": "UK",
+    "country": "GB",
     "region": "Liverpool",
     "city": "Liverpool",
     "e164": "44151",
@@ -92,7 +92,7 @@
   {
     "id": "44161",
     "code": "161",
-    "country": "UK",
+    "country": "GB",
     "region": "Manchester",
     "city": "Manchester",
     "e164": "44161",
@@ -101,7 +101,7 @@
   {
     "id": "44191",
     "code": "191",
-    "country": "UK",
+    "country": "GB",
     "region": "Tyneside",
     "city": "Newcastle / Sunderland",
     "e164": "44191",
@@ -110,7 +110,7 @@
   {
     "id": "441202",
     "code": "1202",
-    "country": "UK",
+    "country": "GB",
     "region": "Bournemouth",
     "city": "Bournemouth",
     "e164": "441202",
@@ -119,7 +119,7 @@
   {
     "id": "441223",
     "code": "1223",
-    "country": "UK",
+    "country": "GB",
     "region": "Cambridge",
     "city": "Cambridge",
     "e164": "441223",
@@ -128,7 +128,7 @@
   {
     "id": "441242",
     "code": "1242",
-    "country": "UK",
+    "country": "GB",
     "region": "Cheltenham",
     "city": "Cheltenham",
     "e164": "441242",
@@ -137,7 +137,7 @@
   {
     "id": "441273",
     "code": "1273",
-    "country": "UK",
+    "country": "GB",
     "region": "Brighton",
     "city": "Brighton",
     "e164": "441273",
@@ -146,7 +146,7 @@
   {
     "id": "441382",
     "code": "1382",
-    "country": "UK",
+    "country": "GB",
     "region": "Dundee",
     "city": "Dundee",
     "e164": "441382",
@@ -155,7 +155,7 @@
   {
     "id": "441422",
     "code": "1422",
-    "country": "UK",
+    "country": "GB",
     "region": "Halifax",
     "city": "Halifax",
     "e164": "441422",
@@ -164,7 +164,7 @@
   {
     "id": "441463",
     "code": "1463",
-    "country": "UK",
+    "country": "GB",
     "region": "Inverness",
     "city": "Inverness",
     "e164": "441463",
@@ -173,7 +173,7 @@
   {
     "id": "441483",
     "code": "1483",
-    "country": "UK",
+    "country": "GB",
     "region": "Guildford",
     "city": "Guildford",
     "e164": "441483",
@@ -182,7 +182,7 @@
   {
     "id": "441494",
     "code": "1494",
-    "country": "UK",
+    "country": "GB",
     "region": "High Wycombe",
     "city": "High Wycombe",
     "e164": "441494",
@@ -191,7 +191,7 @@
   {
     "id": "441524",
     "code": "1524",
-    "country": "UK",
+    "country": "GB",
     "region": "Lancaster",
     "city": "Lancaster",
     "e164": "441524",
@@ -200,7 +200,7 @@
   {
     "id": "441603",
     "code": "1603",
-    "country": "UK",
+    "country": "GB",
     "region": "Norwich",
     "city": "Norwich",
     "e164": "441603",
@@ -209,7 +209,7 @@
   {
     "id": "441708",
     "code": "1708",
-    "country": "UK",
+    "country": "GB",
     "region": "Romford",
     "city": "Romford",
     "e164": "441708",
@@ -218,7 +218,7 @@
   {
     "id": "441732",
     "code": "1732",
-    "country": "UK",
+    "country": "GB",
     "region": "Sevenoaks",
     "city": "Sevenoaks",
     "e164": "441732",
@@ -227,7 +227,7 @@
   {
     "id": "441733",
     "code": "1733",
-    "country": "UK",
+    "country": "GB",
     "region": "Peterborough",
     "city": "Peterborough",
     "e164": "441733",
@@ -236,7 +236,7 @@
   {
     "id": "441762",
     "code": "1762",
-    "country": "UK",
+    "country": "GB",
     "region": "Ripon",
     "city": "Ripon",
     "e164": "441762",
@@ -245,7 +245,7 @@
   {
     "id": "441792",
     "code": "1792",
-    "country": "UK",
+    "country": "GB",
     "region": "Swansea",
     "city": "Swansea",
     "e164": "441792",
@@ -254,7 +254,7 @@
   {
     "id": "441803",
     "code": "1803",
-    "country": "UK",
+    "country": "GB",
     "region": "Torquay",
     "city": "Torquay",
     "e164": "441803",
@@ -263,7 +263,7 @@
   {
     "id": "441865",
     "code": "1865",
-    "country": "UK",
+    "country": "GB",
     "region": "Oxford",
     "city": "Oxford",
     "e164": "441865",
@@ -272,7 +272,7 @@
   {
     "id": "441904",
     "code": "1904",
-    "country": "UK",
+    "country": "GB",
     "region": "York",
     "city": "York",
     "e164": "441904",
@@ -281,7 +281,7 @@
   {
     "id": "441908",
     "code": "1908",
-    "country": "UK",
+    "country": "GB",
     "region": "Milton Keynes",
     "city": "Milton Keynes",
     "e164": "441908",
@@ -290,7 +290,7 @@
   {
     "id": "441924",
     "code": "1924",
-    "country": "UK",
+    "country": "GB",
     "region": "Wakefield",
     "city": "Wakefield",
     "e164": "441924",
@@ -299,7 +299,7 @@
   {
     "id": "441962",
     "code": "1962",
-    "country": "UK",
+    "country": "GB",
     "region": "Winchester",
     "city": "Winchester",
     "e164": "441962",
@@ -308,7 +308,7 @@
   {
     "id": "4420",
     "code": "20",
-    "country": "UK",
+    "country": "GB",
     "region": "London",
     "city": "London",
     "e164": "4420",
@@ -317,7 +317,7 @@
   {
     "id": "447",
     "code": "7",
-    "country": "UK",
+    "country": "GB",
     "region": "Mobile Phones",
     "city": "",
     "e164": "447",

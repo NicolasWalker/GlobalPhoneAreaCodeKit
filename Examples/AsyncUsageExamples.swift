@@ -58,6 +58,28 @@ func lookupByE164() async {
     }
 }
 
+func resolveFullPhoneNumber() async {
+    do {
+        // Resolve a complete phone number in any formatting.
+        // Digits are extracted automatically and the longest known
+        // E.164 prefix wins - no manual stripping needed.
+        if let nyc = try await GlobalPhoneAreaCodeKit.shared.resolve(fullE164: "+1 (212) 555-1234") {
+            print("Resolved: \(nyc.displayName)")   // 🇺🇸 212 - New York
+            print("Country: \(nyc.country)")        // "US" (ISO 3166-1 alpha-2)
+            if let lat = nyc.latitude, let lon = nyc.longitude {
+                print("Centroid: \(lat), \(lon)")   // Useful for map pins
+            }
+        }
+        
+        // Works for any country, including international 00-prefix dialing
+        if let london = try await GlobalPhoneAreaCodeKit.shared.resolve(fullE164: "00442071838753") {
+            print("Resolved: \(london.displayName)") // 🇬🇧 20 - London
+        }
+    } catch {
+        print("Error resolving number: \(error.localizedDescription)")
+    }
+}
+
 // MARK: - Search Examples
 
 func searchByCity() async {
