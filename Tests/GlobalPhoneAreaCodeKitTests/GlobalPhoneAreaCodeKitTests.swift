@@ -121,6 +121,80 @@ final class GlobalPhoneAreaCodeKitTests: XCTestCase {
         XCTAssertNil(unknown, "Unknown prefix should resolve to nil")
     }
     
+    // MARK: - Longest-Prefix Lookup Tests
+    
+    func testLookupLongestPrefixPrefersLongestMatch() async throws {
+        let match = try await GlobalPhoneAreaCodeKit.shared.lookupLongestPrefix(
+            e164: "12125551234",
+            minLength: 1
+        )
+        XCTAssertEqual(match?.e164, "1212", "Should match 1212, not a shorter country-only prefix")
+        XCTAssertEqual(match?.code, "212")
+        XCTAssertEqual(match?.country, "US")
+    }
+    
+    func testLookupLongestPrefixMaxLengthSanMarino() async throws {
+        let match = try await GlobalPhoneAreaCodeKit.shared.lookupLongestPrefix(
+            e164: "378054912345",
+            minLength: 3
+        )
+        XCTAssertEqual(match?.e164, "3780549", "7-digit San Marino key should match after truncation")
+        XCTAssertEqual(match?.country, "SM")
+    }
+    
+    func testLookupLongestPrefixMaxLengthVatican() async throws {
+        let match = try await GlobalPhoneAreaCodeKit.shared.lookupLongestPrefix(
+            e164: "39066981234567",
+            minLength: 2
+        )
+        XCTAssertEqual(match?.e164, "3906698")
+        XCTAssertEqual(match?.country, "VA")
+    }
+    
+    func testLookupLongestPrefixUncoveredCountryReturnsNil() async throws {
+        // India (91) is not in the dataset; exclusive minLength must prevent a false match.
+        let match = try await GlobalPhoneAreaCodeKit.shared.lookupLongestPrefix(
+            e164: "919876543210",
+            minLength: 2
+        )
+        XCTAssertNil(match, "Uncovered country should yield nil without matching at country-code length")
+    }
+    
+    func testLookupLongestPrefixExclusiveMinLength() async throws {
+        let match = try await GlobalPhoneAreaCodeKit.shared.lookupLongestPrefix(
+            e164: "1",
+            minLength: 1
+        )
+        XCTAssertNil(match, "Candidate equal to minLength must not be tested")
+    }
+    
+    func testLookupLongestPrefixClearCacheRebuildsIndex() async throws {
+        let first = try await GlobalPhoneAreaCodeKit.shared.lookupLongestPrefix(
+            e164: "12125551234",
+            minLength: 1
+        )
+        XCTAssertEqual(first?.e164, "1212")
+        
+        await GlobalPhoneAreaCodeKit.shared.clearCache()
+        
+        let second = try await GlobalPhoneAreaCodeKit.shared.lookupLongestPrefix(
+            e164: "12125551234",
+            minLength: 1
+        )
+        XCTAssertEqual(second?.e164, "1212", "Lookup after clearCache should rebuild the dictionary")
+        XCTAssertEqual(second?.country, "US")
+    }
+    
+    func testLookupE164DuplicateKeyFirstWins() async throws {
+        // Bahamas 1242 appears multiple times; first entry in load order wins.
+        let allCodes = try await GlobalPhoneAreaCodeKit.shared.getAllCodes()
+        let expected = allCodes.first { $0.e164 == "1242" }
+        XCTAssertNotNil(expected, "Dataset should contain duplicate key 1242")
+        
+        let lookedUp = try await GlobalPhoneAreaCodeKit.shared.lookup(e164: "1242")
+        XCTAssertEqual(lookedUp, expected, "lookup(e164:) must keep first-match semantics")
+    }
+    
     // MARK: - Search Tests
     
     func testSearchByCity() async throws {

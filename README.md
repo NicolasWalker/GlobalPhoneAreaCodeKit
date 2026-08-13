@@ -12,7 +12,7 @@ Add the following to your `Package.swift` file:
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/GlobalPhoneAreaCodes/GlobalPhoneAreaCodeKit.git", from: "1.0.0")
+    .package(url: "https://github.com/NicolasWalker/GlobalPhoneAreaCodeKit.git", from: "1.2.0")
 ]
 ```
 
@@ -73,6 +73,16 @@ Task {
         print(resolved.latitude ?? 0)   // 40.71427 (US codes have centroids)
         print(resolved.longitude ?? 0)  // -74.00597
     }
+    
+    // 8. Longest-prefix match with a country-code bound (exclusive minLength)
+    // Prefer when you already know the calling-code length; stops above that bound.
+    if let match = try await GlobalPhoneAreaCodeKit.shared.lookupLongestPrefix(
+        e164: "12125551234",
+        minLength: 1
+    ) {
+        print(match.e164)  // "1212"
+        print(match.city)  // e.g. "Jersey City"
+    }
 }
 ```
 
@@ -118,6 +128,7 @@ struct AreaCodeSearchView: View {
 - ✅ **SwiftUI Ready**: Built-in display helpers and Identifiable conformance
 - ✅ **E.164 Format**: Unambiguous phone number identification with country codes
 - ✅ **Full-Number Resolution**: `resolve(fullE164:)` longest-prefix matches complete phone numbers in any formatting
+- ✅ **Bounded Prefix Lookup**: `lookupLongestPrefix(e164:minLength:)` dictionary-backed match that stops above the country-code length
 - ✅ **Strict ISO 3166-1 alpha-2**: `country` is always an ISO code (`GB`, not `UK`); `UK`/`USA` accepted as input aliases
 - ✅ **Localized Names**: Country names derived via `Locale`, following the user's language
 - ✅ **Coordinates**: Optional centroid `latitude`/`longitude` (currently populated for US area codes)
@@ -198,13 +209,14 @@ func loadData() async throws {
 
 - `getAllCodes() async throws -> [AreaCode]` - Get all area codes (lazy loaded)
 - `resolve(fullE164: String) async throws -> AreaCode?` - Resolve a full phone number via longest-prefix match (handles `+`, spaces, dashes, `00` prefix)
+- `lookupLongestPrefix(e164: String, minLength: Int) async throws -> AreaCode?` - Dictionary-backed longest-prefix match; `minLength` is **exclusive** (usually the country calling code’s digit count)
 - `lookup(code: String) async throws -> [AreaCode]` - Find by area code
-- `lookup(e164: String) async throws -> AreaCode?` - Find by exact E.164 prefix
+- `lookup(e164: String) async throws -> AreaCode?` - Find by exact E.164 prefix (O(1) dictionary lookup)
 - `search(_ query: String) async throws -> [AreaCode]` - Search by text
 - `codes(forCountry: String) async throws -> [AreaCode]` - Filter by ISO country code (`UK`/`USA` aliases accepted)
 - `suggestions(for: String, limit: Int) async throws -> [AreaCode]` - Autocomplete
 - `availableCountries() async throws -> [String]` - List all ISO 3166-1 alpha-2 country codes
-- `clearCache()` - Clear cached data
+- `clearCache()` - Clear cached data (including the E.164 dictionary index)
 
 ### Static Helpers
 
@@ -253,9 +265,12 @@ let byCode = try await kit.lookup(e164: "375212")    // Belarus only
 
 // Or resolve a complete phone number directly
 let resolved = try await kit.resolve(fullE164: "+375 212 123456") // Belarus 212
+
+// Or longest-prefix with an exclusive country-code bound
+let bounded = try await kit.lookupLongestPrefix(e164: "12125551234", minLength: 1) // US 212
 ```
 
-**Best Practice:** Use E.164 format when you need to identify a specific phone number region globally. For raw user input or full phone numbers, use `resolve(fullE164:)` - it strips formatting and picks the longest matching prefix for you.
+**Best Practice:** Use E.164 format when you need to identify a specific phone number region globally. For raw user input or full phone numbers, use `resolve(fullE164:)`. When you already know the country calling code length and want to avoid matching a bare country entry, use `lookupLongestPrefix(e164:minLength:)`.
 
 
 ## Data Sources & Origin

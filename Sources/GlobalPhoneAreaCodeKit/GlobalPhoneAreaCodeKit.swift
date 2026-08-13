@@ -175,10 +175,10 @@ public actor GlobalPhoneAreaCodeKit {
     /// Cache of area codes by country code
     private var countryCache: [String: [AreaCode]] = [:]
     
-    /// Cached E.164 prefix index for `resolve(fullE164:)`
+    /// Cached E.164 prefix index for `lookup(e164:)`, `lookupLongestPrefix`, and `resolve(fullE164:)`
     private var e164Index: [String: AreaCode]?
     
-    /// Length of the longest known E.164 prefix (bounds the resolve walk)
+    /// Length of the longest known E.164 prefix (bounds longest-prefix walks)
     private var maxE164Length = 0
     
     /// Whether data is currently being loaded
@@ -244,7 +244,7 @@ public actor GlobalPhoneAreaCodeKit {
     ///
     /// Input is sanitized with `AreaCode.digitsOnly(_:)`, so `"+1212"`
     /// and `"1212"` are equivalent. For matching a full phone number,
-    /// use `resolve(fullE164:)` instead.
+    /// use `resolve(fullE164:)` or `lookupLongestPrefix(e164:minLength:)`.
     ///
     /// - Parameter e164: The E.164 prefix to search for (e.g., "1212")
     /// - Returns: The matching area code, or nil if not found
@@ -252,8 +252,46 @@ public actor GlobalPhoneAreaCodeKit {
     public func lookup(e164: String) async throws -> AreaCode? {
         let digits = AreaCode.digitsOnly(e164)
         guard !digits.isEmpty else { return nil }
-        let allCodes = try await getAllCodes()
-        return allCodes.first { $0.e164 == digits }
+        let index = try await getE164Index()
+        return index[digits]
+    }
+    
+    /// Look up an area code by longest E.164 prefix match with a country-code bound
+    ///
+    /// Input is sanitized with `AreaCode.digitsOnly(_:)`. The candidate is truncated
+    /// to the dataset's maximum key length, then trailing digits are dropped until a
+    /// dictionary hit is found.
+    ///
+    /// `minLength` is an **exclusive** lower bound: candidates whose digit count is
+    /// less than or equal to `minLength` are never tested. Callers typically pass the
+    /// country calling code's digit length (e.g. `1` for NANP, `2` for India) so a
+    /// bare country code cannot match as an area-code result.
+    ///
+    /// Prefer this when you already know the country-code length. Prefer
+    /// `resolve(fullE164:)` for free-form numbers that may include a leading `00`
+    /// international dialing prefix and should walk all the way down to length 1.
+    ///
+    /// - Parameters:
+    ///   - e164: Digit string (no leading `+` required; non-digits are stripped)
+    ///   - minLength: Exclusive lower bound on candidate length (usually country-code length)
+    /// - Returns: The longest matching area code above `minLength`, or nil
+    /// - Throws: `AreaCodeError` if data cannot be loaded
+    public func lookupLongestPrefix(e164: String, minLength: Int) async throws -> AreaCode? {
+        let digits = AreaCode.digitsOnly(e164)
+        guard !digits.isEmpty else { return nil }
+        
+        let index = try await getE164Index()
+        var candidate = digits.count > maxE164Length
+            ? String(digits.prefix(maxE164Length))
+            : digits
+        
+        while candidate.count > minLength {
+            if let match = index[candidate] {
+                return match
+            }
+            candidate.removeLast()
+        }
+        return nil
     }
     
     /// Resolve a full phone number to its area code using longest-prefix matching
@@ -370,7 +408,9 @@ public actor GlobalPhoneAreaCodeKit {
     
     // MARK: - Private Index
     
-    /// Builds (once) and returns the E.164 prefix index used by `resolve(fullE164:)`
+    /// Builds (once) and returns the E.164 prefix index used by `lookup(e164:)`,
+    /// `lookupLongestPrefix(e164:minLength:)`, and `resolve(fullE164:)`.
+    /// On duplicate e164 keys, the first entry in load order wins.
     private func getE164Index() async throws -> [String: AreaCode] {
         if let index = e164Index {
             return index
